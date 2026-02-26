@@ -1,0 +1,11 @@
+# System Information - Thu Feb 26 19:42:15 +07 2026
+
+PLATFORM=wsl
+HOSTNAME=ZedOcean
+
+USER=zed
+
+KERNEL=6.6.87.2-microsoft-standard-WSL2
+ARCH=x86_64
+BACKUP_DATE=2026-02-26T19:42:15
+

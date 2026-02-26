@@ -1,5 +1,0 @@
-# WSL-specific packages
-build-essential
-python3-dev
-ubuntu-wsl
-wslu

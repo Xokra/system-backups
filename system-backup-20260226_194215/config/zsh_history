@@ -1,0 +1,1001 @@
+
+                echo "wsl"\
+  -c 'qa'\
+  -c 'silent! map!' \\
+  -c 'silent! map' \\
+  -c 'silent! tmap' \\
+  | awk '/^[nivxocst] /{print $2}' \\
+  | sort -u\
+#!/bin/bash\
+./profile-zsh.sh\
+./wsl-cleanup.sh
+./profile-zsh.sh\
+: 1752565106:0;vi
+time zsh -i -c 'exit'\
+: 1752565669:0;ls -la ~/.fzf.zsh\
+: 1752565687:0;command -v zoxide\
+: 1752565706:0;zinit times\
+: 1752565722:0;ls -la ~/.zcompdump*\
+: 1752565939:0;which fzf\
+: 1752565965:0;grep -r "fzf\|telescope" ~/.config/nvim/\
+: 1752566003:0;grep -r "fzf" ~/.zshrc ~/.bashrc 2>/dev/null\
+: 1752566064:0;cat ~/.config/nvim/lua/zedocean/plugins/telescope.lua\
+: 1752566163:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf\
+: 1752566173:0;~/.fzf/install --all\
+: 1752566200:0;source ~/.zshrc\
+: 1752566293:0;cd dot
+vi fix-alacritty-struture.sh
+./fix-alacritty-struture.sh
+./setup-dotfiles.sh
+ls -la ~/dotfiles/.config/alacritty/\
+: 1752568461:0;vi
+tree -a -I '.git' ~/.config/alacritty
+tree -a -I '.git' ~/.config/alacritty/
+tree -a -I '.git' ~/.config/alacritty/.config/
+rm -rf ~/dotfiles/.config/alacritty/
+ls -la ~/.config/
+ls -la ~/.config/alacritty/
+rm ~/.config/alacritty/alacritty.toml\
+: 1752570065:0;ls -la ~/.config/alacritty/\
+: 1752570098:0;vi
+rm ~/.config/alacritty/alacritty.toml\
+: 1752570249:0;rm ~/dotfiles/.config/alacritty\
+: 1752570276:0;ls -la ~/dotfiles/.config/\
+: 1752570295:0;mkdir -p -/dotfiles/alacritty/
+mkdir -p ~/dotfiles/alacritty/
+ls -la ~/dotfiles/.config/\
+: 1752570339:0;rm ~/dotfiles/alacritty/
+rm -rf ~/dotfiles/alacritty/
+ls -la ~/dotfiles/.config/\
+: 1752570387:0;cd alacritty
+mkdir -p ~/dotfiles/.config/alacritty/
+./smart-stow.sh
+~/cross-platform-backup.sh
+~/setup-dotfiles.sh
+cd .con alacritty 
+cd alacritty
+cd Alacritty
+cd .config/
+cd ~/.config/Alacritty/
+vi alacritty.toml
+vi /mnt/c/Users/dixie/AppData/Local?Temp/Alacritty-5580.log
+~/dotfiles/setup-dotfiles.sh
+nvim setup-dotfiles.sh
+cd /mnt/c/Users/dixie/AppData/Roaming/Alacritty
+cd /mnt/c/users/appdata/roaming/alacritty
+nvim alacritty.toml
+dpkg -l | grep chrome
+sudo apt-get purge google-chrome-stable
+rm -rf ~/.config/google-chrome/
+sudo apt-get autoremove
+sudo rm /usr/local/bin/oh-my-posh
+rm -rf ~/.config/ohmyposh
+rm -rf ~/dotfiles/.config/Alacritty\
+: 1752606750:0;~/dotfiles/smart-stow.sh
+cd ~/.config
+rm -rf ~/.config/Alacritty/
+rm ~/.config/Alacritty\
+: 1752606929:0;ls -la
+ls -la ~/.config/ | grep -E "(alacritty|nvim)"\
+: 1752608006:0;ls -la ~/.local/bin/\
+: 1752608023:0;ls -la ~/.config/ | grep -E "(alacritty|nvim)"\
+: 1752608027:0;ls -la ~/.local/bin/\
+: 1752608031:0;which stow\
+: 1752608041:0;file ~/dotfiles/-\
+: 1752608047:0;cat ~/dotfiles/-\
+: 1752608051:0;ls -la ~/dotfiles/-\
+: 1752608056:0;ls -la ~/bin/\
+: 1752608065:0;cat ~/dotfiles/.stow-local-ignore 2>/dev/null || echo "No .stow-local-ignore found"\
+: 1752608071:0;stow -nv . 2>&1 | head -20  # dry run to see what would happen\
+: 1752608083:0;du -sh ~/dotfiles/projects/\
+: 1752608088:0;find ~/dotfiles/projects/ -name "*.lua" -exec ls -la {} \;\
+: 1752608142:0;tmux -V\
+: 1752608146:0;nvim --version\
+: 1752608150:0;alacritty --version 2>/dev/null || echo "alacritty not found"\
+: 1752608315:0;vi
+tree -a -I '.git' ~/dotfiles\
+: 1752609149:0;ls -la ~/.local/bin/\
+: 1752609153:0;find ~/dotfiles/ -type f -executable\
+: 1752609164:0;cat ~/dotfiles/setup-dotfiles.sh\
+: 1752609166:0;ls -la ~/bin/\
+: 1752609189:0;cat ~/dotfiles/smart-stow.sh\
+: 1752609195:0;cat ~/cross-platform-backup.sh\
+: 1752609199:0;ls -la ~/bin/\
+: 1752609270:0;ls -la ~/.config/
+ls -la ~/bin/\
+: 1752609772:0;find ~ -maxdepth 1 -type f -executable -ls\
+: 1752609779:0;cat ~/dotfiles/.gitignore\
+: 1752609785:0;head -5 ~/dotfiles/setup-dotfiles.sh\
+: 1752609908:0;cat ~/dotfiles/.tmux-timezones.sh\
+: 1752609911:0;cat ~/dotfiles/setup-dotfiles.sh\
+: 1752609913:0;ls -la ~/bin/\
+: 1752609915:0;cat ~/dotfiles/smart-stow.sh\
+: 1752609917:0;cat ~/.bashrc\
+: 1752609918:0;cat ~/dotfiles/wsl-inventory.sh\
+: 1752609920:0;cat ~/dotfiles/.zshrc\
+: 1752609923:0;cat ~/cross-platform-backup.sh\
+: 1752609924:0;cat ~/dotfiles/.tmux.conf\
+: 1752609926:0;cat ~/profile-zsh.sh\
+: 1752609932:0;cat ~/swap-files-between-panes.sh\
+: 1752609935:0;cat ~/wsl-cleanup.sh\
+: 1752609939:0;cat ~/.gitconfig\
+: 1752609943:0;find ~/.local -type f -ls\
+: 1752610023:0;cat ~/dotfiles/.local/bin/tx\
+: 1752610026:0;cat ~/cross-platform-backup.sh\
+: 1752610030:0;cat ~/profile-zsh.sh\
+: 1752610033:0;cat ~/swap-files-between-panes.sh\
+: 1752610036:0;cat ~/wsl-cleanup.sh\
+: 1752610039:0;ls -la ~/bin/\
+: 1752610043:0;cat ~/dotfiles/setup-dotfiles.sh\
+: 1752610046:0;cat ~/dotfiles/smart-stow.sh\
+: 1752610049:0;cat ~/dotfiles/wsl-inventory.sh\
+: 1752610053:0;cat ~/dotfiles/.zshrc\
+: 1752610056:0;cat ~/.bashrc\
+: 1752610060:0;cat ~/.profile\
+: 1752610068:0;cat ~/.bashrc | grep -E "(PATH|bin|export)"\
+: 1752610074:0;cat ~/dotfiles/.zshrc | grep -E "(PATH|bin|export)"\
+: 1752610084:0;find ~/dotfiles -type f -executable -ls\
+: 1752610089:0;find ~ -maxdepth 1 -type f -executable -ls\
+: 1752610120:0;cat ~/dotfiles/.tmux.conf\
+: 1752610124:0;cat ~/.gitconfig\
+: 1752610353:0;find ~ -maxdepth 2 -type f -executable -not -path "*/.*" -not -path "*/.git/*" | sort\
+: 1752610361:0;ls -la ~/bin/ 2>/dev/null || echo "No ~/bin directory"\
+: 1752610365:0;head -10 ~/dotfiles/setup-dotfiles.sh\
+: 1752610378:0;grep -E "PATH.*bin" ~/.bashrc ~/dotfiles/.zshrc 2>/dev/null || echo "No PATH modifications found"\
+: 1752611338:0;head -10 ~/dotfiles/smart-stow.sh\
+: 1752611384:0;find ~ -maxdepth 2 -type f -executable -not -path "*/.*" -not -path "*/.git/*" | sort\
+: 1752611386:0;head -20 ~/dotfiles/setup-dotfiles.sh
+grep -E "PATH.*bin" ~/.bashrc ~/dotfiles/.zshrc 2>/dev/null || echo "No PATH modifications found"\
+: 1752611394:0;ls -la ~/bin/ 2>/dev/null || echo "No ~/bin directory"\
+: 1752611425:0;ls -la ~/bin/ 2>/dev/null || echo "No ~/bin directory"\
+: 1752611438:0;find ~ -maxdepth 2 -type f -executable -not -path "*/.*" -not -path "*/.git/*" | sort\
+: 1752611439:0;cat ~/dotfiles/setup-dotfiles.sh
+grep -E "PATH.*bin" ~/.bashrc ~/dotfiles/.zshrc 2>/dev/null || echo "No PATH modifications found"\
+: 1752611447:0;cat ~/dotfiles/smart-stow.sh
+vi setup-dotfiles.sh
+rm ~/journal ~/projects\
+: 1752613010:0;rmdir ~/journal ~/projects
+rm -rf ~/journal ~/projects
+rm ~/journal ~/projects\
+: 1752613076:0;rm -rf ~/bin/ && rm ~/journal ~/projects && mkdir -p ~/personal && mv ~/dotfiles/journal ~/dotfiles/projects ~/personal/ && mv ~/cross-platform-backup.sh ~/profile-zsh.sh ~/swap-files-between-panes.sh ~/wsl-cleanup.sh ~/lazygit ~/dotfiles/setup-dotfiles.sh ~/dotfiles/smart-stow.sh ~/dotfiles/wsl-inventory.sh ~/dotfiles/.local/bin/
+mkdir -p ~/personal && mv ~/dotfiles/journal ~/dotfiles/projects ~/personal/ && mv ~/cross-platform-backup.sh ~/profile-zsh.sh ~/swap-files-between-panes.sh ~/wsl-cleanup.sh ~/lazygit ~/dotfiles/setup-dotfiles.sh ~/dotfiles/smart-stow.sh ~/dotfiles/wsl-inventory.sh ~/dotfiles/.local/bin/
+cd personal
+tree -a -I '.git' ~/personal
+~/dotfiles/.local/bin/smart-stow.sh
+rm ~/setup-dotfiles.sh ~/smart-stow.sh ~/wsl-inventory.sh
+rm ~/.tmux.timezone.sh
+rm ~/.tmux.timezones.sh
+mv ~/dotfiles/.tmux-timezones.sh ~/dotfiles/.config/bin
+ls -la ~/dotfiles/.local/bin/
+rm -rf ~/.config/bin/
+mv ~/dotfiles/.config/bin/.tmux-timezones.sh ~/dotfiles/.local/bin
+ls -la ~/dotfiles/.config/
+ls -la ~/dotfiles/.config/bin/
+ls -la ~/dotfiles/.config/bin
+rm ~/.config/bin/
+rm ~/.config/bin
+cd config
+cd dot config
+cd dot config bin
+cd dot con
+mv ~/dotfiles/.config/bin ~/dotfiles/.local/bin/.tmux-timezones.sh
+cp ~/.local/bin/.tmux-timezones.sh ~/.tmux-timezones.sh
+grep -n "tmux-timezones" ~/.tmux.conf\
+: 1752615435:0;vi ~/.tmux.conf
+rm ~/.tmux-timezones.sh
+rm ~/.local/bin/.tmux-timezones.sh
+mv ~/dotfiles/.local/bin/.tmux-timezones.sh ~/dotfiles/.local/bin/tmux-timezones.sh
+cd dot local
+cd dot local bin
+vi tmux-timezones.sh
+cd local
+cd ~ local
+tree -a -I '.git' ~/dotfiles | wc -l
+mv ~/"to mama" ~/personal/
+ls -la ~/.local/bin
+ls -la ~/personal/
+tree ~/personal/
+cat ~/.zshrc
+cat ~/.bashrc
+ls -la ~/.local/bin/
+cat ~/.config/alacritty/alacritty.toml
+hx
+cat ~/.config/alacritty/alacritty.toml | grep -A 5 "\[scrolling\]"\
+: 1752702201:0;man ls\
+: 1752702269:0;tree -a -I '.git' ~/dotfiles
+vi ~/.zshrc
+bindkey | grep -E "(up|down|history)"\
+: 1752705837:0;bindkey | grep -E "(wheel|mouse|scroll)"\
+: 1752705846:0;sudo bindkey | grep -E "(up|down|history)"\n[200~bindkey | grep -E "(wheel|mouse|scroll)"
+bindkey | grep -E "(up|down|history)"\
+: 1752705888:0;bindkey | grep -E "(wheel|mouse|scroll)"\
+: 1752707031:0;source ~/.zshrc
+tree -a -I '.git' ~/dotfiles/.local/bin/
+cd dot loc bin
+vi cross-platform-backup.sh
+\
+: 1752728449:0;tx
+rm ~/-
+rm ~/dotfiles/-
+vi 
+git commit -m "first backup"
+git remote add origin git@github.com:Xokra/backups.git
+rm -rf ~/system-backup/ ~/system/backup-20250717_121535
+rm -rf ~/system-backup/ ~/system-backup-20250717_121535
+rm -rf ~/wsl-backup/
+vi readme
+vi readme.md
+vi README.md
+cat ~/dotfiles/.local/bin/setup-dotfiles.sh
+cat ~/dotfiles/.local/bin/smart-stow.sh
+cd system-backups
+cd perso
+tree -a -I '.git' ~/personal/
+git remote add origin git@github.com:Xokra/personal.git
+lgper
+which zoxide\
+: 1752972982:0;cargo install --list | grep zoxide\
+: 1752973008:0;zoxide --version
+cross-platform-backup.sh
+uname -s
+uname -r | grep -q -i microsoft || uname -r | grep -q -i wsl
+if uname -r | grep -q -i microsoft || uname -r | grep -q -i wsl; then\
+: 1752989431:0;tree -a -I '.git' ~/dotfiles
+which lazygit
+type lazygit
+apt list --installed | grep lazygit\
+: 1753002242:0;dpkg -l | grep lazygit\
+: 1753002253:0;cargo install --list | grep lazygit\
+: 1753002259:0;ls -la $(which lazygit)\
+: 1753002430:0;vi
+\:q
+cd backup
+rm -rf ~/dotfiles/system-backup-02250720_170824
+rm -rf ~/dotfiles/system-backup-20250720_170824
+VI
+~/dotfiles/.local/bin/cross-platform-backup.sh
+lgdot
+tree -a -I '.git' /mnt/c/Users/dixie/gibMacOS/
+cd /mnt/c/Users/dixie/gibMacOS\
+: 1753236787:0;cd ~
+cat ~/.config/nvim/init.lua
+cat ~/.config/nvim/lua/zedocean/core/init.lua
+cat ~/.config/nvim/lua/zedocean/core/options.lua
+cat ~/.config/nvim/lua/zedocean/core/keymaps.lua
+cat ~/.config/nvim/lua/zedocean/lazy.lua
+cat ~/.config/nvim/lua/zedocean/plugins/nvim-cmp.lua
+cat ~/.config/nvim/lua/zedocean/plugins/telescope.lua
+cat ~/.config/nvim/lua/zedocean/plugins/lsp/lspconfig.lua
+cat ~/.config/nvim/lua/zedocean/core/keymaps.lua\
+: 1753254442:0;find ~/.config/nvim/lua/zedocean -name "*.lua" -exec grep -l "keymap\|vim\.keymap\|map(" {} \;\
+: 1753254508:0;cat ~/.config/nvim/lua/zedocean/core/init.lua
+cat ~/.config/nvim/lua/zedocean/plugins/treesitter.lua\
+: 1753254554:0;find ~/.config/nvim/lua/zedocean -name "*.lua" -exec grep -l "keymap\|vim\.keymap\|map(" {} \;\
+: 1753254569:0;cat ~/.config/nvim/lua/zedocean/plugins/todo-comments.lua\
+: 1753254581:0;cat ~/.config/nvim/lua/zedocean/plugins/lsp/lspconfig.lua\
+: 1753254590:0;cat ~/.config/nvim/lua/zedocean/plugins/linting.lua\
+: 1753254599:0;cat ~/.config/nvim/lua/zedocean/plugins/formatting.lua\
+: 1753254606:0;cat ~/.config/nvim/lua/zedocean/plugins/telescope.lua\
+: 1753254614:0;cat ~/.config/nvim/lua/zedocean/plugins/formatting.lua\
+: 1753254625:0;cat ~/.config/nvim/lua/zedocean/plugins/fomatting.lua\
+: 1753254633:0;cat ~/.config/nvim/lua/zedocean/plugins/harpoon.lua\
+: 1753254639:0;cat ~/.config/nvim/lua/zedocean/plugins/oil.lua\
+: 1753254903:0;:map | map! | tmap\
+: 1753254941:0;vi
+nvim --headless \\
+: 1753255131:0;vi
+nvim --headless -c 'silent map' -c 'silent map!' -c 'silent tmap' -c 'qa' | awk '/^[nivtxcosp]\s/ {print $2}' | sort -u\
+: 1753255535:0;vi
+nvim --headless -c 'silent map' -c 'silent map!' -c 'silent tmap' -c 'qa' | awk '/^[nivtxcosp]\s/ {print $2}' | sort -u\
+: 1753255585:0;nvim --headless -c 'silent map' -c 'silent map!' -c 'silent tmap' -c 'qa' \\
+: 1753255601:0;nvim --headless -c 'silent map' -c 'silent map!' -c 'silent tmap' -c 'qa' | awk '/^[nivxocst] /{print $2}' | sort -u\
+: 1753255619:0;nvim --headless -c 'silent map | silent map! | silent tmap | qa' | awk 'NF>=2 {print $2}' | sort -u\
+: 1753323700:0;sudo apt-get update && sudo apt-get upgrade -y
+~/freelance-directory-setup.sh
+vi freelance-directory-setup.sh
+git init
+git add .
+git remote add origin git@github.com:Xokra/freelance-template-system.git
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+ls -la ~/freelance/
+ls -la ~/freelance-system/
+ls -la ~/freelance-system/templates/css/
+ls -la ~/freelance-system/templates/css/frameworks/
+ls -la ~/freelance-system/templates/
+cp ~/freelance-system/templates/css/frameworks/ /mnt/c/Downloads/
+cp -r ~/freelance-system/readme.md /mnt/c/Downloads/
+cp -r ~/freelance-system/compare-readme.md /mnt/c/Downloads/
+rm -rf /mnt/c/Downloads/frameworks/
+cp -r ~/freelance-system/templates/css/frameworks/ /mnt/c/Downloads/
+cp -r ~/freelance-system/templates/js/ /mnt/c/Downloads/
+rm -rf /mnt/c/Downloads/frameworks/ /mnt/c/Downloads/animations.js
+rm -rf /mnt/c/Downloads/templates/
+cp -r ~/freelance-system/templates/ /mnt/c/Downloads/
+sudo apt-get install wslu
+which wslview
+smart-stow.sh
+EOF
+\
+\:new
+cat /etc/os-release\
+cat /etc/wsl.conf 2>/dev/null || echo "No wsl.conf found"\
+cat > ~/profile-zsh.sh << 'EOF'\
+cat ~/.zshrc
+cd ..
+cd .config
+cd .local
+cd bin
+cd lua
+cd nvim
+cd ~
+cd ~/.local/bin
+cd ~/dotfiles
+cd ~/dotfiles/
+chmod +x .tmux-timezones.sh\
+chmod +x ~/profile-zsh.sh\
+cp -r ~/dotfiles/.local/share /tmp/backup-local-share\
+cp ~/.zsh_history ~/dotfiles/\
+df -h
+df -h /
+echo ".local/share/" >> ~/dotfiles/.gitignore\
+echo "=== ZSH STARTUP PROFILING ==="\
+echo $PATH | tr ':' '\n' | grep -E "/mnt/c|/usr/lib/wsl"\
+echo $PATH | tr ':' '\n' | grep -i "/mnt/c"\
+echo $PATH | tr ':' '\n' | head -20\
+echo $PATH | tr ':' '\n' | tail -10\
+echo $PATH | tr ':' '\n' | wc -l\
+echo 'zmodload zsh/zprof' | cat - ~/.zshrc > temp && mv temp ~/.zshrc\
+find ~ -type l -exec ls -la {} \; 2>/dev/null | grep dotfiles\
+find ~ -type l -lname "*dotfiles*" 2>/dev/null\
+find ~ -xtype l 2>/dev/null\
+free -h\
+fzf --version 2>/dev/null || echo "fzf not found"\
+git --version
+git add .tmux-timezones.sh\
+git checkout 28c66393 -- .tmux-timezones.sh\
+git clone --filter=blob:none https://github.com/folke/lazy.nvim.git --branch=stable ~/dotfiles/.local/share/nvim/lazy/lazy.nvim\
+git commit -m "Restore tmux timezone script"\
+git reflog
+git show --name-only HEAD@{1}  # or whatever the commit hash was\
+git show --name-only HEAD@{1} | grep -i tmux\
+git show --name-only HEAD@{1} | grep -v "\.local"\
+git show --name-only HEAD~1\
+git show 28c66393 -- . ':!.local'\
+git show 28c66393 --name-only\
+google-chrome
+kb
+la
+ln -a
+ls -a
+ls -la ~/ | grep "\->"\
+ls -la ~/.local/\
+ls -la ~/.local/share/nvim/lazy/lazy.nvim\
+ls -la ~/.local/share\
+ls -la ~/.zsh* ~/.zprofile ~/.zlogin ~/.zlogout 2>/dev/null\
+ls -la ~/dotfiles/ 
+ls -la ~/dotfiles/.local/share/\
+ls a
+ls ln -a
+ls ~/.local/share/nvim/lazy/lazy.nvim\
+mkdir -p ~/.local/share/nvim/lazy\
+mkdir -p ~/dotfiles/.local/bin/
+mkdir -p ~/dotfiles/.local/share/nvim/lazy\
+mv /tmp/backup-local-share ~/.local/share\
+nvim
+oh-my-posh --version 2>/dev/null || echo "oh-my-posh not found"\
+ps --no-headers -o comm 1\
+ps aux | head -10\
+realpath ~/dotfiles\
+rm -f ~/.zcompdump*\
+rm -rf ~/.local/share/zinit/completions/_*\
+rm -rf ~/deepseek_env ~/powerlevel10k ~/neovim ~/google-chrome-stable_current_amd64.deb ~/lazygit.tar.gz ~/nvim-linux64.tar.gz ~/nvim-linux64.tar.gz.1 && echo "Cleanup complete! Check disk usage with: df -h /"
+rm -rf ~/dotfiles/.local/share\
+rm -rf ~/dotfiles/.zsh_history
+rm ~/.local/share\
+sed -i '/\.zsh_history/d' ~/dotfiles/.gitignore
+sed -i '/\.zsh_history/d' ~/dotfiles/.gitignore\
+sed -i 's/^# eval "$(oh-my-posh init zsh --config $HOME\/.config\/ohmyposh\/zen.toml)"/eval "$(oh-my-posh init zsh --config $HOME\/.config\/ohmyposh\/zen.toml)"/' ~/.zshrc\
+sed -i 's/^eval "$(oh-my-posh init zsh --config $HOME\/.config\/ohmyposh\/zen.toml)"/# &/' ~/.zshrc\
+source ~/.zshrc\
+stow --adopt .
+sudo apt remove ollama 
+sudo apt-get install -f
+sudo dpkg -i google-chrome-stable_current_amd64.deb\
+sudo systemctl stop ollama   
+sudo systemctl stop ollama 2>/dev/null || true && sudo apt remove -y ollama 2>/dev/null || true && sudo rm -rf /usr/share/ollama /usr/local/lib/ollama ~/.ollama && rm -rf ~/deepseek_env ~/powerlevel10k ~/neovim ~/google-chrome-stable_current_amd64.deb ~/lazygit.tar.gz ~/nvim-linux64.tar.gz ~/nvim-linux64.tar.gz.1 && echo "Cleanup complete! Check disk usage with: df -h /"
+time find ~ -maxdepth 2 -type f | head -100 > /dev/null\
+time zsh -i -c 'zprof | head -20'\
+time zsh -i -c exit\
+tmux
+tmux --session
+tmux a
+tmux a -t 0
+tmux a 0
+tmux a main
+tmux ls
+tmux main
+tree -a -I '.git' ~/.bin/
+tree -a -I '.git' ~/.ssh/
+tree -a -I '.git' ~/bin/
+tree -a -I '.git' ~/dotfiles
+tree -a -I '.git' ~/dotfiles | wc -l\
+tree -a -I ~/.ssh
+vi init.lua
+vi smart-stow.sh
+vi ~/.config/nvim/lua/zedocean/lazy.lua
+vi ~/dotfiles/.local/bin/tx
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb\
+wsl --version\
+zoxide --version 2>/dev/null || echo "zoxide not found"\
+zsh -i -c 'zprof'
+zsh -i -c 'zprof' 2>&1\
+zsh -i -c exi
+zsh -i -c exit
+~/dotfiles/smart-stow.sh
+find /mnt/c -name "firefox.exe" 2>/dev/null\
+
+rm -rf /mnt/c/Downloads/templates
+tree -a -I '.git' ~/freelance-system/
+tmux new
+cp -r ~/luasnip-readme.md ~/freelance-system/
+i
+mv ~/luasnip-readme.md ~/freelance-system/
+cd freelance-system
+ls -/a
+ls -la
+vi .zshrc
+source ~/.zshrc
+cp -r ~/personal/projects/learning/js/learn.txt /mnt/c/Downloads/
+rm -rf /mnt/c/Downloads/freelance-system/
+cp -r ~/freelance-system/ /mnt/c/Downloads/
+cd /mnt/cl
+cd /mnt/c/
+cd dot
+vi
+sudo apt-get update && sudo apt-get upgrade -y
+tx
+nvim
+: 1755228363:0;tx
+: 1755229978:0;vi
+: 1755230020:0;cd /mnt/c/desktop
+: 1755230023:0;cd /mnt/c/desktops
+: 1755230025:0;cd /mnt/c/desktops/
+: 1755230029:0;cd /mnt/c/
+: 1755230030:0;ls -la
+: 1755230050:0;vi
+: 1755231541:0;cd /mnt/c/
+: 1755231543:0;vi
+: 1755299689:0;nvim
+: 1755299691:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755299709:0;tx
+: 1755299749:0;cd /mnt/c
+: 1755299751:0;vi
+: 1755388162:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755388162:0;nvim
+: 1755388172:0;tx
+: 1755423826:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755423836:0;nvim
+: 1755423846:0;tx
+: 1755474637:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755474637:0;nvim
+: 1755474645:0;tx
+: 1755482445:0;nvim
+: 1755482461:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755482466:0;tx
+: 1755488881:0;vi
+: 1755488894:0;vi new.md
+: 1755518232:0;nvim
+: 1755518232:0;nvim new.md
+: 1755518232:0;nvim
+: 1755518708:0;tx
+: 1755526432:0;nvim
+: 1755526432:0;nvim new.md
+: 1755526432:0;nvim
+: 1755526455:0;cd /mnt/c/windows/system32/
+: 1755526458:0;vi
+: 1755568702:0;nvim
+: 1755568702:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755568715:0;tx
+: 1755590137:0;vi
+: 1755613888:0;nvim
+: 1755613905:0;tx
+: 1755664276:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755664277:0;nvim
+: 1755664286:0;tx
+: 1755708925:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755708925:0;nvim
+: 1755708947:0;tx
+: 1755745866:0;nvim
+: 1755745867:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755745882:0;tx
+: 1755758381:0;vi
+: 1755771695:0;nvim
+: 1755771698:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755771719:0;tx
+: 1755791994:0;nvim
+: 1755791994:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755791994:0;nvim
+: 1755792004:0;tx
+: 1755910751:0;nvim
+: 1755910751:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1755910751:0;nvim
+: 1755910778:0;tx
+: 1755936450:0;nvim
+: 1756005470:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756005480:0;tx
+: 1756025771:0;nvim
+: 1756025773:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756025800:0;tx
+: 1756106681:0;nvim
+: 1756106681:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756106697:0;tx
+: 1756122843:0;nvim
+: 1756122860:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756122867:0;tx
+: 1756138923:0;nvim
+: 1756138927:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756138939:0;tx
+: 1756175014:0;nvim
+: 1756175067:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756175074:0;tx
+: 1756179666:0;nvim
+: 1756179669:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756179753:0;tx
+: 1756203603:0;vi
+: 1756203615:0;cd ~
+: 1756203616:0;vi
+: 1756215051:0;tx
+: 1756215053:0;nvim
+: 1756275629:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756275648:0;tx
+: 1756287751:0;nvim
+: 1756287753:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756287783:0;tx
+: 1756288931:0;nvim
+: 1756295119:0;tx
+: 1756307013:0;nvim
+: 1756307030:0;tx
+: 1756307770:0;nvim
+: 1756313700:0;cd ~
+: 1756313701:0;vi
+: 1756364158:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756364159:0;nvim
+: 1756364175:0;tx
+: 1756365490:0;nvim
+: 1756365548:0;tx
+: 1756432769:0;nvim
+: 1756432777:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756432792:0;tx
+: 1756445046:0;nvim
+: 1756460085:0;tx
+: 1756460086:0;nvim
+: 1756464323:0;vi
+: 1756536523:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756536523:0;nvim
+: 1756536544:0;tx
+: 1756543657:0;nvim
+: 1756543673:0;tx
+: 1756559206:0;nvim
+: 1756723693:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756723693:0;nvim
+: 1756723726:0;tx
+: 1756723757:0;vi
+: 1756787564:0;nvim
+: 1756787566:0;tx
+: 1756787579:0;vi
+: 1756828427:0;tx
+: 1756828428:0;nvim
+: 1756828895:0;vi
+: 1756911441:0;nvim
+: 1756911493:0;kb
+: 1756911495:0;tx
+: 1756942055:0;nvim
+: 1756942057:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1756963713:0;tx
+: 1757033349:0;nvim
+: 1757033724:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1757040859:0;tx
+: 1757040872:0;vi
+: 1757209562:0;nvim
+: 1757209718:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1757210524:0;tx
+: 1757302870:0;nvim
+: 1757302872:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1757302887:0;tx
+: 1757371211:0;nvim
+: 1757371211:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1757371211:0;nvim
+: 1757371229:0;tx
+: 1757371243:0;cd ~
+: 1757371244:0;vi
+: 1757434872:0;nvim
+: 1757434875:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1757955283:0;tx
+: 1757955284:0;nvim
+: 1758135166:0;tx
+: 1758262694:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1758262694:0;nvim
+: 1758262796:0;tx
+: 1758312460:0;nvim
+: 1758312461:0;kb
+: 1758312463:0;tx
+: 1758312480:0;cd /mnt/c/
+: 1758312481:0;vi
+: 1758351096:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1758351098:0;nvim
+: 1758351397:0;tx
+: 1758639207:0;nvim
+: 1758639210:0;tx
+: 1758927147:0;nvim
+: 1758927148:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1758927182:0;tx
+: 1759349151:0;nvim
+: 1759349153:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1759349196:0;tx
+: 1759442716:0;nvim
+: 1759443066:0;tx
+: 1760045638:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1760045639:0;nvim
+: 1760045656:0;tx
+: 1761130168:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1761130169:0;nvim
+: 1761130329:0;tx
+: 1762492380:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1762492381:0;nvim
+: 1762492419:0;tx
+: 1762773564:0;nvim
+: 1762783721:0;tx
+: 1763491405:0;KB
+: 1763491408:0;nvim
+: 1763491410:0;tx
+: 1763638403:0;nvim
+: 1763638461:0;s
+: 1763638480:0;su
+: 1763638446:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1763638550:0;tx
+: 1763638638:0;cd ~
+: 1763638641:0;ls -a
+: 1763638645:0;ls -la
+: 1763638732:0;cd freelance-system
+: 1763638688:0;ls -la
+: 1763638703:0;vi index.html
+: 1763870462:0;nvim index.html
+: 1763870463:0;nvim
+: 1763870492:0;TX
+: 1763870495:0;txk
+: 1763870496:0;tx
+: 1763935811:0;nvim index.html
+: 1763935811:0;nvim
+: 1763980655:0;TX
+: 1763980655:0;nvim index.html
+: 1763980655:0;nvim
+: 1763980658:0;tx
+: 1764663036:0;nvim index.html
+: 1764663036:0;nvim
+: 1764663038:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1764663103:0;tx
+: 1765285781:0;nvim index.html
+: 1765285781:0;nvim
+: 1765314408:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1765314466:0;vi
+: 1767351046:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1767351047:0;nvim index.html
+: 1767351047:0;nvim
+: 1767352327:0;tx
+: 1767352368:0;vi
+: 1767356678:0;kb
+: 1767356679:0;nvim index.html
+: 1767356679:0;nvim
+: 1767356679:0;tx
+: 1767356680:0;nvim
+: 1767527919:0;nvim index.html
+: 1767527914:0;nvim
+: 1767527924:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1767527975:0;tx
+: 1767618609:0;nvim index.html
+: 1767618609:0;nvim
+: 1767618610:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1767618612:0;tx
+: 1768535025:0;nvim index.html
+: 1768535025:0;nvim
+: 1768535029:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1768535116:0;tx
+: 1768535146:0;vi
+: 1768544704:0;tx
+: 1768544705:0;nvim index.html
+: 1768544705:0;nvim
+: 1768636104:0;nvim index.html
+: 1768636104:0;nvim
+: 1768636107:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1768636122:0;tx
+: 1768714532:0;nvim index.html
+: 1768714532:0;nvim
+: 1768769154:0;tx
+: 1768769155:0;nvim index.html
+: 1768769155:0;nvim
+: 1768851102:0;nvim index.html
+: 1768851103:0;nvim
+: 1768851119:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1768851146:0;tx
+: 1770811232:0;nvim index.html
+: 1770811232:0;nvim
+: 1770811233:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1770811287:0;tx
+: 1770812024:0;whoami
+: 1770812387:0;vi
+: 1770813271:0;pwd
+: 1770813276:0;cd ~
+: 1770813277:0;pwd
+: 1770813305:0;ls -la
+: 1770813478:0;ls -F
+: 1770813821:0;ls -F Desktop
+: 1770813880:0;cd mnt/c
+: 1770813886:0;ls -la
+: 1770813898:0;cd Users
+: 1770813899:0;ls -la
+: 1770813904:0;cd dixie
+: 1770813906:0;ls -la
+: 1770813914:0;cd Downloads
+: 1770813918:0;ls -la
+: 1770813936:0;cd shell-lesson-data
+: 1770813938:0;ls -la
+: 1770813950:0;cd shell-lesson-data/
+: 1770813951:0;ls -la
+: 1770813955:0;cd exercise-data
+: 1770813986:0;pwd
+: 1770814462:0;cd ..
+: 1770814463:0;ls -la
+: 1770814470:0;ls -s exercise-data
+: 1770814514:0;ls -F
+: 1770814607:0;ls north-pacific-gyre
+: 1770897774:0;nvim
+: 1770984081:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1770984109:0;tx
+: 1770984113:0;vi
+: 1770984156:0;cd ~
+: 1770984158:0;vi
+: 1770984222:0;v
+: 1770984223:0;vi
+: 1770984421:0;ls -la
+: 1770984453:0;cd freelance-system
+: 1770984433:0;ls -la
+: 1770984439:0;du -sh
+: 1770984496:0;du -h --max-depth=1
+: 1770984522:0;du -sh *
+: 1770984546:0;cd ~
+: 1770984552:0;du -sh
+: 1770984617:0;cd freelance-system
+: 1770984631:0;vi
+: 1770985117:0;cd ~/dotfiles
+: 1770985118:0;vi
+: 1770985449:0;sudo apt update && sudo apt install lazygit\
+
+: 1770985461:0;cd ~
+: 1770985462:0;sudo apt update && sudo apt install lazygit\
+
+: 1770985479:0;apt list --upgradable
+: 1770985500:0;lazygit --version
+: 1770985546:0;cd ~/dotfiles
+: 1770985550:0;vi
+: 1770985787:0;cd ~
+: 1770985793:0;lazygit --version
+: 1770985870:0;which lazygit
+: 1770985907:0;cd /tmp
+: 1770985917:0;LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')\
+
+: 1770985945:0;[200~LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
+: 1770985965:0;curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"\
+
+: 1770985987:0;tar xf lazygit.tar.gz lazygit\
+
+: 1770986002:0;install -m 755 lazygit ~/.local/bin/lazygit\
+
+: 1770986011:0;rm lazygit lazygit.tar.gz\
+
+: 1770986018:0;lazygit --version\
+
+: 1770986080:0;cd ~/dotfiles
+: 1770986082:0;vi
+: 1770987002:0;git config --global user.name
+: 1770987013:0;git config --global user.email
+: 1770987036:0;cd ~
+: 1770987040:0;lgdot
+: 1770987644:0;ls -la
+: 1770987646:0;vi
+: 1770987756:0;lgdot
+: 1770988041:0;git pull origin main --allow-unrelated-histories
+: 1770988052:0;lgdot
+: 1771078637:0;sudo apt update && sudo apt install lazygit\
+
+: 1771078637:0;nvim
+: 1771078667:0;apt list --upgradable
+: 1771078703:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771078733:0;tx
+: 1771078750:0;touch YellowLegacy.txt
+: 1771078755:0;vi YellowLegacy.txt
+: 1771081840:0;vi
+: 1771149034:0;nvim YellowLegacy.txt
+: 1771149034:0;nvim
+: 1771149040:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771149055:0;tx
+: 1771247126:0;nvim YellowLegacy.txt
+: 1771247126:0;nvim
+: 1771247130:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771247156:0;tx
+: 1771289321:0;vi CrystalLegacy.txt
+: 1771331472:0;nvim CrystalLegacy.txt
+: 1771331473:0;nvim
+: 1771331475:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771331506:0;tx
+: 1771418710:0;nvim CrystalLegacy.txt
+: 1771418711:0;nvim
+: 1771418714:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771418931:0;tx
+: 1771507419:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771507419:0;nvim CrystalLegacy.txt
+: 1771507419:0;nvim
+: 1771507452:0;tx
+: 1771592238:0;nvim CrystalLegacy.txt
+: 1771592239:0;nvim
+: 1771592242:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771592260:0;tx
+: 1771690008:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771690009:0;nvim CrystalLegacy.txt
+: 1771690010:0;nvim
+: 1771690021:0;tx
+: 1771740984:0;nvim CrystalLegacy.txt
+: 1771740984:0;nvim
+: 1771740999:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771741009:0;tx
+: 1771780684:0;nvim CrystalLegacy.txt
+: 1771780684:0;nvim
+: 1771780703:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771780970:0;tx
+: 1771928635:0;nvim CrystalLegacy.txt
+: 1771928635:0;nvim
+: 1771928636:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771928664:0;tx
+: 1771933902:0;nvim CrystalLegacy.txt
+: 1771933902:0;nvim
+: 1771937680:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1771937692:0;tx
+: 1771938080:0;cross-platform-backup.sh
+: 1771938139:0;lgdot
+: 1771938167:0;tx
+: 1771938173:0;vi
+: 1771938194:0;lgdot
+: 1771938259:0;ls -la
+: 1771942397:0;cd ~
+: 1771942398:0;ls -la
+: 1771942447:0;cd dotfiles
+: 1771942449:0;ls -la
+: 1771942465:0;mkdir Downloads
+: 1771942513:0;cp -r /mnt/d/Downloads/best2finals.jpg ~/Downloads/cbum.jpg
+: 1771942521:0;vi
+: 1771942551:0;cp -r /mnt/d/Downloads/best2final.jpg ~/Downloads/cbum.jpg
+: 1771942585:0;cd ~/downloads
+: 1771942586:0;ls -la
+: 1771942596:0;cd ~
+: 1771942599:0;ls -la
+: 1771942611:0;cp -r /mnt/d/Downloads/best2final.jpg ~/dotfiles/Downloads/cbum.jpg
+: 1771942617:0;lgdot
+: 1771943837:0;vi
+: 1771950261:0;ls -la
+: 1771950268:0;cd .config
+: 1771950270:0;ls -la
+: 1771950273:0;cd nvim
+: 1771950274:0;ls -la
+: 1771950278:0;cd lua
+: 1771950279:0;ls -la
+: 1771950282:0;cd zedocean
+: 1771950284:0;ls -la
+: 1771950309:0;cd core
+: 1771950310:0;ls -la
+: 1771950314:0;cd ..
+: 1771950319:0;cd plugins
+: 1771950321:0;ls -la
+: 1771951688:0;cd ~/dotfiles
+: 1771951718:0;vi browser-profiles.sh
+: 1771953963:0;cd ~
+: 1771953970:0;cross-platform-backup.sh
+: 1771953992:0;lgdot
+: 1771954170:0;cd ~
+: 1771954171:0;ls -la
+: 1771954182:0;cd system-backups
+: 1771954184:0;ls -la
+: 1772023119:0;nvim
+: 1772023124:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1772023154:0;tx
+: 1772023170:0;vi
+: 1772025486:0;cd ~/dotfiles
+: 1772025489:0;ls -P
+: 1772025492:0;ls -R
+: 1772025530:0;ls -Rla
+: 1772025568:0;tree -a
+: 1772025585:0;tree -a -I 
+: 1772025628:0;vi
+: 1772025758:0;tree -a -I '.git'
+: 1772026743:0;cd ~
+: 1772026745:0;ls -la
+: 1772026749:0;cd .local
+: 1772026751:0;ls -la
+: 1772026754:0;cd bin
+: 1772026755:0;ls -la
+: 1772026791:0;vi
+: 1772029317:0;lgdot
+: 1772029409:0;vi README.md
+: 1772029523:0;cd ~
+: 1772029534:0;cross-platform-backup.sh
+: 1772030255:0;cd ~/dotfiles
+: 1772030259:0;ls -la-
+: 1772030259:0;ls -la
+: 1772030263:0;vi
+: 1772035440:0;cd ~
+: 1772035443:0;cross-platform-backup.sh
+: 1772035809:0;cd ~/dotfiles
+: 1772035813:0;vi
+: 1772035833:0;cd ~
+: 1772035837:0;cross-platform-backup.sh
+: 1772036128:0;cd dot
+: 1772036131:0;ls -la
+: 1772036134:0;vi
+: 1772036197:0;cd ~
+: 1772036200:0;cross-platform-backup.sh
+: 1772036211:0;lgdot
+: 1772036934:0;cd ~
+: 1772036935:0;ls -la
+: 1772036950:0;vi .tmux.conf
+: 1772038963:0;cross-platform-backup.sh
+: 1772045354:0;cd ~
+: 1772045357:0;vi
+: 1772054851:0;cd dotfiles
+: 1772054887:0;ls -a -I '.git'
+: 1772054903:0;tree -a -I '.git'
+: 1772054911:0;tree -a -I '.git' '.txt'
+: 1772054922:0;tree -a -I '.git,.txt' 
+: 1772054939:0;tree -a -I '.git .txt' 
+: 1772054949:0;tree -a -I '.git' 
+: 1772057575:0;cd ~
+: 1772057584:0;ls -la
+: 1772057592:0;cd system-backups
+: 1772057591:0;ls -la
+: 1772057621:0;tree -a system-backup-20260226_000243
+: 1772058332:0;cd ~/dotfiles
+: 1772058335:0;ls -la
+: 1772058861:0;vi
+: 1772061098:0;cd ~
+: 1772061102:0;cross-platform-backup.sh
+: 1772061238:0;bash -n ~/.local/bin/cross-platform-backup.sh 
+: 1772061290:0;vi
+: 1772061328:0;cross-platform-backup.sh
+: 1772061460:0;bash -n ~/.local/bin/cross-platform-backup.sh && echo "OK"
+: 1772061585:0;cross-platform-backup.sh
+: 1772061966:0;zi
+: 1772061966:0;vi
+: 1772061984:0;cross-platform-backup.sh
+: 1772062058:0;lgdot
+: 1772063939:0;cd ~
+: 1772063942:0;cross-platform-backup.sh
+: 1772063984:0;lgdot
+: 1772066808:0;cd ~
+: 1772066815:0;cd dotfiles
+: 1772066814:0;ls -la
+: 1772066831:0;tree -a -I '.git'
+: 1772068580:0;vi
+: 1772100813:0;nvim
+: 1772100933:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1772100954:0;tx
+: 1772104929:0;tree -a -I '.git'
+: 1772105653:0;cd ~/system-backups
+: 1772105655:0;ls -la
+: 1772105693:0;cd system-backup-20260226_065902
+: 1772105700:0;ls -la
+: 1772108409:0;cd dotf
+: 1772108416:0;ls -la
+: 1772108424:0;cd .local/bin
+: 1772108423:0;ls -la
+: 1772108449:0;vi xrandr-setup.sh
+: 1772109731:0;cd ~
+: 1772109735:0;cross-platform-backup.sh
