@@ -9,11 +9,9 @@ log_success() { echo -e "${GREEN}[SUCCESS]${NC} $1"; }
 log_warning() { echo -e "${YELLOW}[WARNING]${NC} $1"; }
 log_error()   { echo -e "${RED}[ERROR]${NC} $1"; }
 
-
 detect_platform() {
     if [[ -n "${WSL_DISTRO_NAME:-}" ]] || { [[ -f /proc/version ]] && grep -qi "microsoft\|wsl" /proc/version 2>/dev/null; }; then
         echo "wsl"
-
     elif [[ $(uname) == "Darwin" ]]; then
         echo "mac"
     elif [[ -f /etc/arch-release ]]; then
@@ -24,10 +22,8 @@ detect_platform() {
 }
 
 translate_package() {
-
     local platform=$1 package=$2
     local arch_only="alsa-utils pulsemixer brightnessctl polybar feh xsel xclip xorg-xrandr i3-wm i3status i3lock dmenu dex xss-lock network-manager-applet mlocate autotiling picom"
-
     if [[ "$platform" != "arch" ]]; then
         for ap in $arch_only; do
             [[ "$ap" == "$package" ]] && echo "" && return
@@ -40,17 +36,13 @@ translate_package() {
         "mac-python-pip")   echo "python" ;;
         "wsl-nodejs")       echo "nodejs npm" ;;
         "mac-nodejs")       echo "node" ;;
-
         "arch-nodejs")      echo "nodejs npm" ;;
-
         "wsl-fd")           echo "fd-find" ;;
         "mac-fd"|"arch-fd") echo "fd" ;;
-
         "wsl-lazygit")      echo "__lazygit_manual__" ;;
         "wsl-discord"|"wsl-anki") echo "" ;;
         "arch-libreoffice") echo "libreoffice-fresh" ;;
         "wsl-libreoffice"|"mac-libreoffice") echo "libreoffice" ;;
-
         "wsl-rustup"|"mac-rustup"|"arch-rustup") echo "__rustup_manual__" ;;
         *) echo "$package" ;;
     esac
@@ -61,13 +53,11 @@ bootstrap_package_managers() {
     case $platform in
         "mac")
             if ! command -v brew >/dev/null 2>&1; then
-
                 log_info "🍺 Installing Homebrew..."
                 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" || { log_error "Homebrew install failed"; return 1; }
                 eval "$(/opt/homebrew/bin/brew shellenv)" 2>/dev/null || eval "$(/usr/local/bin/brew shellenv)" 2>/dev/null || true
             fi ;;
         "arch")
-
             # FIX (NEW): Install yay here if not present.
             # setup-dotfiles.sh also does this, but restore.sh runs first.
             # Having it here means AUR packages in packages.aur get installed too.
@@ -76,14 +66,12 @@ bootstrap_package_managers() {
                 sudo pacman -S --noconfirm git base-devel
                 local orig=$(pwd) tmp="/tmp/yay-install-$$"
                 mkdir -p "$tmp" && cd "$tmp"
-
                 if git clone https://aur.archlinux.org/yay.git && cd "$tmp/yay"; then
                     makepkg -si --noconfirm || { cd "$orig"; rm -rf "$tmp"; return 1; }
                 else
                     cd "$orig"; rm -rf "$tmp"; return 1
                 fi
                 cd "$orig"; rm -rf "$tmp"
-
                 log_success "✅ yay installed"
             fi ;;
         "wsl") log_info "🐧 Using apt" ;;
@@ -111,10 +99,8 @@ install_nerd_fonts() {
                 local font_ok=false
                 for win_dir in "/mnt/c/Windows/Fonts" "/mnt/c/Users/$USER/AppData/Local/Microsoft/Windows/Fonts"; do
                     mkdir -p "$win_dir" 2>/dev/null && cp *.ttf "$win_dir/" 2>/dev/null && log_success "✅ Fonts → $win_dir" && font_ok=true && break
-
                 done
                 if [[ "$font_ok" != true ]]; then
-
                     mkdir -p ~/.local/share/fonts && cp *.ttf ~/.local/share/fonts/ && fc-cache -fv >/dev/null 2>&1 || true
                     log_warning "⚠️ Fonts installed locally. Install manually to Windows for Alacritty."
                 fi ;;
@@ -126,24 +112,18 @@ install_nerd_fonts() {
                 log_success "✅ Fonts installed + cache updated" ;;
         esac
     else
-
         log_error "❌ Could not download font archive"
     fi
     cd - >/dev/null && rm -rf "$tmp" 2>/dev/null || true
-
 }
 
 configure_zsh() {
-
     command -v zsh >/dev/null 2>&1 || { log_warning "⚠️ zsh not found"; return 0; }
-
     local zsh_path; zsh_path=$(which zsh)
 
     grep -q "^$zsh_path$" /etc/shells 2>/dev/null || echo "$zsh_path" | sudo tee -a /etc/shells >/dev/null
-
     local cur; cur=$(getent passwd "$USER" 2>/dev/null | cut -d: -f7 || grep "^$USER:" /etc/passwd | cut -d: -f7)
     if [[ "$cur" == "$zsh_path" ]]; then
-
         log_success "✅ zsh already default"; return 0
     fi
     sudo chsh -s "$zsh_path" "$USER" && log_success "✅ Default shell set to zsh" || log_error "❌ Could not change shell"
@@ -151,55 +131,60 @@ configure_zsh() {
 
 install_all_packages() {
     local platform=$1
-
     local all_sys_packages=()
     local all_lang_packages=()
 
-
-    for file in config/packages.{curated,dotfile-deps,brew,aur}; do
+    # curated and dotfile-deps are safe on all platforms — packages go through translate_package().
+    # brew is Mac-only names (e.g. "node"). Reading on Arch feeds "node" to pacman which fails.
+    # aur is Arch-only names (e.g. "google-chrome"). Reading on WSL feeds them to apt which fails.
+    # Fix: only read platform-specific package files on the matching platform.
+    for file in config/packages.{curated,dotfile-deps}; do
         [[ -f "$file" && -s "$file" ]] || continue
         while IFS= read -r pkg; do
             [[ -z "$pkg" || "$pkg" =~ ^[[:space:]]*# ]] && continue
-
             all_sys_packages+=("$pkg")
         done < "$file"
     done
+    local platform_pkg_file=""
+    case $platform in
+        "mac")  platform_pkg_file="config/packages.brew" ;;
+        "arch") platform_pkg_file="config/packages.aur" ;;
+    esac
+    if [[ -n "$platform_pkg_file" && -f "$platform_pkg_file" && -s "$platform_pkg_file" ]]; then
+        while IFS= read -r pkg; do
+            [[ -z "$pkg" || "$pkg" =~ ^[[:space:]]*# ]] && continue
+            all_sys_packages+=("$pkg")
+        done < "$platform_pkg_file"
+    fi
 
     # FIX: Always add current-platform tools.
     # This matters when restoring from a backup made on a different platform.
     # e.g. restoring on Arch from a WSL backup — Arch tools were never in
     # packages.curated because that file was built on WSL.
-
     local always_platform_tools=""
-
     case $platform in
         "arch")
             always_platform_tools="alsa-utils pulsemixer brightnessctl polybar feh alacritty xsel xclip firefox xorg-xrandr fontconfig i3-wm i3status i3lock dmenu dex xss-lock network-manager-applet mlocate discord anki libreoffice-fresh autotiling picom"
             ;;
         "wsl")
             always_platform_tools="fontconfig less libreoffice"
-
             ;;
-
         "mac")
             always_platform_tools="less"
             ;;
     esac
-
     for pkg in $always_platform_tools; do
         all_sys_packages+=("$pkg")
     done
 
     for file in config/packages.{cargo,pip,npm}; do
         [[ -f "$file" && -s "$file" ]] || continue
-
         local lang; lang=$(basename "$file" | cut -d. -f2)
         while IFS= read -r pkg; do
             [[ -z "$pkg" || "$pkg" =~ ^[[:space:]]*# ]] && continue
             all_lang_packages+=("$lang:$pkg")
         done < "$file"
     done
-
 
     local translated_packages=() seen_packages=()
     local needs_lazygit_manual=false needs_rustup_manual=false
@@ -209,11 +194,9 @@ install_all_packages() {
         [[ "$translated" == "__lazygit_manual__" ]] && { needs_lazygit_manual=true; continue; }
         [[ "$translated" == "__rustup_manual__"  ]] && { needs_rustup_manual=true;  continue; }
         [[ -z "$translated" ]] && continue
-
         for t_pkg in $translated; do
             if [[ ! " ${seen_packages[*]+"${seen_packages[*]}"} " =~ " ${t_pkg} " ]]; then
                 translated_packages+=("$t_pkg")
-
                 seen_packages+=("$t_pkg")
             fi
         done
@@ -225,29 +208,22 @@ install_all_packages() {
         case $platform in
             "arch")
                 for pkg in "${translated_packages[@]}"; do
-
                     if pacman -Qi "$pkg" >/dev/null 2>&1; then
-
                         log_info "✓ Already installed: $pkg"
                     else
-
                         log_info "Installing: $pkg..."
-
                         # FIX: Removed >/dev/null 2>&1 — failures are now visible.
                         # Previously, failed packages were silently swallowed.
-
                         if sudo pacman -S --noconfirm "$pkg"; then
                             log_info "✓ Installed: $pkg"
                         else
                             # Try AUR if pacman fails
                             if command -v yay >/dev/null 2>&1; then
-
                                 log_info "Trying AUR for: $pkg..."
                                 yay -S --noconfirm "$pkg" || sys_failed+=("$pkg")
                             elif command -v paru >/dev/null 2>&1; then
                                 paru -S --noconfirm "$pkg" || sys_failed+=("$pkg")
                             else
-
                                 sys_failed+=("$pkg")
                             fi
                         fi
@@ -262,48 +238,36 @@ install_all_packages() {
                 for pkg in "${translated_packages[@]}"; do
                     dpkg -l "$pkg" 2>/dev/null | grep -q "^ii" && log_info "✓ Already installed: $pkg" || \
                     sudo apt install -y "$pkg" || sys_failed+=("$pkg")
-
                 done ;;
         esac
-
         [[ ${#sys_failed[@]} -gt 0 ]] && log_warning "Failed packages: ${sys_failed[*]+"${sys_failed[*]}"}"
-
     fi
 
     # lazygit manual install (WSL)
-
     if [[ "$needs_lazygit_manual" == true ]]; then
         if ! command -v lazygit >/dev/null 2>&1; then
             local v; v=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -o '"tag_name":"[^"]*"' | cut -d'"' -f4 | sed 's/^v//' || true)
             [[ -z "$v" ]] && { log_warning "⚠️ Could not get lazygit version"; } || {
-
                 curl -Lo /tmp/lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${v}/lazygit_${v}_Linux_x86_64.tar.gz"
                 tar xf /tmp/lazygit.tar.gz -C /tmp lazygit
-
                 sudo install /tmp/lazygit /usr/local/bin
                 log_success "✅ lazygit installed"
             }
         else
             log_info "✓ lazygit already installed"
         fi
-
     fi
-
 
     # rustup manual install
     if [[ "$needs_rustup_manual" == true ]] && ! command -v rustup >/dev/null 2>&1; then
-
         curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
         source "$HOME/.cargo/env" 2>/dev/null || export PATH="$HOME/.cargo/bin:$PATH"
-
         log_success "✅ rustup installed"
     fi
-
 
     # fd symlink on WSL
     if [[ "$platform" == "wsl" ]] && command -v fdfind >/dev/null 2>&1 && ! command -v fd >/dev/null 2>&1; then
         mkdir -p "$HOME/.local/bin"
-
         ln -sf "$(which fdfind)" "$HOME/.local/bin/fd"
         log_success "✅ fd symlinked from fdfind"
     fi
@@ -313,7 +277,6 @@ install_all_packages() {
         if ! command -v cargo >/dev/null 2>&1; then
             curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
             source ~/.cargo/env 2>/dev/null || export PATH="$HOME/.cargo/bin:$PATH"
-
         else
             rustup update stable --no-self-update 2>/dev/null || true
         fi
@@ -321,46 +284,36 @@ install_all_packages() {
 
     hash -r 2>/dev/null || true
 
-
     # Language packages
     if [[ ${#all_lang_packages[@]} -gt 0 ]]; then
         log_info "📦 Installing ${#all_lang_packages[@]} language packages..."
         local lang_failed=()
-
         for lang_pkg in "${all_lang_packages[@]+"${all_lang_packages[@]}"}"; do
             local lang="${lang_pkg%%:*}" pkg="${lang_pkg#*:}"
             case $lang in
                 "cargo") command -v cargo >/dev/null 2>&1 && {
                     cargo install --list 2>/dev/null | grep -q "^$pkg " && log_info "✓ Already: cargo:$pkg" || \
                     cargo install "$pkg" || lang_failed+=("cargo:$pkg")
-
                 } ;;
-
                 "pip") command -v pip3 >/dev/null 2>&1 && {
-
                     pip3 show "$pkg" >/dev/null 2>&1 && log_info "✓ Already: pip:$pkg" || \
                     pip3 install --user "$pkg" || lang_failed+=("pip:$pkg")
                 } ;;
                 "npm") command -v npm >/dev/null 2>&1 && [[ "$pkg" != "lib" ]] && {
-
                     npm list -g "$pkg" >/dev/null 2>&1 && log_info "✓ Already: npm:$pkg" || \
                     npm install -g "$pkg" || lang_failed+=("npm:$pkg")
-
                 } ;;
-
             esac
         done
         [[ ${#lang_failed[@]} -gt 0 ]] && log_warning "Failed lang packages: ${lang_failed[*]+"${lang_failed[*]}"}"
     fi
 
     # macOS cask/mas
-
     if [[ $platform == "mac" ]]; then
         for file in config/packages.{cask,mas}; do
             [[ -f "$file" && -s "$file" ]] || continue
             local type; type=$(basename "$file" | cut -d. -f2)
             while IFS= read -r pkg; do
-
                 [[ -z "$pkg" || "$pkg" =~ ^[[:space:]]*# ]] && continue
                 case $type in
                     "cask") brew list --cask "$pkg" >/dev/null 2>&1 || brew install --cask "$pkg" || log_warning "Failed: $pkg" ;;
@@ -376,7 +329,6 @@ main() {
     cd "$script_dir" || { log_error "❌ Cannot cd to backup dir"; exit 1; }
 
     local platform; platform=$(detect_platform)
-
     [[ "$platform" == "unknown" ]] && { log_error "❌ Unsupported platform!"; exit 1; }
 
     log_info "🚀 Restoring system on platform: $platform"
@@ -388,15 +340,11 @@ main() {
     log_info "📦 Updating system packages..."
     case $platform in
         "wsl")  DEBIAN_FRONTEND=noninteractive sudo apt update >/dev/null 2>&1 && DEBIAN_FRONTEND=noninteractive sudo apt upgrade -y >/dev/null 2>&1 || log_warning "⚠️ Update failed, continuing..." ;;
-
         "mac")  command -v brew >/dev/null && { brew update >/dev/null 2>&1 && brew upgrade >/dev/null 2>&1; } || log_warning "⚠️ brew update failed" ;;
-
         "arch") sudo pacman -Syu --noconfirm || log_warning "⚠️ Update failed, continuing..." ;;
     esac
 
-
     [[ $platform == "mac" ]] && ! command -v mas >/dev/null 2>&1 && brew install mas || true
-
 
     install_all_packages "$platform"
 
@@ -413,17 +361,14 @@ main() {
         log_success "✅ History restored ($(wc -l < "$HOME/.zsh_history") lines)"
     fi
 
-
     log_info "🎨 Configuring fonts and shell..."
     install_nerd_fonts "$platform"
     configure_zsh
-
 
     echo
     log_success "✅ System restore completed!"
     echo
     log_info "📋 Next: run setup-dotfiles.sh to symlink your configs"
 }
-
 
 main "$@"

@@ -1013,3 +1013,16 @@ nvim
 : 1772116930:0;nvim
 : 1772116931:0;sudo apt-get update && sudo apt-get upgrade -y
 : 1772116974:0;cross-platform-backup.sh
+: 1772118805:0;vi
+: 1772119376:0;~/dotfiles/.local/bin/cross-platform-backup.sh\
+\
+
+: 1772119518:0;tx
+: 1772119613:0;file ~/dotfiles/.local/bin/setup-dotfiles.sh\
+
+: 1772119621:0;sed -i 's/\r//' ~/dotfiles/.local/bin/setup-dotfiles.sh\
+
+: 1772119699:0;ls -la
+: 1772120014:0;cross-platform-backup.sh
+: 1772122733:0;vi
+: 1772124835:0;cross-platform-backup.sh
