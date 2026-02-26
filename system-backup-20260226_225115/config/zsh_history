@@ -1004,3 +1004,23 @@ nvim
 : 1772109876:0;vi
 : 1772110387:0;cd ~
 : 1772110389:0;cross-platform-backup.sh
+: 1772110418:0;lgdot
+: 1772113383:0;tree -a -I '.git'
+: 1772115239:0;vi
+: 1772116600:0;cd ~
+: 1772116600:0;git -C ~/system-backups remote set-url origin git@github.com:Xokra/system-backups.git
+: 1772116637:0;vi
+: 1772116930:0;nvim
+: 1772116931:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1772116974:0;cross-platform-backup.sh
+: 1772118805:0;vi
+: 1772119376:0;~/dotfiles/.local/bin/cross-platform-backup.sh\
+\
+
+: 1772119518:0;tx
+: 1772119613:0;file ~/dotfiles/.local/bin/setup-dotfiles.sh\
+
+: 1772119621:0;sed -i 's/\r//' ~/dotfiles/.local/bin/setup-dotfiles.sh\
+
+: 1772119699:0;ls -la
+: 1772120014:0;cross-platform-backup.sh
