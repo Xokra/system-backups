@@ -15,6 +15,7 @@ python-pip
 ripgrep
 stow
 tmux
+tree
 unzip
 wget
 zoxide

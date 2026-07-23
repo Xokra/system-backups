@@ -4,6 +4,25 @@ set -euo pipefail
 
 RED='\033[0;31m'; GREEN='\033[0;32m'; YELLOW='\033[1;33m'; BLUE='\033[0;34m'; NC='\033[0m'
 
+# Shared sensitive pattern filter for history files
+HISTORY_FILTER='(API_KEY|TOKEN|PASSWORD|SECRET|sk-or|ghp_|gho_|ghs_|ghu_|github_pat|Authorization:)'
+
+# Extract text commands from zsh history (handles both binary and text format)
+# Binary zsh history: null-separated entries like :timestamp:duration:command\0
+# Text zsh history: plain text, one command per line
+extract_history_commands() {
+    local in="$1" out="$2"
+    # Detect binary: check for null bytes in first 4KB
+    if head -c 4096 "$in" 2>/dev/null | tr -dc '\0' | grep -q '' 2>/dev/null; then
+        awk -v RS='\0' -v ORS='\n' '{
+            sub(/^:[0-9]+:[0-9]*:[ \t]*/, "");
+            if (length($0) > 0) print
+        }' "$in" > "$out"
+    else
+        cat "$in" > "$out"
+    fi
+}
+
 log_info()    { echo -e "${BLUE}[INFO]${NC} $1"; }
 log_success() { echo -e "${GREEN}[SUCCESS]${NC} $1"; }
 log_warning() { echo -e "${YELLOW}[WARNING]${NC} $1"; }
@@ -134,13 +153,28 @@ install_all_packages() {
     local all_sys_packages=()
     local all_lang_packages=()
 
-    for file in config/packages.{curated,dotfile-deps,brew,aur}; do
+    # curated and dotfile-deps are safe on all platforms — packages go through translate_package().
+    # brew is Mac-only names (e.g. "node"). Reading on Arch feeds "node" to pacman which fails.
+    # aur is Arch-only names (e.g. "google-chrome"). Reading on WSL feeds them to apt which fails.
+    # Fix: only read platform-specific package files on the matching platform.
+    for file in config/packages.{curated,dotfile-deps}; do
         [[ -f "$file" && -s "$file" ]] || continue
         while IFS= read -r pkg; do
             [[ -z "$pkg" || "$pkg" =~ ^[[:space:]]*# ]] && continue
             all_sys_packages+=("$pkg")
         done < "$file"
     done
+    local platform_pkg_file=""
+    case $platform in
+        "mac")  platform_pkg_file="config/packages.brew" ;;
+        "arch") platform_pkg_file="config/packages.aur" ;;
+    esac
+    if [[ -n "$platform_pkg_file" && -f "$platform_pkg_file" && -s "$platform_pkg_file" ]]; then
+        while IFS= read -r pkg; do
+            [[ -z "$pkg" || "$pkg" =~ ^[[:space:]]*# ]] && continue
+            all_sys_packages+=("$pkg")
+        done < "$platform_pkg_file"
+    fi
 
     # FIX: Always add current-platform tools.
     # This matters when restoring from a backup made on a different platform.
@@ -337,11 +371,20 @@ main() {
     if [[ -f config/zsh_history && -s config/zsh_history ]]; then
         log_info "📜 Restoring zsh history..."
         if [[ -f "$HOME/.zsh_history" && -s "$HOME/.zsh_history" ]]; then
-            sort -u config/zsh_history "$HOME/.zsh_history" > /tmp/merged_hist
+            local filtered=$(mktemp)
+            local filtered_dotfiles=$(mktemp)
+            # Extract commands from potentially binary history, then filter
+            local raw_history=$(mktemp)
+            extract_history_commands "$HOME/.zsh_history" "$raw_history"
+            grep -vE "$HISTORY_FILTER" "$raw_history" > "$filtered"
+            rm -f "$raw_history"
+            grep -vE "$HISTORY_FILTER" config/zsh_history > "$filtered_dotfiles" 2>/dev/null || true
+            sort -u "$filtered" "$filtered_dotfiles" > /tmp/merged_hist
+            rm -f "$filtered" "$filtered_dotfiles"
             cp /tmp/merged_hist "$HOME/.zsh_history"
             rm -f /tmp/merged_hist
         else
-            cp config/zsh_history "$HOME/.zsh_history"
+            grep -vE "$HISTORY_FILTER" config/zsh_history > "$HOME/.zsh_history"
         fi
         log_success "✅ History restored ($(wc -l < "$HOME/.zsh_history") lines)"
     fi

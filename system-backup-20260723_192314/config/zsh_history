@@ -1,0 +1,2685 @@
+
+[200~LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
+[200~zed@ZedOcean:~/gixz  % cd ~/gixz && npm install babel-preset-expo && npx expo start --tunnel --clear
+                echo "wsl"\
+            idx = data.find(',' + mid + ');')\
+          ^#\|^  \|^$" \\
+          ^IF:\|^STATUS:\|^FALLBACK:\|^SCOPE:\|^UNCLASSIFIED:\|\
+          ~/personal/projects/gixz/migration/labeled/master_part
+          ~/personal/projects/gixz/migration/labeled/master_part1.8_labeled.md
+          ~/personal/projects/gixz/migration/labeled/master_part1.9_labeled.md
+          ~/personal/projects/gixz/migration/labeled/master_part2.0_labeled.md
+         -p ~/personal/projects/gixz/migration/PROMPT_LABEL.md \\
+         > ~/personal/projects/gixz/migration/labeled/master_part1.8_labeled.md
+         > ~/personal/projects/gixz/migration/labeled/master_part2.0_labeled.md
+        # try finding the module ID in the define call ending\
+        ctx = data[max(0,idx-300):idx+50] if idx != -1 else 'NOT FOUND'\
+        idx = data.find(',' + mid + ',')\
+        if idx == -1:\
+        m = re.search(r',' + mid + r',\[', data)\
+    ctx = data[m.start()-200:m.start()+100] if m else 'NOT FOUND'\
+    else:\
+    if not m:\
+    line = lines[lineno-1]\
+    m = re.search(pattern, data[:500000] if int(mid)<100000 else data)\
+    m = re.search(r'__d\(function[^)]*\)[^,]*,[^,]*,' + mid + r',', data)\
+    pattern = r'__d\(function\([^)]*\)\{.*?\},' + mid + r','\
+    print('MODULE', mid, ':', ctx[-120:] if m else 'NOT FOUND')\
+    print()\
+    print(data[max(0,idx-200):idx+100])\
+    print(f'LINE {lineno}: {line[:300]}')\
+    print(i+1, ':', lines[i][:200])\
+    print(i+1, lines[i].rstrip())\
+  "^const VENUE_TYPE_COLORS\|^const PHOTOGRAPHER_SHEET_COLORS\|^const CREATOR_SHEET_COLORS\|^const T = memo\|^const CREATOR_DATA_MAP\|^const CREATOR_PACKAGES\|^function blendDarkColor\|VENUE_DATA_MAP\[\|CREATOR_DATA_MAP\[\|CREATOR_PACKAGES\[\|VENUE_PACKAGES\[" \\
+  -c 'qa'\
+  -c 'silent! map!' \\
+  -c 'silent! map' \\
+  -c 'silent! tmap' \\
+  return <View style={styles.screen}><Text style={styles.text}>Create</Text></View>;\
+  return <View style={styles.screen}><Text style={styles.text}>Discover</Text></View>;\
+  return <View style={styles.screen}><Text style={styles.text}>Gigs</Text></View>;\
+  return <View style={styles.screen}><Text style={styles.text}>Inbox</Text></View>;\
+  return <View style={styles.screen}><Text style={styles.text}>Profile</Text></View>;\
+  | awk '/^[nivxocst] /{print $2}' \\
+  | grep -v "colors.js\|DevFontCtx.js\|dummy.js"
+  | sort -u\
+  ~/gixz/screens ~/gixz/constants ~/gixz/App.js \\
+"
+# also search for the number 188226 raw\
+# find any __d( call and show its structure\
+#!/bin/bash\
+./fix-alacritty-struture.sh
+./gradlew clean
+./install.sh\
+./profile-zsh.sh\
+./setup-dotfiles.sh
+./smart-stow.sh
+./wsl-cleanup.sh
+.G
+/home/zed/gixz/node_modules/@react-native/dev-middleware/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory
+/mnt/c/Windows/System32/ipconfig.exe | grep -A 5 "Wi-Fi" | grep "IPv4"
+/mnt/c/Windows/System32/netsh.exe interface portproxy add v4tov4 listenport=8081 listenaddress=0.0.0.0 connectport=8081 connectaddress=172.29.109.48 && /mnt/c/Windows/System32/netsh.exe interface portproxy add v4tov4 listenport=19000 listenaddress=0.0.0.0 connectport=19000 connectaddress=172.29.109.48\
+48 packages are looking for funding
+ls -la ~/.fzf.zsh\
+: 1752565687:0;command -v zoxide\
+: 1752565706:0;zinit times\
+: 1752565722:0;ls -la ~/.zcompdump*\
+: 1752565939:0;which fzf\
+: 1752565965:0;grep -r "fzf\|telescope" ~/.config/nvim/\
+: 1752566003:0;grep -r "fzf" ~/.zshrc ~/.bashrc 2>/dev/null\
+: 1752566064:0;cat ~/.config/nvim/lua/zedocean/plugins/telescope.lua\
+: 1752566163:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf\
+: 1752566173:0;~/.fzf/install --all\
+: 1752566200:0;source ~/.zshrc\
+: 1752566293:0;cd dot
+ls -la ~/.config/alacritty/\
+: 1752570098:0;vi
+rm ~/dotfiles/.config/alacritty\
+: 1752570276:0;ls -la ~/dotfiles/.config/\
+: 1752570295:0;mkdir -p -/dotfiles/alacritty/
+rm ~/dotfiles/alacritty/
+cd alacritty
+ls -la ~/.local/bin/\
+: 1752608023:0;ls -la ~/.config/ | grep -E "(alacritty|nvim)"\
+: 1752608027:0;ls -la ~/.local/bin/\
+: 1752608031:0;which stow\
+: 1752608041:0;file ~/dotfiles/-\
+: 1752608047:0;cat ~/dotfiles/-\
+: 1752608051:0;ls -la ~/dotfiles/-\
+: 1752608056:0;ls -la ~/bin/\
+: 1752608065:0;cat ~/dotfiles/.stow-local-ignore 2>/dev/null || echo "No .stow-local-ignore found"\
+: 1752608071:0;stow -nv . 2>&1 | head -20  # dry run to see what would happen\
+: 1752608083:0;du -sh ~/dotfiles/projects/\
+: 1752608088:0;find ~/dotfiles/projects/ -name "*.lua" -exec ls -la {} \;\
+: 1752608142:0;tmux -V\
+: 1752608146:0;nvim --version\
+: 1752608150:0;alacritty --version 2>/dev/null || echo "alacritty not found"\
+: 1752608315:0;vi
+ls -la ~/.local/bin/\
+: 1752609153:0;find ~/dotfiles/ -type f -executable\
+: 1752609164:0;cat ~/dotfiles/setup-dotfiles.sh\
+: 1752609166:0;ls -la ~/bin/\
+: 1752609189:0;cat ~/dotfiles/smart-stow.sh\
+: 1752609195:0;cat ~/cross-platform-backup.sh\
+: 1752609199:0;ls -la ~/bin/\
+: 1752609270:0;ls -la ~/.config/
+find ~ -maxdepth 1 -type f -executable -ls\
+: 1752609779:0;cat ~/dotfiles/.gitignore\
+: 1752609785:0;head -5 ~/dotfiles/setup-dotfiles.sh\
+: 1752609908:0;cat ~/dotfiles/.tmux-timezones.sh\
+: 1752609911:0;cat ~/dotfiles/setup-dotfiles.sh\
+: 1752609913:0;ls -la ~/bin/\
+: 1752609915:0;cat ~/dotfiles/smart-stow.sh\
+: 1752609917:0;cat ~/.bashrc\
+: 1752609918:0;cat ~/dotfiles/wsl-inventory.sh\
+: 1752609920:0;cat ~/dotfiles/.zshrc\
+: 1752609923:0;cat ~/cross-platform-backup.sh\
+: 1752609924:0;cat ~/dotfiles/.tmux.conf\
+: 1752609926:0;cat ~/profile-zsh.sh\
+: 1752609932:0;cat ~/swap-files-between-panes.sh\
+: 1752609935:0;cat ~/wsl-cleanup.sh\
+: 1752609939:0;cat ~/.gitconfig\
+: 1752609943:0;find ~/.local -type f -ls\
+: 1752610023:0;cat ~/dotfiles/.local/bin/tx\
+: 1752610026:0;cat ~/cross-platform-backup.sh\
+: 1752610030:0;cat ~/profile-zsh.sh\
+: 1752610033:0;cat ~/swap-files-between-panes.sh\
+: 1752610036:0;cat ~/wsl-cleanup.sh\
+: 1752610039:0;ls -la ~/bin/\
+: 1752610043:0;cat ~/dotfiles/setup-dotfiles.sh\
+: 1752610046:0;cat ~/dotfiles/smart-stow.sh\
+: 1752610049:0;cat ~/dotfiles/wsl-inventory.sh\
+: 1752610053:0;cat ~/dotfiles/.zshrc\
+: 1752610056:0;cat ~/.bashrc\
+: 1752610060:0;cat ~/.profile\
+: 1752610068:0;cat ~/.bashrc | grep -E "(PATH|bin|export)"\
+: 1752610074:0;cat ~/dotfiles/.zshrc | grep -E "(PATH|bin|export)"\
+: 1752610084:0;find ~/dotfiles -type f -executable -ls\
+: 1752610089:0;find ~ -maxdepth 1 -type f -executable -ls\
+: 1752610120:0;cat ~/dotfiles/.tmux.conf\
+: 1752610124:0;cat ~/.gitconfig\
+: 1752610353:0;find ~ -maxdepth 2 -type f -executable -not -path "*/.*" -not -path "*/.git/*" | sort\
+: 1752610361:0;ls -la ~/bin/ 2>/dev/null || echo "No ~/bin directory"\
+: 1752610365:0;head -10 ~/dotfiles/setup-dotfiles.sh\
+: 1752610378:0;grep -E "PATH.*bin" ~/.bashrc ~/dotfiles/.zshrc 2>/dev/null || echo "No PATH modifications found"\
+: 1752611338:0;head -10 ~/dotfiles/smart-stow.sh\
+: 1752611384:0;find ~ -maxdepth 2 -type f -executable -not -path "*/.*" -not -path "*/.git/*" | sort\
+: 1752611386:0;head -20 ~/dotfiles/setup-dotfiles.sh
+ls -la ~/bin/ 2>/dev/null || echo "No ~/bin directory"\
+: 1752611425:0;ls -la ~/bin/ 2>/dev/null || echo "No ~/bin directory"\
+: 1752611438:0;find ~ -maxdepth 2 -type f -executable -not -path "*/.*" -not -path "*/.git/*" | sort\
+: 1752611439:0;cat ~/dotfiles/setup-dotfiles.sh
+cat ~/dotfiles/smart-stow.sh
+rmdir ~/journal ~/projects
+rm -rf ~/bin/ && rm ~/journal ~/projects && mkdir -p ~/personal && mv ~/dotfiles/journal ~/dotfiles/projects ~/personal/ && mv ~/cross-platform-backup.sh ~/profile-zsh.sh ~/swap-files-between-panes.sh ~/wsl-cleanup.sh ~/lazygit ~/dotfiles/setup-dotfiles.sh ~/dotfiles/smart-stow.sh ~/dotfiles/wsl-inventory.sh ~/dotfiles/.local/bin/
+man ls\
+: 1752702269:0;tree -a -I '.git' ~/dotfiles
+bindkey | grep -E "(wheel|mouse|scroll)"\
+: 1752705846:0;sudo bindkey | grep -E "(up|down|history)"\n[200~bindkey | grep -E "(wheel|mouse|scroll)"
+bindkey | grep -E "(wheel|mouse|scroll)"\
+: 1752707031:0;source ~/.zshrc
+cargo install --list | grep zoxide\
+: 1752973008:0;zoxide --version
+dpkg -l | grep lazygit\
+: 1753002253:0;cargo install --list | grep lazygit\
+: 1753002259:0;ls -la $(which lazygit)\
+: 1753002430:0;vi
+find ~/.config/nvim/lua/zedocean -name "*.lua" -exec grep -l "keymap\|vim\.keymap\|map(" {} \;\
+: 1753254508:0;cat ~/.config/nvim/lua/zedocean/core/init.lua
+find ~/.config/nvim/lua/zedocean -name "*.lua" -exec grep -l "keymap\|vim\.keymap\|map(" {} \;\
+: 1753254569:0;cat ~/.config/nvim/lua/zedocean/plugins/todo-comments.lua\
+: 1753254581:0;cat ~/.config/nvim/lua/zedocean/plugins/lsp/lspconfig.lua\
+: 1753254590:0;cat ~/.config/nvim/lua/zedocean/plugins/linting.lua\
+: 1753254599:0;cat ~/.config/nvim/lua/zedocean/plugins/formatting.lua\
+: 1753254606:0;cat ~/.config/nvim/lua/zedocean/plugins/telescope.lua\
+: 1753254614:0;cat ~/.config/nvim/lua/zedocean/plugins/formatting.lua\
+: 1753254625:0;cat ~/.config/nvim/lua/zedocean/plugins/fomatting.lua\
+: 1753254633:0;cat ~/.config/nvim/lua/zedocean/plugins/harpoon.lua\
+: 1753254639:0;cat ~/.config/nvim/lua/zedocean/plugins/oil.lua\
+: 1753254903:0;:map | map! | tmap\
+: 1753254941:0;vi
+nvim --headless -c 'silent map' -c 'silent map!' -c 'silent tmap' -c 'qa' \\
+: 1753255601:0;nvim --headless -c 'silent map' -c 'silent map!' -c 'silent tmap' -c 'qa' | awk '/^[nivxocst] /{print $2}' | sort -u\
+: 1753255619:0;nvim --headless -c 'silent map | silent map! | silent tmap | qa' | awk 'NF>=2 {print $2}' | sort -u\
+: 1753323700:0;sudo apt-get update && sudo apt-get upgrade -y
+cd /mnt/c/desktop
+whoami
+pwd
+sudo apt update && sudo apt install lazygit\
+: 1770985461:0;cd ~
+sudo apt update && sudo apt install lazygit\
+: 1770985479:0;apt list --upgradable
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')\
+: 1770985945:0;[200~LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"\
+: 1770985987:0;tar xf lazygit.tar.gz lazygit\
+: 1770986002:0;install -m 755 lazygit ~/.local/bin/lazygit\
+: 1770986011:0;rm lazygit lazygit.tar.gz\
+: 1770986018:0;lazygit --version\
+: 1770986080:0;cd ~/dotfiles
+sudo apt update && sudo apt install lazygit\
+: 1771078667:0;apt list --upgradable
+zi
+lgdot
+~/dotfiles/.local/bin/cross-platform-backup.sh\
+: 1772119518:0;tx
+file ~/dotfiles/.local/bin/setup-dotfiles.sh\
+: 1772119621:0;sed -i 's/\r//' ~/dotfiles/.local/bin/setup-dotfiles.sh\
+: 1772119699:0;ls -la
+adb connect 192.168.1.6:5555\
+: 1776583373:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776583393:0;which node
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776583545:0;cd gix
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776587849:0;vi
+cd data
+cd gix doc
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776605998:0;adb devices
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776606127:0;adb disconnect 192.168.1.6:5555
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776633988:0;nvim
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776634168:0;fg
+fg
+claude
+source ~/.tmux.conf
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776672782:0;vi
+adb connect 192.168.1.6:5555\
+: 1776694089:0;APP_VARIANT=development npx expo run:android --no-build-cache
+npx expo run:android\
+: 1776694878:0;eas build -p android --profile preview
+adb connect 192.168.1.6:5555\
+: 1776722395:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776726490:0;npx expo run:android --variant devDebug
+npx expo start
+adb connect 192.168.1.6:5555\
+: 1776732973:1;adb devices
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776733003:0;adb devices
+adb disconnect 192.168.1.6:5555
+adb devices
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776748486:0;vi
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776759713:0;vi
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776827458:0;sudo apt-get update && sudo apt-get upgrade -y
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+: 1776839491:0;npm run typecheck
+git commit -am "phase2: hex colors in RecommendSheet"
+npm run typecheck
+cd .config/lazygit
+> 171 |     ]);
+APP_VARIANT=development npx expo config
+APP_VARIANT=development npx expo config --type introspect
+APP_VARIANT=development npx expo config | grep -A2 '"name"'
+APP_VARIANT=development npx expo run:android
+APP_VARIANT=development npx expo run:android --no-build-cache
+APP_VARIANT=development npx expo run:android --no-build-cache\
+APP_VARIANT=development npx expo run:android\
+Android Bundling failed 20736ms index.js (1493 modules)
+CAAM_SKIP_VERIFY=1 curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_account_manager/main/install.sh" | bash
+EOF
+KB
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')\
+Logs for your project will appear below. Press Ctrl+C to exit.
+REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.4 npx expo start --lan
+Starting Metro Bundler
+Starting project at /home/zed/gixz
+TX
+Tunnel connected.
+Tunnel ready.
+VDI
+VI
+WSL: adb shell am force-stop com.gixz
+\
+\:new
+\:q
+adb -s 192.168.1.3:5555 install ~/gixz/android/app/build/outputs/apk/debug/app-debug.apk
+adb -s 192.168.1.3:5555 logcat | grep -A 3 "runtime not ready" > /tmp/stack.txt
+adb -s 192.168.1.3:5555 logcat | grep -A 30 "runtime not ready"
+adb -s 192.168.1.3:5555 logcat | grep -A 30 "runtime not ready" | head -60
+adb -s 192.168.1.3:5555 logcat | grep -A 30 "runtime not ready"\
+adb -s 192.168.1.3:5555 logcat | grep -E "(ReactNativeJS|runtime not ready|ReferenceError|StyleSheet)" | head -20
+adb -s 192.168.1.3:5555 logcat | grep -E "(ReactNativeJS|runtime not ready|ReferenceError|StyleSheet|Error)" | head -30
+adb -s 192.168.1.3:5555 logcat | grep -E "(runtime not ready|ReferenceError|StyleSheet|anonymous@)" | head -20\
+adb -s 192.168.1.3:5555 logcat | grep -E "ReactNativeJS|runtime not ready|ReferenceError|StyleSheet|Error" > /tmp/gixzlog3.txt\
+adb -s 192.168.1.3:5555 logcat | grep -E "gixz|ReactNativeJS|hermes|FATAL EXCEPTION|StyleSheet|ReferenceError|runtime" > /tmp/gixzlog.txt
+adb -s 192.168.1.3:5555 logcat | grep -iE "(ReactNativeJS|Hermes|FATAL|Exception|Error|gixz)"
+adb -s 192.168.1.3:5555 logcat | grep -iE "(StyleSheet|ReactNativeJS|JavascriptException|ReferenceError)" 2>/dev/null
+adb -s 192.168.1.3:5555 logcat | grep -iE "(StyleSheet|ReactNativeJS|JavascriptException|ReferenceError)" 2>/dev/null\
+adb -s 192.168.1.3:5555 logcat | grep -iE "(StyleSheet|at |ReferenceError)" 2>/dev/null
+adb -s 192.168.1.3:5555 logcat | head -300 > /tmp/lograw.txt
+adb -s 192.168.1.3:5555 reverse tcp:8081 tcp:8081
+adb -s 192.168.1.3:5555 reverse tcp:8081 tcp:8081\
+adb -s 192.168.1.3:5555 shell am force-stop com.anonymous.gixz
+adb -s 192.168.1.3:5555 shell am force-stop com.anonymous.gixz && adb -s 192.168.1.3:5555 shell am start -n com.anonymous.gixz/.MainActivity
+adb -s 192.168.1.3:5555 shell am force-stop com.anonymous.gixz && adb -s 192.168.1.3:5555 shell am start -n com.anonymous.gixz/.MainActivity\
+adb -s 192.168.1.3:5555 shell am force-stop com.anonymous.gixz && adb -s 192.168.1.3:5555 shell am start -n com.anonymous.gixz/.MainActivityadb -s 192.168.1.3:5555 shell am force-stop com.anonymous.gixz && adb -s 192.168.1.3:5555 shell am start -n com.anonymous.gixz/.MainActivity
+adb -s 192.168.1.3:5555 shell am force-stop com.anonymous.gixz\
+adb -s 192.168.1.3:5555 shell am start -n com.anonymous.gixz/.MainActivity
+adb -s 192.168.1.3:5555 shell am start -n com.anonymous.gixz/.MainActivity\
+adb -s 192.168.1.3:5555 shell curl -s "http://localhost:8081/status"\
+adb -s 192.168.1.3:5555 uninstall com.anonymous.gixz
+adb connect 192.168.1.3:5555\
+adb connect 192.168.1.4:5555\
+adb connect 192.168.1.5:5555\
+adb connect 192.168.1.6:5555\
+adb devices
+adb devices\
+adb install -r --no-streaming ~/gixz/android/app/build/outputs/apk/debug/app-debug.apk
+adb install -r ~/gixz/android/app/build/outputs/apk/debug/app-debug.apk
+adb install -r ~/gixz/android/app/build/outputs/apk/debug/app-debug.apk\
+adb kill-server && adb start-server
+adb kill-server\
+adb logcat --pid=$(adb shell pidof com.anonymous.gixz) 2>/dev/null
+adb logcat -c && adb logcat | grep "ReactNativeJS" | head -20
+adb logcat -c && adb logcat | grep -E "gixz|ReactNativeJS|JavascriptException" | head -30
+adb logcat -c && adb logcat | grep -i "3752\|gixz\|react\|js\|error\|exception\|fatal" | grep -iv "finsky\|oiface\|firebase\|network\|scheduler\|watchdog\|thermal\|battery\|camera" | head -40
+adb logcat -c && adb logcat | grep -i "5332\|gixz\|react\|js\|error\|exception\|fatal" | grep -iv "finsky\|oiface\|firebase\|network\|scheduler\|watchdog\|thermal\|battery\|camera" | head -40
+adb logcat -c && adb logcat | grep -iE "(ReactNative|Hermes|FATAL|AndroidRuntime|gixz|hermes|JSIExecutor|TurboModule)"
+adb logcat -d | grep -E "ReactNative|Error|FATAL|gixz" | tail -60
+adb logcat -d | grep -E "ReactNative|Exception|Error|FATAL" | grep -v "Finsky\|oiface\|camera\|Storage" | tail -40
+adb logcat -d | grep -E "gixz|ReactNative|Bundle|Error" | grep -v "Finsky\|oiface\|camera\|Storage\|wakeup\|Watchdog" | tail -30
+adb logcat -s 'ReactNativeJS:*' 'AndroidRuntime:*' 'FATAL:*' | head -60
+adb logcat -s ReactNativeJS:* AndroidRuntime:* FATAL:* | head -60
+adb logcat | grep -iE "(ReactNativeJS|Hermes|FATAL|Exception|Error|gixz)"
+adb logcat | grep -iE "(ReactNative|Hermes|FATAL|AndroidRuntime|gixz|JSIExecutor|TurboModule)"
+adb reverse tcp:19000 tcp:19000\
+adb reverse tcp:8081 tcp:8081
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost --clear
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && npx expo start --localhost
+adb reverse tcp:8081 tcp:8081\
+adb shell am force-stop com.anonymous.gixz\
+adb shell am force-stop com.gixz
+adb shell am start -n com.anonymous.gixz/.MainActivity
+adb shell dumpsys media.player | grep -c "ExoPlayer"
+adb shell input keyevent 82
+adb shell input keyevent 82\
+adb shell pidof com.anonymous.gixz
+adb shell pm clear com.anonymous.gixz
+adb shell pm install -r /sdcard/Download/app-debug.apk\
+adb shell pm list packages | grep gixz
+adb start-server
+adb start-server\
+adb tcpip 5555
+adb tcpip 5555\
+adb uninstall com.anonymous.gixz && cd ~/gixz && npx expo run:android
+adb uninstall com.anonymous.gixz.dev\
+adb uninstall com.anonymous.gixz\
+adb uninstall com.gixz
+added 1 package, removed 1 package, and audited 627 packages in 5s
+apt install python
+apt list --installed | grep lazygit\
+apt list --upgradable
+bash -n ~/.local/bin/cross-platform-backup.sh 
+bash -n ~/.local/bin/cross-platform-backup.sh && echo "OK"
+bash scripts/setup-proxy.sh 8081\
+bindkey | grep -E "(up|down|history)"\
+cat /etc/os-release\
+cat /etc/resolv.conf
+cat /etc/resolv.conf | grep nameserver | cut -d ' ' -f2
+cat /etc/wsl.conf 2>/dev/null || echo "No wsl.conf found"\
+cat /tmp/gixzlog.txt
+cat /tmp/gixzlog3.txt
+cat /tmp/lograw.txt
+cat /tmp/stack.txt
+cat > ~/profile-zsh.sh << 'EOF'\
+cat app.config.js
+cat app.json
+cat node_modules/expo-video/package.json | grep '"version"' | head -1
+cat ~/.bashrc
+cat ~/.config/alacritty/alacritty.toml
+cat ~/.config/alacritty/alacritty.toml | grep -A 5 "\[scrolling\]"\
+cat ~/.config/nvim/init.lua
+cat ~/.config/nvim/lua/zedocean/core/init.lua
+cat ~/.config/nvim/lua/zedocean/core/keymaps.lua
+cat ~/.config/nvim/lua/zedocean/core/keymaps.lua\
+cat ~/.config/nvim/lua/zedocean/core/options.lua
+cat ~/.config/nvim/lua/zedocean/lazy.lua
+cat ~/.config/nvim/lua/zedocean/plugins/lsp/lspconfig.lua
+cat ~/.config/nvim/lua/zedocean/plugins/nvim-cmp.lua
+cat ~/.config/nvim/lua/zedocean/plugins/telescope.lua
+cat ~/.config/nvim/lua/zedocean/plugins/treesitter.lua\
+cat ~/.ssh/id_ed25519.pub
+cat ~/.zshrc
+cat ~/dotfiles/.local/bin/setup-dotfiles.sh
+cat ~/dotfiles/.local/bin/smart-stow.sh
+cat ~/gixz/app.js
+cat ~/gixz/app.json
+cat ~/gixz/index.js\
+cat ~/gixz/node_modules/react-native/package.json | grep '"version"'
+cat ~/gixz/package.json
+cd  gixz arch v7
+cd ..
+cd ../../utils
+cd ../components
+cd ../constants
+cd ../contexts
+cd ../hooks
+cd ../screens
+cd ../services
+cd ../utils
+cd .con alacritty 
+cd .config
+cd .config/
+cd .local
+cd .local/bin
+cd .wslconfig
+cd /mnt/c
+cd /mnt/c/
+cd /mnt/c/Users/dixie/AppData/Roaming/Alacritty
+cd /mnt/c/Users/dixie/gibMacOS\
+cd /mnt/c/desktop
+cd /mnt/c/desktops
+cd /mnt/c/desktops/
+cd /mnt/c/users/appdata/roaming/alacritty
+cd /mnt/c/users/dixie/
+cd /mnt/c/windows/system32/
+cd /mnt/cl
+cd /mnt/d/Download
+cd /mnt/d/Downloado
+cd /mnt/d/Downloads
+cd /mnt/d/Downloads/GIXZ_ARCH_V7
+cd /mnt/d/Downloads/GIXZ_ARCH_V7_UPDATED_FULL
+cd /mnt/d/download
+cd /tmp
+cd Alacritty
+cd Downloads
+cd GIXZ_ARCH_FILLED
+cd GIXZ_ARCH_V2
+cd GIXZ_ARCH_V7/
+cd Gigs
+cd ProfileV2
+cd Users
+cd agent-config\
+cd alacritty
+cd android
+cd android && ./gradlew clean && cd ..\
+cd antigravity-proxy-skill
+cd assets
+cd backup
+cd bin
+cd config
+cd constants
+cd core
+cd dixie
+cd docs
+cd dot
+cd dot con
+cd dot config
+cd dot config bin
+cd dot loc bin
+cd dot local
+cd dot local bin
+cd dotf
+cd dotfiles
+cd exercise-data
+cd freelance-system
+cd gemini-cli-openai\
+cd gi
+cd gix
+cd gixz
+cd gixz arch
+cd local
+cd lua
+cd mi
+cd migration
+cd mnt/c
+cd nvim
+cd perso
+cd personal
+cd plugins
+cd project
+cd projects
+cd realocate
+cd restructured_docs
+cd screens
+cd screens/Gigs
+cd shell-lesson-data
+cd shell-lesson-data/
+cd source
+cd system-backup-20260226_065902
+cd system-backups
+cd videos
+cd zedocean
+cd ~
+cd ~ local
+cd ~/.config
+cd ~/.config/Alacritty/
+cd ~/.local/bin
+cd ~/dot
+cd ~/dotfiles
+cd ~/dotfiles/
+cd ~/downloads
+cd ~/gix
+cd ~/gixz
+cd ~/gixz && ANDROID_HOME=$HOME/Android/Sdk JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 npx expo run:android
+cd ~/gixz && ANDROID_HOME=$HOME/Android/Sdk npx expo run:android
+cd ~/gixz && EXPO_TUNNEL_SUBDOMAIN=gixz npx expo start --tunnel
+cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=172.29.96.1 npx expo start --lan
+cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.4 npx expo start --lan
+cd ~/gixz && claude
+cd ~/gixz && git add -A && git commit -m "discover screen progress"\
+cd ~/gixz && git checkout package-lock.json && rm -rf node_modules && npm ci && rm -rf android/app/.cxx && npx expo run:android
+cd ~/gixz && git checkout package-lock.json && rm -rf node_modules && npm ci && rm -rf android/app/.cxx && rm -rf node_modules/react-native-gesture-handler/android/build && npx expo run:android
+cd ~/gixz && git checkout package-lock.json && rm -rf node_modules && npm ci && rm -rf android/app/.cxx && rm -rf node_modules/react-native-gesture-handler/android/build && sed -i '/newArchEnabled/d' android/gradle.properties && npx expo run:android
+cd ~/gixz && git remote add origin https://github.com/Xokra/gixz.git
+cd ~/gixz && git status
+cd ~/gixz && npm install && npx expo start --tunnel --clear
+cd ~/gixz && npm install --save-dev babel-plugin-module-resolver && adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost --clear
+cd ~/gixz && npm install -g @expo/ngrok && npx expo start --tunnel\
+cd ~/gixz && npm install @react-native/debugger-shell --ignore-scripts && npx expo start --no-dev-tools
+cd ~/gixz && npm install @react-navigation/native @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
+cd ~/gixz && npm install babel-preset-expo && npx expo start --tunnel --clear
+cd ~/gixz && npm install expo-splash-screen\
+cd ~/gixz && npm install react-native-safe-area-context\
+cd ~/gixz && npm install use-sync-external-store
+cd ~/gixz && npm install use-sync-external-store\
+cd ~/gixz && npm uninstall react-native-svg && npx expo run:android
+cd ~/gixz && npx expo install expo-linear-gradient
+cd ~/gixz && npx expo install expo-navigation-bar
+cd ~/gixz && npx expo install expo-system-ui
+cd ~/gixz && npx expo install expo-video
+cd ~/gixz && npx expo install expo@~55.0.5 react-native-safe-area-context@~5.6.2 react-native-screens@~4.23.0
+cd ~/gixz && npx expo install react-native-gesture-handler && npx expo start --tunnel
+cd ~/gixz && npx expo run:android
+cd ~/gixz && npx expo run:android 2>&1 | grep -E "BUILD|error|Error|FAILED|SUCCESS|Installing|Opening"
+cd ~/gixz && npx expo run:android 2>&1 | tail -30
+cd ~/gixz && npx expo start
+cd ~/gixz && npx expo start --clear
+cd ~/gixz && npx expo start --clear\
+cd ~/gixz && npx expo start --lan
+cd ~/gixz && npx expo start --tunnel
+cd ~/gixz && npx expo start --tunnel\
+cd ~/gixz && npx react-native start --reset-cache
+cd ~/gixz && nvim app.js\
+cd ~/gixz && rm -rf node_modules && npm install && rm -rf android/app/.cxx && npx expo run:android
+cd ~/gixz/android && ./gradlew clean && cd ~/gixz && npx expo run:android
+cd ~/gixz/android && ./gradlew clean --rerun-tasks && cd ~/gixz && npx expo run:android
+cd ~/gixz/assets && for f in *.mp4; do ffmpeg -i "$f" -vf "scale=-2:720" -c:v libx264 -crf 23 -preset fast -c:a copy "/tmp/${f}" && mv "/tmp/${f}" "$f"; done
+cd ~/gixz/assets/videos && for f in *.mp4; do ffmpeg -i "$f" -vf "scale=-2:720" -c:v libx264 -crf 23 -preset fast -c:a copy "/tmp/${f}" && mv "/tmp/${f}" "$f"; done
+cd ~/gixz/assets/videos && for f in *.mp4; do ffmpeg -i "$f" -vframes 1 -q:v 2 "${f%.mp4}_thumb.jpg" 2>/dev/null; done && echo "Done"
+cd ~/gixz/assets/videos && for f in test_dark test_bright_sky test_bright_white test_warm_mid test_neon_pink test_colorful_busy; do ffmpeg -i ${f}.mp4 -vf scale=720:-2 -r 30 -c:v libx264 -crf 23 ${f}_tmp.mp4 && mv ${f}_tmp.mp4 ${f}.mp4; done
+cd ~/gixz/screens
+cd ~/gixz\
+cd ~/per
+cd ~/personal
+cd ~/personal/antigravity-claude-proxy && \\
+cd ~/personal/antigravity-proxy-skill
+cd ~/personal/antigravity-proxy-skill\
+cd ~/personal/project/gixz/
+cd ~/personal/projects
+cd ~/personal/projects/
+cd ~/personal/projects/agent-config
+cd ~/personal/projects/gixz/
+cd ~/personal/projects/gixz/realocate
+cd ~/system-backups
+cd ~dotfil
+cd ~gi
+cd ~personal
+chmod +x .tmux-timezones.sh\
+chmod +x ~/profile-zsh.sh\
+claude
+claude logout
+clear
+const styles = StyleSheet.create({ screen: { flex: 1, backgroundColor: '#000', alignItems: 'center', justifyContent: 'center' }, text: { color: '#FF2D78', fontSize: 24, fontWeight: 'bold' } });" > ~/gixz/screens/Create.js
+const styles = StyleSheet.create({ screen: { flex: 1, backgroundColor: '#000', alignItems: 'center', justifyContent: 'center' }, text: { color: '#FF2D78', fontSize: 24, fontWeight: 'bold' } });" > ~/gixz/screens/Discover.js
+const styles = StyleSheet.create({ screen: { flex: 1, backgroundColor: '#000', alignItems: 'center', justifyContent: 'center' }, text: { color: '#FF2D78', fontSize: 24, fontWeight: 'bold' } });" > ~/gixz/screens/Gigs.js
+const styles = StyleSheet.create({ screen: { flex: 1, backgroundColor: '#000', alignItems: 'center', justifyContent: 'center' }, text: { color: '#FF2D78', fontSize: 24, fontWeight: 'bold' } });" > ~/gixz/screens/Inbox.js
+const styles = StyleSheet.create({ screen: { flex: 1, backgroundColor: '#000', alignItems: 'center', justifyContent: 'center' }, text: { color: '#FF2D78', fontSize: 24, fontWeight: 'bold' } });" > ~/gixz/screens/Profile.js
+cp -r .git ../git-backup-$(date +%Y%m%d%H%M%S)
+cp -r /mnt/d/Downloads/best2final.jpg ~/Downloads/cbum.jpg
+cp -r /mnt/d/Downloads/best2final.jpg ~/dotfiles/Downloads/cbum.jpg
+cp -r /mnt/d/Downloads/best2finals.jpg ~/Downloads/cbum.jpg
+cp -r ~/dotfiles/.local/share /tmp/backup-local-share\
+cp -r ~/freelance-system/ /mnt/c/Downloads/
+cp -r ~/freelance-system/compare-readme.md /mnt/c/Downloads/
+cp -r ~/freelance-system/readme.md /mnt/c/Downloads/
+cp -r ~/freelance-system/templates/ /mnt/c/Downloads/
+cp -r ~/freelance-system/templates/css/frameworks/ /mnt/c/Downloads/
+cp -r ~/freelance-system/templates/js/ /mnt/c/Downloads/
+cp -r ~/luasnip-readme.md ~/freelance-system/
+cp -r ~/personal/projects/learning/js/learn.txt /mnt/c/Downloads/
+cp ~/.local/bin/.tmux-timezones.sh ~/.tmux-timezones.sh
+cp ~/.zsh_history ~/dotfiles/\
+cp ~/freelance-system/templates/css/frameworks/ /mnt/c/Downloads/
+cp ~/gixz/App.js ~/gixz/App.js.bak
+cp ~/gixz/screens/Gigs/index.js ~/gixz/screens/Gigs/index.js.bak
+cross-platform-backup.sh
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"\
+curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/coding_agent_account_manager/main/install.sh" | bash\
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -\
+curl -fsSL https://fnm.vercel.app/install | bash && source ~/.zshrc && fnm install 22 && fnm use 22 && fnm default 22 && cd ~ && rm -rf gixz && npx create-expo-app@latest gixz --template blank && cd gixz && npx expo start
+curl -s "http://localhost:8081/index.bundle?platform=android" > /tmp/bundle.js\
+curl -s "http://localhost:8081/index.bundle?platform=android&dev=true&minify=false" -o /tmp/b.js && python3 -c "\
+curl -s http://localhost:8081/index.bundle?platform=android > /tmp/bundle.js
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin     
+curl http://localhost:8081/index.bundle?platform=android 2>/dev/null | head -5
+data = open('/tmp/b.js').read()\
+df -h
+df -h /
+dpkg -l | grep chrome
+du -h --max-depth=1
+du -sh
+du -sh *
+eas build -p android --profile preview
+eas build:configure\
+eas init --id e72740a8-d00c-4e90-be87-67faf9e8b84e
+eas login\
+echo ".local/share/" >> ~/dotfiles/.gitignore\
+echo "=== ZSH STARTUP PROFILING ==="\
+echo "[wsl2]`nprocessors=4`nmemory=6GB" | Out-File -Encoding utf8 "$env:USERPROFILE\.wslconfig"
+echo "import { View, Text, StyleSheet } from 'react-native';\
+echo "legacy-peer-deps=true" > ~/gixz/.npmrc
+echo "sdk.dir=$ANDROID_HOME" > ~/gixz/android/local.properties\
+echo "sdk.dir=$HOME/Android/Sdk" > ~/gixz/android/local.properties && npx expo run:android
+echo "sdk.dir=/home/zed/Android/Sdk" > ~/gixz/android/local.properties
+echo $OPENCLAW_STATE_DIR\
+echo $PATH | tr ':' '\n' | grep -E "/mnt/c|/usr/lib/wsl"\
+echo $PATH | tr ':' '\n' | grep -i "/mnt/c"\
+echo $PATH | tr ':' '\n' | head -20\
+echo $PATH | tr ':' '\n' | tail -10\
+echo $PATH | tr ':' '\n' | wc -l\
+echo $SHELL
+echo 'zmodload zsh/zprof' | cat - ~/.zshrc > temp && mv temp ~/.zshrc\
+emulator -list-avds\
+end   = min(len(lines), 187999 + 5)\
+end   = min(len(lines), n + 5)\
+export PATH="$HOME/personal/node/bin:$HOME/personal/openclaw/bin:$PATH"
+export REACT_NATIVE_PACKAGER_HOSTNAME=$(cat /etc/resolv.conf | grep nameserver | cut -d ' ' -f2) && cd ~/gixz && npx expo start --lan
+export default function Create() {\
+export default function Discover() {\
+export default function Gigs() {\
+export default function Inbox() {\
+export default function Profile() {\
+ffmpeg -version 2>/dev/null | head -1 || echo "NOT INSTALLED"
+file ~/dotfiles/.local/bin/setup-dotfiles.sh\
+find . -name "*.md" | wc -l
+find .git/objects -type f -size 0 -delete
+find /home/zed -name "adb" 2>/dev/null\
+find /mnt/c -name "firefox.exe" 2>/dev/null\
+find /usr -name "java" 2>/dev/null | head -5\
+find ~ -type l -exec ls -la {} \; 2>/dev/null | grep dotfiles\
+find ~ -type l -lname "*dotfiles*" 2>/dev/null\
+find ~ -xtype l 2>/dev/null\
+find ~/ -name "emulator" -type f 2>/dev/null
+find ~/.config/nvim/lua -type f | sort
+find ~/.config/nvim/lua -type f | sort && ls ~/.local/share/nvim/lazy/ 2>/dev/null && ls ~/.local/share/nvim/mason/packages/ 2>/dev/null
+find ~/Android -name "adb" 2>/dev/null
+find ~/gixz -name "*.js" -not -path "*/node_modules/*" -not -path "*/.expo/*" | xargs grep -l "StyleSheet" 2>/dev/null
+find ~/gixz/android/app/build -name "*svg*" 2>/dev/null
+for i in range(188219, 188230):\
+for i in range(start, end):\
+for lineno in [195299, 3867, 108140, 187070]:\
+for mid in ['188226','187070','108140','3867']:\
+found 0 vulnerabilities
+free -h\
+fzf --version 2>/dev/null || echo "fzf not found"\
+gemini
+gemini "make a new folder to make a new version of all the .md files (excluding fresh_ai_prompt.md) the way fresh_ai_prompt.md intended, without changing the original .md files"
+gemini -f ~/personal/projects/gixz/migration/source/master_part1.8.md \\
+gemini -f ~/personal/projects/gixz/migration/source/master_part2.0.md \\
+gemini auth status
+gemini extensions https://github.com/brianlovin/agent-config/tree/main/skills/simplify
+gemini extensions install https://github.com/brianlovin/agent-config.git
+gemini extensions install https://github.com/brianlovin/agent-config/tree/main/skills/simplify
+gemini make a new folder to make a new version all the .md(excluding the fresh_ai_prompt.md)the way the fresh_ai_prompt.md intended. without changing the original .md
+git --version
+git -C ~/system-backups remote set-url origin git@github.com:Xokra/system-backups.git
+git add .
+git add .tmux-timezones.sh\
+git branch --show-current && git rev-parse --abbrev-ref --symbolic-full-name @{u} 2>&1 && git config push.default
+git branch -M main
+git checkout 28c66393 -- .tmux-timezones.sh\
+git clone --filter=blob:none https://github.com/folke/lazy.nvim.git --branch=stable ~/dotfiles/.local/share/nvim/lazy/lazy.nvim\
+git clone https://github.com/brianlovin/agent-config.git\
+git clone https://github.com/grndis/gemini-cli-openai.git\
+git clone https://github.com/heinhtethtoo/antigravity-proxy-skill.git && \\
+git clone https://github.com/heinhtethtoo/antigravity-proxy-skill.git\
+git commit -m "Restore tmux timezone script"\
+git commit -m "first backup"
+git commit -m "first commit"
+git config --global credential.helper store
+git config --global push.default upstream && echo "Fixed: now 'git push' will always use your upstream branch (origin/master)"
+git config --global user.email
+git config --global user.name
+git credential reject <<EOF\
+git fetch --all --refetch 2>/dev/null || git fetch --all
+git fetch origin
+git fsck --full
+git fsck 2>&1 | grep "object file.*is empty" | sed -E 's/.*\.git/\.git/' | xargs rm -f && git fsck
+git init
+git log --oneline
+git log --oneline -5 -- package-lock.json
+git log --oneline\
+git ls-remote https://github.com/Xokra/gixz.git
+git pull origin main --allow-unrelated-histories
+git push
+git push -u origin HEAD:master
+git push -u origin main
+git push -u origin master
+git push origin HEAD
+git push origin HEAD:master
+git push origin head
+git reflog
+git remote add origin git@github.com:Xokra/backups.git
+git remote add origin git@github.com:Xokra/freelance-template-system.git
+git remote add origin git@github.com:Xokra/personal.git
+git remote set-url origin git@github.com:xokra/gixz.git
+git repack -a -d -l
+git reset --hard origin/master
+git show --name-only HEAD@{1}  # or whatever the commit hash was\
+git show --name-only HEAD@{1} | grep -i tmux\
+git show --name-only HEAD@{1} | grep -v "\.local"\
+git show --name-only HEAD~1\
+git show 28c66393 -- . ':!.local'\
+git show 28c66393 --name-only\
+git status
+google-chrome
+grep "expo-video" ~/gixz/package.json
+grep "from 'react-native-svg'" ~/gixz/screens/Gigs/index.js
+grep "react-native" ~/gixz/App.js | grep "^import" | grep -v "from.*react-native-"\
+grep "react-native-screens" ~/gixz/package.json
+grep "react-native-svg" ~/gixz/package.json
+grep "react-native-svg" ~/gixz/package.json ~/gixz/package-lock.json
+grep -E "PATH.*bin" ~/.bashrc ~/dotfiles/.zshrc 2>/dev/null || echo "No PATH modifications found"\
+grep -n "Profile" ~/gixz/App.js
+grep -n "RNStatusBar\|StatusBar" ~/gixz/screens/Discover.js | head -20
+grep -n "^function\|^export default function" ~/gixz/screens/Discover.js
+grep -n "followButton\|followText\|photoColumn\|storyRing\|profilePhoto" ~/gixz/screens/Discover.js | tail -20\
+grep -n "height" ~/gixz/screens/Discover.js
+grep -n "photoCol\|nameRow\|followBtn\|instrument\|cityText\|leftCol\|middleCol\|rightCol" ~/gixz/screens/Discover.js | head -30
+grep -n "tmux-timezones" ~/.tmux.conf\
+grep -n "useWindowDimensions\|useSafeAreaInsets\|listHeight\|windowHeight" ~/gixz/screens/Discover.js
+grep -n "venueRow\|venuePill\|paketBadge" ~/gixz/screens/Discover.js | tail -20\
+grep -n "venue\|camera\|location\|pill\|row" ~/gixz/screens/Discover.js | head -40
+grep -r "expo-blur" ~/gixz/screens/ ~/gixz/constants/ ~/gixz/hooks/ ~/gixz/components/
+grep -r "react-native-svg" ~/gixz/android/app/build/generated/ 2>/dev/null | head -5
+grep -r "react-native-svg" ~/gixz/node_modules/.package-lock.json 2>/dev/null | head -5
+grep -r "react-native-svg" ~/gixz/package-lock.json | head -3\
+grep -r "react-native-svg" ~/gixz/screens/ ~/gixz/components/ ~/gixz/App.js 2>/dev/null
+grep -rn "StyleSheet" ~/gixz/screens ~/gixz/components ~/gixz/constants ~/gixz/hooks 2>/dev/null --include="*.js" | grep -v "StyleSheet.create" | grep -v "node_modules"
+grep -rn "^const VENUE_TYPE_COLORS\|^const PHOTOGRAPHER_SHEET_COLORS\|^const CREATOR_SHEET_COLORS\|^const T = memo\|^const CREATOR_DATA_MAP\|^const CREATOR_PACKAGES\|^function blendDarkColor\|VENUE_DATA_MAP\[\|CREATOR_DATA_MAP\[\|CREATOR_PACKAGES\[\|VENUE_PACKAGES\[" ~/gixz/screens ~/gixz/constants ~/gixz/App.js | grep -v "colors.js\|DevFontCtx.js\|dummy.js"
+grep -rn \\
+grep -v "^RULE:\|^GATE:\|^NEVER:\|^ALWAYS:\|^TRIGGER:\|\
+head -15 ~/gixz/App.js\
+host=github.com\
+hx
+i
+idx = data.find('188226')\
+if idx != -1:\
+if uname -r | grep -q -i microsoft || uname -r | grep -q -i wsl; then\
+import re\
+install -m 755 lazygit ~/.local/bin/lazygit\
+ip addr | grep "inet " | grep -v "127.0.0.1"
+ip route | grep default | awk '{print $3}'
+kb
+la
+lazygit --version
+lazygit --version\
+lgdot
+lgper
+lines = data.split('\n')\
+lines = open('/tmp/bundle.js').readlines()\
+ln -a
+ls -/a
+ls -F
+ls -F Desktop
+ls -P
+ls -R
+ls -Rla
+ls -a
+ls -a -I '.git'
+ls -la ~/ | grep "\->"\
+ls -la ~/.config/
+ls -la ~/.config/ | grep -E "(alacritty|nvim)"\
+ls -la ~/.config/alacritty/
+ls -la ~/.local/\
+ls -la ~/.local/bin
+ls -la ~/.local/bin/
+ls -la ~/.local/share/nvim/lazy/lazy.nvim\
+ls -la ~/.local/share\
+ls -la ~/.zsh* ~/.zprofile ~/.zlogin ~/.zlogout 2>/dev/null\
+ls -la ~/.zshrc
+ls -la ~/bin/\
+ls -la ~/dotfiles/ 
+ls -la ~/dotfiles/.config/
+ls -la ~/dotfiles/.config/\
+ls -la ~/dotfiles/.config/alacritty/\
+ls -la ~/dotfiles/.config/bin
+ls -la ~/dotfiles/.config/bin/
+ls -la ~/dotfiles/.local/bin/
+ls -la ~/dotfiles/.local/share/\
+ls -la ~/freelance-system/
+ls -la ~/freelance-system/templates/
+ls -la ~/freelance-system/templates/css/
+ls -la ~/freelance-system/templates/css/frameworks/
+ls -la ~/freelance/
+ls -la ~/gixz | grep "Zone"
+ls -la ~/gixz/android/gradlew
+ls -la ~/gixz/screens/ProfileV2/config/\
+ls -la ~/gixz/screens/ProfileV2/tabs/\
+ls -la ~/personal/
+ls -la-
+ls -lh ~/gixz/android/app/build/outputs/apk/debug/app-debug.apk
+ls -s exercise-data
+ls /mnt/c/Users/zed/AppData/Local/Android/Sdk 2>/dev/null || echo "NOT FOUND"
+ls a
+ls ln -a
+ls node_modules/expo-blur
+ls north-pacific-gyre
+ls | grep app
+ls ~/.config/nvim/
+ls ~/.local/share/nvim/lazy/lazy.nvim\
+ls ~/Android/Sdk/emulator\
+ls ~/gixz/android/app/src/main/assets/
+ls ~/gixz/assets/\
+ls ~/gixz/constants/\
+ls ~/gixz/data/\
+ls ~/gixz/node_modules/react-native-svg 2>/dev/null
+ls ~/gixz/services/\
+ls ~/gixz/utils/\
+m = re.search(r'__d\(', data)\
+mkdir -p ~/.local/share/nvim/lazy\
+mkdir -p ~/.npm-global && npm config set prefix ~/.npm-global && echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc && source ~/.zshrc && npm install -g @expo/ngrok@4.1.0 && cd ~/gixz && npx expo start --tunnel
+mkdir -p ~/Android/Sdk/cmdline-tools && cd ~/Android/Sdk/cmdline-tools && wget -q https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip && unzip -q commandlinetools-linux-11076708_latest.zip && mv cmdline-tools latest && export ANDROID_HOME=$HOME/Android/Sdk && export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools && yes | sdkmanager --licenses && sdkmanager "platform-tools" "build-tools;34.0.0" "platforms;android-34"
+mkdir -p ~/dotfiles/.config/alacritty/
+mkdir -p ~/dotfiles/.local/bin/
+mkdir -p ~/dotfiles/.local/share/nvim/lazy\
+mkdir -p ~/dotfiles/alacritty/
+mkdir -p ~/gixz/docs/
+mkdir -p ~/personal && mv ~/dotfiles/journal ~/dotfiles/projects ~/personal/ && mv ~/cross-platform-backup.sh ~/profile-zsh.sh ~/swap-files-between-panes.sh ~/wsl-cleanup.sh ~/lazygit ~/dotfiles/setup-dotfiles.sh ~/dotfiles/smart-stow.sh ~/dotfiles/wsl-inventory.sh ~/dotfiles/.local/bin/
+mkdir -p ~/personal/projects/gixz/migration/labeled
+mkdir Downloads
+mkdir ~/gixz/screens\
+mv /tmp/backup-local-share ~/.local/share\
+mv ~/"to mama" ~/personal/
+mv ~/agent-config ~/personal/projects/
+mv ~/dotfiles/.config/bin ~/dotfiles/.local/bin/.tmux-timezones.sh
+mv ~/dotfiles/.config/bin/.tmux-timezones.sh ~/dotfiles/.local/bin
+mv ~/dotfiles/.local/bin/.tmux-timezones.sh ~/dotfiles/.local/bin/tmux-timezones.sh
+mv ~/dotfiles/.tmux-timezones.sh ~/dotfiles/.config/bin
+mv ~/gixz/app.js ~/gixz/App.js
+mv ~/luasnip-readme.md ~/freelance-system/
+ngrok config check
+ngrok http 8081\
+node --version
+node --version\
+node -v
+npm --version
+npm audit fix
+npm audit fix --force
+npm create vite@latest gixz -- --template react && cd gixz && npm install && npm run dev\
+npm fund
+npm install --legacy-peer-deps\
+npm install -g @anthropic-ai/claude-code
+npm install -g @google/gemini-cli
+npm install -g antigravity-proxy
+npm install -g eas-cli
+npm install -g ngrok
+npm install -g openclaw@latest\
+npm install -g pm2
+npm install -g pm2\
+npm install -g proxypool-hub\
+npm install @react-navigation/bottom-tabs@latest --legacy-peer-deps
+npm install expo-video@~1.1.0 --legacy-peer-deps --save
+npm install expo@^55.0.0
+npm install expo@latest --legacy-peer-deps && npx expo install --fix && rm package-lock.json && npm install --legacy-peer-deps && eas build -p android --profile preview
+npm install react-native-screens@4.24.0 --legacy-peer-deps --save --force
+npm install react-native-screens@4.24.0 --legacy-peer-deps --save\
+npm install react-native-screens@latest --legacy-peer-deps
+npm install\
+npm run auth add personal-account\
+npm run auth add work-account\
+npm run auth list
+npm run auth list\
+npm start
+npm start\
+npm uninstall expo-av --legacy-peer-deps && rm package-lock.json && npm install --legacy-peer-deps && eas build -p android --profile preview
+npx antigravity-claude-proxy accounts add
+npx expo --version
+npx expo install --fix
+npx expo install @expo-google-fonts/poppins @expo-google-fonts/plus-jakarta-sans @expo-google-fonts/montserrat @expo-google-fonts/inter @expo-google-fonts/dm-sans @expo-google-fonts/nunito @expo-google-fonts/oswald @expo-google-fonts/raleway @expo-google-fonts/outfit @expo-google-fonts/urbanist
+npx expo install @expo-google-fonts/space-grotesk @expo-google-fonts/syne @expo-google-fonts/manrope @expo-google-fonts/figtree @expo-google-fonts/jost @expo-google-fonts/kanit @expo-google-fonts/be-vietnam-pro @expo-google-fonts/barlow @expo-google-fonts/exo-2 @expo-google-fonts/rubik @expo-google-fonts/work-sans @expo-google-fonts/ibm-plex-sans @expo-google-fonts/lexend @expo-google-fonts/mulish @expo-google-fonts/karla @expo-google-fonts/nunito-sans @expo-google-fonts/prompt
+npx expo install @expo/ngrok
+npx expo install @react-navigation/native-stack
+npx expo install expo-asset
+npx expo install expo-asset expo-linear-gradient expo-navigation-bar expo-splash-screen expo-system-ui expo-video
+npx expo install expo-av expo-linear-gradient
+npx expo install expo-blur
+npx expo install react-native-screens
+npx expo install react-native-svg
+npx expo run:android
+npx expo run:android\
+npx expo start
+npx expo start --clear
+npx expo start --clear\
+npx expo start --host 192.168.1.1
+npx expo start --lan
+npx expo start --tunnel
+npx expo start\
+npx ngrok config add-authtoken EDABNVPASIRS7XOJ2WYCIXA2YGWGSA6B
+npx start
+nvim
+nvim --headless -c 'silent map' -c 'silent map!' -c 'silent tmap' -c 'qa' | awk '/^[nivtxcosp]\s/ {print $2}' | sort -u\
+nvim --headless \\
+nvim .zshrc
+nvim App.js
+nvim CrystalLegacy.txt
+nvim MASTER.md
+nvim YellowLegacy.txt
+nvim alacritty.toml
+nvim index.html
+nvim new.md
+nvim setup-dotfiles.sh
+oh-my-posh --version 2>/dev/null || echo "oh-my-posh not found"\
+openclaw --version
+openclaw config unset plugins.entries.google-anti-gravity-oauth\
+openclaw config unset plugins.entries.google-gemini-cli-oauth\
+openclaw gateway restart && openclaw tui\
+openclaw models auth --help
+openclaw models auth add
+openclaw models auth login --provider google-gemini-cli --set-default
+openclaw models list --provider google-gemini-cli
+openclaw models set google/gemini-3-flash && openclaw gateway restart
+openclaw onboard --install-daemon
+openclaw plugins enable google-anti-gravity-oauth\
+openclaw plugins enable google-gemini-cli-oauth\
+pip install deepseek-cli
+pipx ensurepath\
+pipx install deepseek-cli
+pkill ngrok ; sleep 2 && cd ~/gixz && npx expo start --tunnel
+pm2 --version
+pm2 --version\
+pm2 list
+pm2 list\
+powershell.exe ipconfig.exe | grep -A 5 "Wi-Fi" | grep "IPv4"
+print('---')\
+print('188226 raw at pos:', idx)\
+print('CONTEXT (lines 188220-188230):')\
+print('CRASH LOCATION:')\
+print('First __d at pos:', m.start())\
+print('LINE 188226:')\
+print('Total lines:', len(lines))\
+print()\
+print(data[188100:188350])\
+print(data[m.start():m.start()+300])\
+print(lines[188225])\
+protocol=https\
+proxypool-hub
+ps --no-headers -o comm 1\
+ps aux | head -10\
+pwd
+python --version\
+python -m pip install aider-install
+python -m pip install aider-install\
+python3 -c "\
+realpath ~/dotfiles\
+rm "app.config.js:Zone.Identifier"
+rm "app.json:Zone.Identifier"\
+rm -f ~/.git-credentials
+rm -f ~/.zcompdump*
+rm -f ~/.zcompdump*\
+rm -rf /mnt/c/Downloads/frameworks/
+rm -rf /mnt/c/Downloads/frameworks/ /mnt/c/Downloads/animations.js
+rm -rf /mnt/c/Downloads/freelance-system/
+rm -rf /mnt/c/Downloads/templates
+rm -rf /mnt/c/Downloads/templates/
+rm -rf /tmp/metro-* && rm -rf ~/gixz/.expo && cd ~/gixz && npx expo run:android
+rm -rf /tmp/metro-* ~/.metro
+rm -rf /tmp/metro-* ~/.metro /tmp/haste-* && npx expo start --clear
+rm -rf android\
+rm -rf ~/.claude && claude
+rm -rf ~/.claude\
+rm -rf ~/.config/Alacritty/
+rm -rf ~/.config/bin/
+rm -rf ~/.config/google-chrome/
+rm -rf ~/.config/ohmyposh
+rm -rf ~/.local/share/zinit/completions/_*\
+rm -rf ~/antigravity-proxy-skill\
+rm -rf ~/deepseek_env ~/powerlevel10k ~/neovim ~/google-chrome-stable_current_amd64.deb ~/lazygit.tar.gz ~/nvim-linux64.tar.gz ~/nvim-linux64.tar.gz.1 && echo "Cleanup complete! Check disk usage with: df -h /"
+rm -rf ~/dotfiles/.config/Alacritty\
+rm -rf ~/dotfiles/.config/alacritty/
+rm -rf ~/dotfiles/.local/share\
+rm -rf ~/dotfiles/.zsh_history
+rm -rf ~/dotfiles/alacritty/
+rm -rf ~/dotfiles/system-backup-02250720_170824
+rm -rf ~/dotfiles/system-backup-20250720_170824
+rm -rf ~/gixz/android/app/.cxx && cd ~/gixz && npx expo run:android
+rm -rf ~/gixz/android/app/.cxx && rm -rf ~/gixz/node_modules/react-native-gesture-handler/android/build && cd ~/gixz && npx expo run:android
+rm -rf ~/journal ~/projects
+rm -rf ~/personal/.openclaw
+rm -rf ~/personal/antigravity-proxy-skill
+rm -rf ~/personal/openclaw/
+rm -rf ~/personal/projects/agent-config/
+rm -rf ~/system-backup/ ~/system-backup-20250717_121535
+rm -rf ~/system-backup/ ~/system/backup-20250717_121535
+rm -rf ~/wsl-backup/
+rm .git/objects/a1/4558940f60b8cf046e3cd824cd06704253d7b5
+rm /home/zed/personal/node/bin/claude
+rm app.json\
+rm lazygit lazygit.tar.gz\
+rm ~/-
+rm ~/.config/Alacritty\
+rm ~/.config/alacritty/alacritty.toml\
+rm ~/.config/bin
+rm ~/.config/bin/
+rm ~/.local/bin/.tmux-timezones.sh
+rm ~/.local/share\
+rm ~/.tmux-timezones.sh
+rm ~/.tmux.timezone.sh
+rm ~/.tmux.timezones.sh
+rm ~/dotfiles/-
+rm ~/gixz/.npmrc
+rm ~/gixz/package-lock.json\
+rm ~/gixz/screens/Discover.js ~/gixz/screens/VideoCard.js ~/gixz/screens/SideButtons.js ~/gixz/screens/FilterPanel.js ~/gixz/screens/MarqueeText.js
+rm ~/journal ~/projects\
+rm ~/setup-dotfiles.sh ~/smart-stow.sh ~/wsl-inventory.sh
+run gradlew
+s
+sed -i '/\.zsh_history/d' ~/dotfiles/.gitignore
+sed -i '/\.zsh_history/d' ~/dotfiles/.gitignore\
+sed -i 's/\r//' ~/dotfiles/.local/bin/setup-dotfiles.sh\
+sed -i 's/^# eval "$(oh-my-posh init zsh --config $HOME\/.config\/ohmyposh\/zen.toml)"/eval "$(oh-my-posh init zsh --config $HOME\/.config\/ohmyposh\/zen.toml)"/' ~/.zshrc\
+sed -i 's/^eval "$(oh-my-posh init zsh --config $HOME\/.config\/ohmyposh\/zen.toml)"/# &/' ~/.zshrc\
+sed -n '1,20p' ~/gixz/App.js
+sed -n '135,160p' ~/gixz/screens/Discover.js
+sed -n '1369,1405p' ~/gixz/screens/Discover.js\
+sed -n '1429,1480p' ~/gixz/screens/Discover.js\
+sed -n '155,185p' ~/gixz/screens/Discover.js
+sed -n '20,35p' ~/gixz/App.js
+sed -n '48,65p' ~/gixz/App.js\
+sed -n '55,70p' ~/gixz/App.js
+sed -n '600,660p' ~/gixz/screens/Discover.js\
+sed -n '683,720p' ~/gixz/screens/Discover.js\
+sed -n '730,760p' ~/gixz/screens/Discover.js\
+sed -n '730,800p' ~/gixz/screens/Discover.js\
+sed -n '855,890p' ~/gixz/screens/Discover.js\
+sed -n '870,892p' ~/gixz/screens/Discover.js\
+sed -n '880,890p' ~/gixz/screens/Discover.js\
+sed -n '95,115p' ~/gixz/screens/Discover.js
+smart-stow.sh
+source ~/.zshrc
+source ~/.zshrc\
+ssh -T git@github.com
+ssh-keygen -t ed25519 -C "dixiemaurece@gmail.com"
+start = max(0, 187999 - 5)\
+start = max(0, n - 5)\
+stow --adopt .
+su
+sudo APP_VARIANT=development npx expo run:android\n[200~echo "sdk.dir=$ANDROID_HOME" > ~/gixz/android/local.properties
+sudo apt autoremove
+sudo apt install -y curl git python3 python3-pip
+sudo apt install ffmpeg 
+sudo apt install ffmpeg --noconfirm
+sudo apt install pandoc
+sudo apt install python-is-python3 -y
+sudo apt install python3\
+sudo apt remove ollama 
+sudo apt update && sudo apt install -y curl jq
+sudo apt update && sudo apt install -y openjdk-17-jdk
+sudo apt update && sudo apt install cosign\
+sudo apt update && sudo apt install lazygit\
+sudo apt update && sudo apt install pipx\
+sudo apt-get autoremove
+sudo apt-get install -f
+sudo apt-get install -y adb && adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && npx expo start --localhost
+sudo apt-get install emulator
+sudo apt-get install wslu
+sudo apt-get purge google-chrome-stable
+sudo apt-get update && sudo apt-get upgrade -y
+sudo cd ~/gixz && npm install @react-native/debugger-shell --ignore-scripts && npx expo start --no-dev-tools[200~cd ~/gixz && npx expo start
+sudo dpkg -i google-chrome-stable_current_amd64.deb\
+sudo rm /usr/local/bin/oh-my-posh
+sudo sed -n '730,800p' ~/gixz/screens/Discover.js\n[200~grep -n "followButton\|followText\|photoColumn\|storyRing\|profilePhoto" ~/gixz/screens/Discover.js | tail -20
+sudo systemctl stop ollama   
+sudo systemctl stop ollama 2>/dev/null || true && sudo apt remove -y ollama 2>/dev/null || true && sudo rm -rf /usr/share/ollama /usr/local/lib/ollama ~/.ollama && rm -rf ~/deepseek_env ~/powerlevel10k ~/neovim ~/google-chrome-stable_current_amd64.deb ~/lazygit.tar.gz ~/nvim-linux64.tar.gz ~/nvim-linux64.tar.gz.1 && echo "Cleanup complete! Check disk usage with: df -h /"
+tar xf lazygit.tar.gz lazygit\
+time find ~ -maxdepth 2 -type f | head -100 > /dev/null\
+time zsh -i -c 'exit'\
+time zsh -i -c 'zprof | head -20'\
+time zsh -i -c exit\
+tmux
+tmux --session
+tmux a
+tmux a -t 0
+tmux a 0
+tmux a 3
+tmux a main
+tmux exit
+tmux kill-ses -t 4
+tmux kill-ses -t 5
+tmux ls
+tmux main
+tmux new
+tmux new session
+touch YellowLegacy.txt
+touch ~/gixz/screens/Discover.js ~/gixz/screens/Gigs.js ~/gixz/screens/Create.js ~/gixz/screens/Inbox.js ~/gixz/screens/Profile.js
+tree -a
+tree -a -I 
+tree -a -I '.git .txt' 
+tree -a -I '.git'
+tree -a -I '.git' 
+tree -a -I '.git' '.txt'
+tree -a -I '.git' /mnt/c/Users/dixie/gibMacOS/
+tree -a -I '.git' ~/.bin/
+tree -a -I '.git' ~/.config/alacritty
+tree -a -I '.git' ~/.config/alacritty/
+tree -a -I '.git' ~/.config/alacritty/.config/
+tree -a -I '.git' ~/.ssh/
+tree -a -I '.git' ~/bin/
+tree -a -I '.git' ~/dotfiles
+tree -a -I '.git' ~/dotfiles | wc -l
+tree -a -I '.git' ~/dotfiles | wc -l\
+tree -a -I '.git' ~/dotfiles/.local/bin/
+tree -a -I '.git' ~/dotfiles\
+tree -a -I '.git' ~/freelance-system/
+tree -a -I '.git' ~/personal
+tree -a -I '.git' ~/personal/
+tree -a -I '.git,.txt' 
+tree -a -I ~/.ssh
+tree -a system-backup-20260226_000243
+tree ~/personal/
+txk
+type gemini-work
+type gemini\
+type lazygit
+unalias gemini
+uname -r | grep -q -i microsoft || uname -r | grep -q -i wsl
+uname -s
+unzip -l ~/gixz/android/app/build/outputs/apk/debug/app-debug.apk | grep assets\
+unzip -p ~/gixz/android/app/build/outputs/apk/debug/app-debug.apk assets/index.android.bundle > /tmp/embedded.js && wc -c /tmp/embedded.js
+v
+vi 
+vi .tmux.conf
+vi .wslconfig
+vi .zshrc
+vi /mnt/c/Users/dixie/AppData/Local?Temp/Alacritty-5580.log
+vi App.js
+vi CrystalLegacy.txt
+vi MASTER
+vi MASTER.md
+vi README.md
+vi YellowLegacy.txt
+vi alacritty.toml
+vi app.js
+vi app.json
+vi browser-profiles.sh
+vi cross-platform-backup.sh
+vi fix-alacritty-struture.sh
+vi freelance-directory-setup.sh
+vi index.html
+vi init.lua
+vi new.md
+vi package.json
+vi readme
+vi readme.md
+vi setup-dotfiles.sh
+vi smart-stow.sh
+vi tmux-timezones.sh
+vi xrandr-setup.sh
+vi ~/.config/alacritty/alacritty.toml
+vi ~/.config/nvim/lua/zedocean/lazy.lua
+vi ~/.zshrc
+vi ~/dotfiles/.local/bin/tx
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+wc -c /tmp/b.js && head -c 500 /tmp/b.js
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb\
+which -a claude
+which adb
+which claude
+which gemini
+which gemini\
+which java && java -version
+which lazygit
+which lcaude
+which openclaw
+which wslview
+which zoxide\
+whoami
+wsl --shutdown
+wsl --version\
+zi
+zoxide --version 2>/dev/null || echo "zoxide not found"\
+zsh -i -c 'zprof'
+zsh -i -c 'zprof' 2>&1\
+zsh -i -c exi
+zsh -i -c exit
+}\
+~/cross-platform-backup.sh
+~/dotfiles/.local/bin/cross-platform-backup.sh
+~/dotfiles/.local/bin/cross-platform-backup.sh\
+~/dotfiles/.local/bin/smart-stow.sh
+~/dotfiles/setup-dotfiles.sh
+~/dotfiles/smart-stow.sh
+~/freelance-directory-setup.sh
+~/setup-dotfiles.sh
+› Metro: exp://rlbeis8-anonymous-8081.exp.direct
+› Scan the QR code above to open in Expo Go.
+› Using Expo Go
+/home/zed/.tmux/plugins/tpm/scripts/install_plugins.sh && touch /home/zed/.tmux/plugins/.tpm_installed
+tx
+ls -la ~/.config/tmux
+ls -la ~/.config/tmux/
+find ~/dotfiles -name "tmux.conf"
+tree
+ls -la
+ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+vi ~/.tmux.conf
+ls ~/.tmux/plugins/
+vi
+echo $TERM
+ls ~/.tmux/plugins/tpm
+echo $TMUX
+sed -i "1s|^|set-environment -g TMUX_PLUGIN_MANAGER_PATH '$HOME/.tmux/plugins/'\n|" ~/.tmux.conf
+~/.tmux/plugins/tpm/scripts/install_plugins.sh
+ls -la ~/.tmux.conf
+tmux kill-server
+: 1776848630:0;tmux
+: 1776848667:0;tmux -f ~/.tmux.conf new-session
+: 1776848688:0;tmux -f ~/.tmux.conf new-session 2>&1
+: 1776848695:0;head -5 ~/.tmux.conf
+: 1776848710:0;tmux new-session 2>&1 | cat
+: 1776848737:0;echo $SHELL
+: 1776848742:0;zsh -i -c "echo ok"
+: 1776848744:0;/home/zed/.tmux/plugins/tpm/scripts/install_plugins.sh && touch /home/zed/.tmux/plugins/.tpm_installed
+: 1776848899:0;cat ~/.local/bin/tmux-timezones.sh
+: 1776848929:0;bash ~/.local/bin/tmux-timezones.sh
+: 1776848970:0;grep -i "status-right-length" ~/.tmux.conf
+: 1776848980:0;echo "set-option -g status-right-length 200" >> ~/.tmux.conf
+: 1776849096:0;cat -v ~/.local/bin/tmux-timezones.sh
+: 1776849114:0;cat > ~/.local/bin/tmux-timezones.sh << 'EOF'\
+\
+#!/bin/bash\
+\
+sv=$(/usr/bin/env TZ=America/Los_Angeles date +'%a %d %b %Y %H:%M')\
+\
+bali=$(/usr/bin/env TZ=Asia/Makassar date +'%a %d %b %Y %H:%M')\
+\
+jakarta=$(/usr/bin/env TZ=Asia/Jakarta date +'%a %d %b %Y %H:%M')\
+\
+echo "#[bg=#16161e,fg=#8a3fa6]$(printf '\ue0b2')#[bg=#8a3fa6,fg=#e0e0e9,bold] SV: $sv #[bg=#8a3fa6,fg=#16161e]$(printf '\ue0b0')#[bg=#16161e,fg=#2aa198]$(printf '\ue0b2')#[bg=#2aa198,fg=#d4af37,bold] Bali: $bali #[bg=#2aa198,fg=#16161e]$(printf '\ue0b0')#[bg=#16161e,fg=#737aa2]$(printf '\ue0b2')#[bg=#737aa2,fg=#e0e0e9,bold] Jakarta: $jakarta"\
+\
+EOF\
+\
+chmod +x ~/.local/bin/tmux-timezones.sh
+: 1776849181:0;cat > ~/.local/bin/tmux-timezones.sh << 'EOF'\
+\
+#!/bin/bash\
+\
+sv=$(/usr/bin/env TZ=America/Los_Angeles date +'%a %d %b %Y %H:%M')\
+\
+bali=$(/usr/bin/env TZ=Asia/Makassar date +'%a %d %b %Y %H:%M')\
+\
+jakarta=$(/usr/bin/env TZ=Asia/Jakarta date +'%a %d %b %Y %H:%M')\
+\
+r=$(printf '\ue0b2')\
+\
+l=$(printf '\ue0b0')\
+\
+echo "#[bg=#16161e,fg=#8a3fa6]$r#[bg=#8a3fa6,fg=#e0e0e9,bold] SV: $sv #[bg=#8a3fa6,fg=#16161e]$l#[bg=#16161e,fg=#2aa198]$r#[bg=#2aa198,fg=#d4af7,bold] Bali: $bali #[bg=#2aa198,fg=#16161e]$l#[bg=#16161e,fg=#737aa2]$r#[bg=#737aa2,fg=#e0e0e9,bold] Jakarta: $jakarta"\
+\
+EOF\
+\
+chmod +x ~/.local/bin/tmux-timezones.sh
+: 1776849205:0;python3 -c "\
+\
+content = '''#\
+sv=\$(/usr/bin/env TZ=America/Los_Angeles date +\'%a %d %b %Y %H:%M\')\
+\
+bali=\$(/usr/bin/env TZ=Asia/Makassar date +\'%a %d %b %Y %H:%M\')\
+\
+jakarta=\$(/usr/bin/env TZ=Asia/Jakarta date +\'%a %d %b %Y %H:%M\')\
+\
+r=\$(printf \'\ue0b2\')\
+\
+l=\$(printf \'\ue0b0\')\
+\
+echo \"#[bg=#16161e,fg=#8a3fa6]\${r}#[bg=#8a3fa6,fg=#e0e0e9,bold] SV: \$sv #[bg=#8a3fa6,fg=#16161e]\${l}#[bg=#16161e,fg=#2aa198]\${r}#[bg=#2aa198,fg=#d4af37,bold] Bali: \$bali #[bg=#2aa198,fg=#16161e]\${l}#[bg=#16161e,fg=#737aa2]\${r}#[bg=#737aa2,fg=#e0e0e9,bold] Jakarta: \$jakarta\"\
+\
+'''\
+\
+with open('/home/zed/.local/bin/tmux-timezones.sh', 'w') as f:\
+\
+    f.write(content)\
+\
+"\
+\
+chmod +x ~/.local/bin/tmux-timezones.sh\
+\
+bash ~/.local/bin/tmux-timezones.sh
+: 1776849248:0;python3 << 'PYEOF'\
+\
+content = """#!/bin/bash\
+\
+sv=$(/usr/bin/env TZ=America/Los_Angeles date +'%a %d %b %Y %H:%M')\
+\
+bali=$(/usr/bin/env TZ=Asia/Makassar date +'%a %d %b %Y %H:%M')\
+\
+jakarta=$(/usr/bin/env TZ=Asia/Jakarta date +'%a %d %b %Y %H:%M')\
+\
+r=$(printf '\ue0b2')\
+\
+l=$(printf '\ue0b0')\
+\
+echo "#[bg=#16161e,fg=#8a3fa6]${r}#[bg=#8a3fa6,fg=#e0e0e9,bold] SV: $sv #[bg=#8a3fa6,fg=#16161e]${l}#[bg=#16161e,fg=#2aa198]${r}#[bg=#2aa198,fg=#d4af37,bold] Bali: $bali #[bg=#2aa198,fg=#16161e]${l}#[bg=#16161e,fg=#737aa2]${r}#[bg=#737aa2,fg=#e0e0e9,bold] Jakarta: $jakarta"\
+\
+"""\
+\
+with open('/home/zed/.local/bin/tmux-timezones.sh', 'w') as f:\
+\
+    f.write(content)\
+\
+print("Done!")\
+\
+PYEOF\
+\
+chmod +x ~/.local/bin/tmux-timezones.sh\
+\
+bash ~/.local/bin/tmux-timezones.sh
+: 1776849284:0;fc-list | grep -i meslo
+: 1776849482:0;cat -v ~/.local/bin/tmux-timezones.sh | grep "^echo"
+: 1776849509:0;bash ~/.local/bin/tmux-timezones.sh | cat -v
+: 1776849533:0;cat C:\Users\dixie\AppData\Roaming\Alacritty\alacritty.toml
+: 1776849923:0;cat > ~/.local/bin/tmux-timezones.sh << 'EOF'\
+\
+#!/bin/bash\
+\
+sv=$(/usr/bin/env TZ=America/Los_Angeles date +'%a %d %b %Y %H:%M')\
+\
+bali=$(/usr/bin/env TZ=Asia/Makassar date +'%a %d %b %Y %H:%M')\
+\
+jakarta=$(/usr/bin/env TZ=Asia/Jakarta date +'%a %d %b %Y %H:%M')\
+\
+echo "#[bg=#16161e,fg=#8a3fa6]#[bg=#8a3fa6,fg=#e0e0e9,bold] SV: $sv #[bg=#8a3fa6,fg=#16161e]#[bg=#16161e,fg=#2aa198]#[bg=#2aa198,fg=#d4af37,bold] Bali: $bali #[bg=#2aa198,fg=#16161e]#[bg=#16161e,fg=#737aa2]#[bg=#737aa2,fg=#e0e0e9,bold] Jakarta: $jakarta"\
+\
+EOF
+: 1776849949:0;sed -i 's/\#\[bg=#16161e,fg=#8a3fa6\]\#\[bg=#8a3fa6/\#[bg=#16161e,fg=#8a3fa6]'$'\ue0b2''#[bg=#8a3fa6/' ~/.local/bin/tmux-timezones.sh
+: 1776850192:0;python3 << 'PYEOF'\
+\
+with open('/home/zed/.local/bin/tmux-timezones.sh', 'r') as f:\
+\
+    content = f.read()\
+\
+\
+\
+content = content.replace(\
+\
+    '#[bg=#16161e,fg=#8a3fa6]#[bg=#8a3fa6,fg=#e0e0e9,bold] SV:',\
+\
+    '#[bg=#16161e,fg=#8a3fa6]\ue0b2#[bg=#8a3fa6,fg=#e0e0e9,bold] SV:'\
+\
+)\
+\
+\
+\
+with open('/home/zed/.local/bin/tmux-timezones.sh', 'w') as f:\
+\
+    f.write(content)\
+\
+print("Done!")\
+\
+PYEOF
+: 1776850233:0;vi ~/.local/bin/tmux-timezones.sh
+: 1776850909:0;tx
+: 1776850912:0;nvim /home/zed/.local/bin/tmux-timezones.sh
+: 1776850973:0;clear
+: 1776851398:0;find ~/dotfiles/.config -type f\
+
+: 1776851403:0;find ~/dotfiles/.local -type f\
+
+: 1776851500:0;find ~/dotfiles -name "*:Zone.Identifier" -delete
+: 1776851658:0;git checkout main\
+
+: 1776851753:0;git checkout old-one-stable\
+
+: 1776851911:0;vi .zshrc
+: 1776852003:0;source ~/.zshrc
+: 1776852418:0;grep -n "PROMPT" ~/.zshrc
+: 1776908751:0;vi
+: 1776909418:0;cd gix
+: 1776909600:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1776909714:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && source ~/.zshrc && nvm install 20 && nvm use 20 && node --version
+: 1776909967:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1776910580:0;npm run typecheck
+: 1776910600:0;vi
+: 1776910688:0;cd gix
+: 1776910691:0;npm run typecheck
+: 1776911761:0;grep -rE '"#[0-9a-fA-F]{3,6}"' screens/ components/ --include="*.js"
+: 1776916958:0;tmux new
+: 1776916962:0;cd gix
+: 1776916970:0;npm run typecheck
+: 1776917738:0;find services/ hooks/ -name "*.js" -not -path "*/node_modules/*"
+: 1776918196:0;npm run typecheck
+: 1776925401:0;cd cgix
+: 1776925404:0;cd gix
+: 1776925405:0;vi
+: 1776929291:0;npm run typecheck
+: 1776942847:0;nvim
+: 1776942936:0;cd gi
+: 1776942960:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1776943732:0;npm run typecheck
+: 1776946495:0;grep -rn "navigate\|talentId\|TalentProfile" ~/gixz/screens/Discover/index.js | grep -i "profile\|talent" | head -20\
+
+: 1776946505:0;grep -rn "TalentProfile\|ProfileV3" ~/gixz/App.js ~/gixz/navigation* 2>/dev/null | head -20\
+
+: 1776946514:0;grep -n "profileType\|type:\|roles:" ~/gixz/data/dummy_profiles.ts | head -30\
+
+: 1776946774:0;grep -rn "ProfileV3\|TalentProfile" ~/gixz/App.js\
+
+: 1776946777:0;grep -rn "navigate(" ~/gixz/screens/ --include="*.js" --include="*.tsx" | grep -i "profile\|talent" | head -20\
+
+: 1776946782:0;cat ~/gixz/services/profile.ts | grep -A 20 "getProfileType"\
+
+: 1776946847:0;grep -n "routeId\|talentId\|FALLBACK\|route\.params\|isOwner" ~/gixz/screens/ProfileV3/index.tsx | head -30
+: 1776946852:0;grep -n "getProfileType\|PROFILE_CONFIG\|profileType\|config" ~/gixz/screens/ProfileV3/index.tsx | head -30\
+
+: 1776946858:0;grep -n "getProfileById\|dummy_profiles\|profiles\[" ~/gixz/services/profile.ts | head -20\
+
+: 1776946883:0;grep -rn "fetchProfileById\|getProfileById" ~/gixz/screens/ProfileV3/index.tsx ~/gixz/services/ ~/gixz/data/\
+
+: 1776946890:0;grep -rn "export.*fetchProfileById\|export.*getProfileById" ~/gixz/\
+
+: 1776947031:0;grep -rn "fetchProfileById\|getProfileById" ~/gixz/screens/ ~/gixz/services/ ~/gixz/data/ --include="*.js" --include="*.ts" --include="*.tsx"
+: 1776947040:0;grep -rn "export.*fetchProfileById\|export.*getProfileById" ~/gixz/services/ ~/gixz/data/ --include="*.js" --include="*.ts"
+: 1776947113:0;sed -n '11,30p' ~/gixz/services/profile.ts\
+
+: 1776947126:0;grep -n "^  id:\|^    id:" ~/gixz/data/dummy_profiles.ts | head -20\
+
+: 1776947151:0;grep -n "roles\|isPrimary\|key:" ~/gixz/data/dummy_profiles.ts | grep -A2 "id.*p2" | head -20\
+
+: 1776947156:0;grep -n "^\s*[a-z].*:" ~/gixz/screens/ProfileV3/config/profileConfig.ts | head -30\
+
+: 1776947188:0;grep -n "^  [a-z].*: {" ~/gixz/screens/ProfileV3/config/profileConfig.ts\
+
+: 1776947190:0;sed -n '101,195p' ~/gixz/data/dummy_profiles.ts | grep -n "key\|isPrimary\|roles"
+: 1776947230:0;sed -n '101,115p' ~/gixz/data/dummy_profiles.ts\
+
+: 1776947397:0;npm run typecheck
+: 1776947438:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1776947590:0;grep -n "isPenonton\|isBandEntity\|isEO\|isVenue\|isPrimary\|key:" ~/gixz/data/dummy_profiles.ts | grep -B1 "isPrimary\|isVenue\|isEO\|isPenonton\|isBandEntity" | head -40\
+
+: 1776997996:0;nvim
+: 1776998020:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1776998076:0;cd gix
+: 1776998078:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1777000114:0;npm run typecheck
+: 1777014165:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1777014220:0;npm run typecheck
+: 1777017045:0;grep -r "nativewind" babel.config.js
+: 1777017055:0;grep -r "withNativeWind" metro.config.js
+: 1777017072:0;cat global.css
+: 1777017078:0;cat nativewind-env.d.ts
+: 1777017083:0;grep "className" node_modules/nativewind/package.json | head -5
+: 1777017106:0;grep -r "global.css" App.js
+: 1777017488:0;npm run typecheck
+: 1777018947:0;grep -r "global.css" App.js
+: 1777018951:0;npm run typecheck
+: 1777020693:0;sudo npm run typecheck
+: 1777078935:0;nvim
+: 1777078995:0;cd gix
+: 1777079044:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1777079297:0;sudo npm run typecheck
+: 1777079308:0;npm run typecheck
+: 1777080896:0;find . -name "Badge*" -o -name "Pill*" -o -name "SheetHeader*" | grep -v node_modules
+: 1777083756:0;npm run typecheck
+: 1777085727:0;tree -I 'node_modules|.expo|.git|dist' --dirsfirst\
+\
+
+: 1777085814:0;tree -I 'node_modules|.expo|.git|android|ios|dist|profile_photos|videos' --dirsfirst\
+\
+
+: 1777085899:0;cd ~/gixz\
+\
+tree -I 'node_modules|.expo|.git|android|ios|dist|profile_photos|videos' --dirsfirst \\
+\
+  | grep -v 'Zone.Identifier' \\
+\
+  | grep -v '\.bak' \\
+\
+  | grep -v 'talent.js:Zone' \\
+\
+  | grep -v 'useSheetAnimation\.js' \\
+\
+  > ~/app_tree_clean.txt
+: 1777085922:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|profile_photos|videos' --dirsfirst | grep -v 'Zone.Identifier' | grep -v '\.bak' | grep -v 'talent.js:Zone' | grep -v 'useSheetAnimation\.js' > ~/app_tree_clean.txt
+: 1777085935:0;vi ~/app_tree_clean.txt
+: 1777085975:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|profile_photos|videos|docs' --dirsfirst | grep -v 'Zone.Identifier' | grep -v '\.bak' | grep -v 'talent.js:Zone' | grep -v 'useSheetAnimation\.js' > ~/app_tree_no_docs.txt
+: 1777085979:0;vi ~/app_tree_clean.txt
+: 1777086101:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|docs' --dirsfirst | grep -v 'Zone.Identifier' | grep -v '\.bak' | grep -v 'talent.js:Zone' | grep -v 'useSheetAnimation\.js' > ~/app_tree_no_docs.txt
+: 1777086115:0;vi ~/app_tree_no_docs.txt
+: 1777086585:0;npm run typecheck
+: 1777091753:0;npm list @react-native-masked-view/masked-view
+: 1777091770:0;npx expo install @react-native-masked-view/masked-view
+: 1777091888:0;npm run android
+: 1777094151:0;adb connect 192.168.1.6:5555
+: 1777094155:0;adb tcpip 5555\
+\
+
+: 1777094201:0;adb connect 192.168.1.6:5555
+: 1777094214:0;adb connect 192.168.1.9:5555
+: 1777096429:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1777096532:0;adb disconnect 192.168.1.6:5555
+: 1777096541:0;adb disconnect 192.168.1.9:5555
+: 1777096545:0;adb devices
+: 1777096550:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1777096796:0;npm run typecheck
+: 1777096867:0;touch App.js && bash scripts/build-stable.sh
+: 1777097235:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777097315:0;adb disconnect 192.168.1.9:5555
+: 1777097327:0;adb devices
+: 1777097343:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777097619:0;adb connect 192.168.1.9:5555
+: 1777097637:0;npx expo run:android
+: 1777099088:0;npm list @react-native-masked-view/masked-view
+: 1777099887:0;npx expo install @shopify/react-native-skia
+: 1777100086:0;npx expo run:android
+: 1777101216:0;npm uninstall @react-native-masked-view/masked-view
+: 1777101642:0;npx expo run:android
+: 1777102028:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777102603:0;npm run typecheck
+: 1777106195:0;adb disconnect 192.168.1.9:5555
+: 1777106199:0;adb devices
+: 1777106211:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777106255:0;npm run typecheck
+: 1777116180:0;npx expo start --clear
+: 1777116931:0;npm list nativewind react-native-css-interop
+: 1777121570:0;npm run typecheck
+: 1777129835:0;clear
+: 1777129840:0;npm run typecheck
+: 1777131081:0;clear
+: 1777131081:0;npm run typecheck
+: 1777135905:0;clear
+: 1777135907:0;npm run typecheck
+: 1777140038:0;nvim
+: 1777140160:0;cd gi
+: 1777140172:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777140630:0;nvim
+: 1777140693:0;cd gi
+: 1777140697:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777141866:0;clear
+: 1777141869:0;npm run typecheck
+: 1777168873:0;nvim
+: 1777168981:0;cd gi
+: 1777169017:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777169179:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777169557:0;cd gi
+: 1777169568:0;claude
+: 1777169706:0;node -v
+: 1777169714:0;which claude
+: 1777169738:0;command -v claude
+: 1777169797:0;ls -la
+: 1777169803:0;vi
+: 1777169856:0;npm list -g @anthropic-ai/claude-code
+: 1777169870:0;cd ~
+: 1777169872:0;npm list -g @anthropic-ai/claude-code
+: 1777170042:0;which claude 2>/dev/null || echo "NOT in PATH"\
+
+: 1777170067:0;ls ~/.npm-global/bin/claude 2>/dev/null || echo "not in ~/.npm-global/bin"\
+
+: 1777170074:0;ls ~/.local/bin/claude 2>/dev/null || echo "not in ~/.local/bin"\
+
+: 1777170079:0;ls /usr/local/bin/claude 2>/dev/null || echo "not in /usr/local/bin"\
+
+: 1777170084:0;echo $PATH\
+
+: 1777170090:0;echo $SHELL\
+
+: 1777170099:0;clear
+: 1777170102:0;which claude 2>/dev/null || echo "NOT in PATH"\
+
+: 1777170106:0;ls ~/.npm-global/bin/claude 2>/dev/null || echo "not in ~/.npm-global/bin"\
+
+: 1777170110:0;ls ~/.local/bin/claude 2>/dev/null || echo "not in ~/.local/bin"\
+
+: 1777170113:0;ls /usr/local/bin/claude 2>/dev/null || echo "not in /usr/local/bin"\
+
+: 1777170117:0;echo $PATH\
+
+: 1777170122:0;echo $SHELL\
+
+: 1777170126:0;node --version 2>/dev/null || echo "node not found"\
+
+: 1777170129:0;npm --version 2>/dev/null || echo "npm not found"\
+
+: 1777170134:0;npm list -g @anthropic-ai/claude-code 2>/dev/null || echo "not found via npm -g"\
+
+: 1777170156:0;ls -la
+: 1777170210:0;npm install -g @anthropic-ai/claude-code\
+
+: 1777170238:0;claude
+: 1777170246:0;clear
+: 1777170248:0;cd gi
+: 1777170252:0;claude
+: 1777244347:0;vi ~/app_tree_no_docs.txt
+: 1777244557:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|docs|profile_photos|videos'
+: 1777244566:0;clear
+: 1777244568:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|docs|profile_photos|videos'
+: 1777245385:0;git status
+: 1777245414:0;clear
+: 1777245420:0;npm run typecheck
+: 1777245470:0;git add screens/Discover/FusedFilterButtons.tsx\
+
+: 1777245475:0;git commit -m "phase2b: extract FusedFilterButtons.tsx from Discover/index.tsx"\
+
+: 1777245483:0;git push\
+
+: 1777276855:0;git log --oneline -1
+: 1777277233:0;claude
+: 1777277817:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777278331:0;npm run typecheck
+: 1777278987:0;git log --oneline -1
+: 1777279452:0;clear
+: 1777279455:0;npm run typecheck
+: 1777293046:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777294773:0;git log --oneline | grep -i sheet
+: 1777294801:0;clear
+: 1777294806:0;git log --oneline | grep -i sheet
+: 1777294847:0;clear
+: 1777294848:0;git log --oneline | grep -i "3.2\|provider\|sheet_reg\|sheetprovider"
+: 1777294875:0;clear
+: 1777294876:0;git log --oneline -10
+: 1777296752:0;clear
+: 1777296756:0;npm run typecheck
+: 1777298342:0;clear
+: 1777298344:0;npm run typecheck
+: 1777299656:0;clear
+: 1777299717:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|profile_photos|videos|docs' 
+: 1777302318:0;clear
+: 1777302322:0;npm run typecheck
+: 1777302837:0;cd gix
+: 1777302838:0;vi
+: 1777341649:0;nvim
+: 1777341683:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777341719:0;cd gi
+: 1777341722:0;claude
+: 1777360312:0;cd gi
+: 1777360317:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777531073:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777531180:0;cd gi
+: 1777531207:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777531445:0;cd gi
+: 1777531746:0;claude
+: 1777584629:0;nvim
+: 1777584874:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777616267:0;nvim
+: 1777616277:0;cd gi
+: 1777616279:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777616329:0;claude
+: 1777616352:0;cd gi
+: 1777616444:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777616670:0;npm run typecheck
+: 1777616866:0;cd gi
+: 1777616867:0;vi
+: 1777639984:0;npm run typecheck
+: 1777640031:0;cd gi
+: 1777640033:0;vi
+: 1777640290:0;git commit --amend -m "docs: state + history update after track-5.3"
+: 1777640298:0;git push --force
+: 1777644203:0;~/gixz/scripts/push-update.sh
+: 1777689501:0;nvim
+: 1777689819:0;cd gi
+: 1777689824:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777689839:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777689957:0;cd gi
+: 1777689959:0;claude
+: 1777691191:0;git log --oneline | head -20
+: 1777691978:0;clear
+: 1777691980:0;grep -r "StyleSheet.create" screens/ProfileV3/ components/ contexts/ screens/SheetCtx.tsx screens/ErrorBoundary.tsx
+: 1777692190:0;clear
+: 1777695546:0;cd ~/.claude
+: 1777695548:0;ls -la
+: 1777696997:0;cd ~
+: 1777697049:0;npx skills add vercel-labs/agent-skills anthropics/skills nextlevelbuilder/ui-ux-pro-max-skill shadcn-ui/ui supabase/agent-skills remotion-dev/skills mattpocock/skills -g -a claude-code -y
+: 1777697091:0;npx skills add coreyhaines31/marketingskills -g -a claude-code -y
+: 1777697246:0;npx skills add upstash/superpowers
+: 1777697287:0;npx skills add claudeskills/multi-agent-architecture
+: 1777697316:0;npx skills add https://github.com/vercel-labs/skills --skill find-skills
+: 1777697402:0;npx skills add upstash/ superpowers -g -y
+: 1777697408:0;npx skills add upstash/superpowers -g -y
+: 1777697581:0;npx skills add https://github.com/supabase/agent-skills --skill supabase-postgres-best-practices
+: 1777697638:0;npx skills add https://github.com/obra/superpowers --skill brainstorming
+: 1777700446:0;claude
+: 1777700917:0;npm run typecheck
+: 1777702905:0;grep -rE "#[0-9a-fA-F]{6}" screens/ components/
+: 1777709444:0;clear
+: 1777709449:0;cd gi
+: 1777709451:0;clear
+: 1777709455:0;grep -r "StyleSheet.create" screens/ components/ sheets/ contexts/ hooks/\
+
+: 1777709474:0;grep -rE "#[0-9a-fA-F]{6}" screens/ components/ sheets/ contexts/ hooks/ App.* \\
+  | grep -v "constants/colors"
+: 1777709482:0;find . -name "*.js" -not -path "./node_modules/*" -not -name "*.config.js" \\
+  -not -name "babel.config.js" -not -name "metro.config.js"\
+
+: 1777709492:0;grep -rE "from .*data/dummy" screens/ components/ sheets/\
+
+: 1777709500:0;grep -r "from.*data/types" . --include="*.ts" --include="*.tsx"\
+
+: 1777709505:0;grep -r "ProfileV3" . --include="*.ts" --include="*.tsx"\
+
+: 1777709512:0;grep -r "talentTypes" . --include="*.ts" --include="*.tsx"\
+
+: 1777710837:0;fg
+: 1777712167:0;clear
+: 1777712168:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|docs|profile_photos|videos' --dirsfirst
+: 1777714009:0;clear
+: 1777714011:0;npx skills list
+: 1777714028:0;npx skills list -g
+: 1777714038:0;clear
+: 1777714042:0;npx skills list -g
+: 1777714185:0;clear
+: 1777714189:0;/plugin marketplace add obra/superpowers-marketplace
+: 1777714214:0;npx skills add anthropics/skills nextlevelbuilder/ui-ux-pro-max-skill shadcn-ui/ui supabase/agent-skills remotion-dev/skills mattpocock/skills getsentry/sentry-sdk-skill expo/skills weaviate/agent-skills cloudflare/skills gokapso/agent-skills hanfang/claude-memory-skill vercel-labs/agent-skills https://github.com/greensock/gsap-skills -g -a claude-code -y
+: 1777714232:0;git clone --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup
+: 1777714270:0;curl -fsSL https://bun.sh/install | bash
+: 1777714288:0;source ~/.zshrc
+: 1777714294:0;bun --version
+: 1777714306:0;cd ~/.claude/skills/gstack && ./setup
+: 1777739847:0;npx skills add anthropics/security-guidance -g -a claude-code -y
+: 1777740373:0;cd dot
+: 1777740393:0;claude
+: 1777744198:0;clear
+: 1777744204:0;cd gixz docs
+: 1777744208:0;tree
+: 1777744216:0;clear
+: 1777744217:0;tree
+: 1777744942:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777795255:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777808769:0;clear
+: 1777808770:0;cd ~
+: 1777808777:0;echo $DISPLAY
+: 1777808782:0;cd /tmp && wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/obsidian_1.12.7_amd64.deb && sudo dpkg -i obsidian_1.12.7_amd64.deb && sudo apt-get install -f -y
+: 1777808819:0;obsidian ~/gixz/docs &
+: 1777808846:0;sudo apt-get install -f -y
+: 1777808863:0;obsidian ~/gixz/docs &
+: 1777809042:0;echo ".obsidian/" >> ~/gixz/docs/.gitignore
+: 1777809058:0;cat ~/gixz/docs/.gitignore
+: 1777809087:0;cd ~/gixz && git status
+: 1777809107:0;echo "docs/.obsidian/" >> ~/gixz/.gitignore
+: 1777809111:0;cd ~/gixz && git status
+: 1777809170:0;git add docs/.gitignore && git commit -m "chore: add docs/.gitignore to ignore Obsidian config"
+: 1777809256:0;cd ~/gixz && git status
+: 1777810269:0;~/gixz/scripts/push-update.sh
+: 1777810368:0;npm install -g eas-cli
+: 1777810439:0;~/gixz/scripts/push-update.sh
+: 1777840575:0;nvim
+: 1777840596:0;cd gi
+: 1777840599:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777841101:0;cd gi
+: 1777841132:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777859129:0;clear
+: 1777859394:0;cd gi
+: 1777859420:0;echo $YOUR_PROJECT_ID
+: 1777859433:0;eas init
+: 1777859606:0;open ~/gixz/app.config.js
+: 1777859731:0;tmux ls
+: 1777859752:0;tx
+: 1777859800:0;tmux kill-session -t 2
+: 1777859804:0;tmux ls
+: 1777859807:0;tx
+: 1777859819:0;tmux new
+: 1777859865:0;vi ~/gixz/app.config.js
+: 1777859984:0;cd ~/gixz && ./scripts/push-update.sh "test"
+: 1777860945:0;cd ~
+: 1777860952:0;vi .tmux.conf
+: 1777861040:0;tmux source-file ~/.tmux.conf
+: 1777861647:0;clear
+: 1777861655:0;cd ~/gixz && ./scripts/build-stable.sh
+: 1777861745:0;adb devices
+: 1777861765:0;cd ~/gixz && ./scripts/build-stable.sh
+: 1777861780:0;adb devices
+: 1777861920:0;PHONE_IP=192.168.1.7 ./scripts/build-stable.sh
+: 1777861925:0;cd gix
+: 1777861930:0;PHONE_IP=192.168.1.7 ./scripts/build-stable.sh
+: 1777866568:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777866585:0;adb disconnect 192.168.1.7:5555
+: 1777866588:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777866592:0;adb devices
+: 1777866596:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777868279:0;eas update --branch preview --message "rollback" --republish\
+\
+
+: 1777868324:0;eas update --help
+: 1777868409:0;eas update:republish --branch preview
+: 1777868778:0;cd gi
+: 1777868779:0;vi
+: 1777869910:0;clear
+: 1777869934:0;cd ~/gixz && ./scripts/push-update.sh "test"
+: 1777870537:0;eas update:list --branch preview
+: 1777870933:0;clear
+: 1777871254:0;./scripts/push-update.sh "old version"
+: 1777871626:0;clear
+: 1777871627:0;eas build --profile preview --platform android --local
+: 1777872291:0;clear
+: 1777872309:0;eas build --profile preview --platform android
+: 1777873970:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777874002:0;adb connect 192.168.1.7:5555
+: 1777874006:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777874300:0;eas update: republish --branch preview\
+\
+
+: 1777874395:0;eas update:republish --branch preview
+: 1777875789:0;clear
+: 1777875813:0;./scripts/push-update.sh "fix old version"
+: 1777876984:0;clear
+: 1777876989:0;npx run typecheck
+: 1777877072:0;npm run typecheck
+: 1777877092:0;clear
+: 1777877094:0;npm run typecheck
+: 1777877618:0;clear
+: 1777877622:0;claude
+: 1777879357:0;npx skills remove office-hours plan-ceo-review plan-eng-review plan-design-review autoplan writing-plans test-driven-development brainstorming qa qa-only review cso ship land-and-deploy canary deploy-to-vercel benchmark retro frontend-design vercel-react-best-practices vercel-composition-patterns vercel-react-view-transitions web-design-guidelines webapp-testing product-marketing-context analytics-tracking programmatic-seo ai-seo schema-markup social-content referral-program launch-strategy onboarding-cro page-cro pricing-strategy churn-prevention paid-ads ad-creative cold-email email-sequence community-marketing competitor-alternatives competitor-profiling free-tool-strategy lead-magnets marketing-ideas marketing-psychology revops sales-enablement copy-editing content-strategy form-cro popup-cro signup-flow-cro paywall-upgrade-cro attach-db query read-file duckdb-docs install-duckdb browse open-gstack-browser setup-browser-cookies -g 2>/dev/null; echo "Done"
+: 1777879585:0;clear
+: 1777879591:0;npx skills remove xlsx directory-submissions customer-research ab-test-setup docx plan-tune claude-api image design-html plan-devex-review seo-audit site-architecture copywriting pptx devex-review video pair-agent make-pdf benchmark-models design-review design-consultation investigate codex aso-audit doc-coauthoring skillify pdf setup-deploy design-shotgun document-release landing-report scrape setup-gbrain internal-comms algorithmic-art skill-creator gstack-upgrade vercel-react-native-skills health learn web-artifacts-builder canvas-design mcp-builder theme-factory brand-guidelines unfreeze slack-gif-creator template-skill done freeze landing-report open-gstack-browser -g 2>/dev/null; echo "Done"
+: 1777879660:0;claude
+: 1777879791:0;npx skills remove open-gstack-browser vercel-cli-with-tokens -g
+: 1777879812:0;claude
+: 1777881048:0;npx skills add vercel-labs/agent-skills --skill systematic-debugging -g -a claude-code -y
+: 1777881155:0;npx skills add https://github.com/vercel-labs/skills --skill find-skills
+: 1777881182:0;npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices
+: 1777881214:0;npx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices
+: 1777881253:0;npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-native-skills
+: 1777881364:0;npx skills add https://github.com/obra/superpowers --skill using-superpowers
+: 1777881407:0;npx skills add https://github.com/obra/superpowers --skill systematic-debugging
+: 1777882035:0;claude
+: 1777882457:0;clear
+: 1777882461:0;npm run typecheck
+: 1777882609:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777882620:0;adb devices
+: 1777882634:0;adb connect 192.168.1.7:5555
+: 1777882649:0;adb disconnect 192.168.1.7:5555
+: 1777882662:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777910584:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777912926:0;clear
+: 1777912928:0;diff <(git ls-tree -r --name-only e999fe9a | sort) <(git ls-files | sort)
+: 1777922481:0;npm i -g @openai/codex
+: 1777922499:0;codex
+: 1777924895:0;git ls-tree -r --name-only e999fe9a | grep -E "(VideoCard|DiscoverScreen|SheetCtx|talent|playerRegistry|AppNavigator|SheetProvider)" | sort
+: 1777924968:0;clear
+: 1777924968:0;git show e999fe9a:screens/Discover/index.js 2>/dev/null | head -5 || echo "NO INDEX.JS"\
+
+: 1777924976:0;git diff e999fe9a:screens/Discover/VideoCard.js HEAD:screens/Discover/VideoCard.tsx\
+
+: 1777925077:0;clear
+: 1777925173:0;cp /tmp/p4_videocard.md /mnt/c/Users/$(cmd.exe /c "echo %USERNAME%" 2>/dev/null | tr -d '\r')/Desktop/p4_videocard.md && echo "DONE"
+: 1777925207:0;ls /mnt/c/Users/
+: 1777925221:0;cp /tmp/p4_videocard.md /mnt/c/Users/dixie/Desktop/p4_videocard.md && echo "DONE"
+: 1777925243:0;ls /mnt/c/Users/dixie/
+: 1777925266:0;cp /tmp/p4_videocard.md "/mnt/c/Users/dixie/Downloads/p4_videocard.md" && echo "DONE"
+: 1777925751:0;clear
+: 1777925752:0;\
+\
+
+: 1777925757:0;clear
+: 1777925763:0;git diff e999fe9a:services/talent.js HEAD:services/talent.ts > /tmp/p4_talent.md\
+\
+cp /tmp/p4_talent.md /mnt/c/Users/dixie/Downloads/p4_talent.md
+: 1777927566:0;clear
+: 1777927568:0;git diff e999fe9a:screens/SheetCtx.js HEAD:contexts/SheetCtx.tsx > /tmp/p4_sheetctx.md\
+\
+cp /tmp/p4_sheetctx.md /mnt/c/Users/dixie/Downloads/p4_sheetctx.md
+: 1777928436:0;clear
+: 1777928437:0;git diff e999fe9a:screens/Discover/index.js HEAD:screens/Discover/DiscoverScreen.tsx > /tmp/p4_discover.md\
+\
+cp /tmp/p4_discover.md /mnt/c/Users/dixie/Downloads/p4_discover.md
+: 1777928657:0;git diff e999fe9a:services/playerRegistry.js HEAD:lib/playerRegistry.ts > /tmp/p4_registry.md\
+\
+cp /tmp/p4_registry.md /mnt/c/Users/dixie/Downloads/p4_registry.md
+: 1777928941:0;git diff e999fe9a:screens/DevFontCtx.js HEAD:screens/DevFontCtx.tsx > /tmp/p4_devfont.md\
+\
+cp /tmp/p4_devfont.md /mnt/c/Users/dixie/Downloads/p4_devfont.md
+: 1777930432:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && cd ~/gixz && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost\
+\
+
+: 1777930572:0;clear
+: 1777930576:0;npm run typecheck
+: 1777930650:0;clear
+: 1777930652:0;npm run typecheck
+: 1777931599:0;adb shell am force-stop com.gixz\
+\
+
+: 1777933616:0;clear
+: 1777933617:0;git diff e999fe9a..HEAD -- navigation/AppNavigator.tsx > /tmp/diff_taplag_nav.md\
+\
+cp /tmp/diff_taplag_nav.md /mnt/c/Users/dixie/Downloads/diff_taplag_nav.md
+: 1777933959:0;git diff e999fe9a..HEAD -- contexts/SheetProvider.tsx > /tmp/diff_taplag_sheet.md\
+\
+cp /tmp/diff_taplag_sheet.md /mnt/c/Users/dixie/Downloads/diff_taplag_sheet.md
+: 1777934019:0;git diff e999fe9a..HEAD -- contexts/SheetCtx.tsx > /tmp/diff_taplag_ctx.md\
+\
+cp /tmp/diff_taplag_ctx.md /mnt/c/Users/dixie/Downloads/diff_taplag_ctx.md
+: 1777934054:0;git diff e999fe9a..HEAD -- providers/AppProviders.tsx > /tmp/diff_taplag_providers.md\
+\
+cp /tmp/diff_taplag_providers.md /mnt/c/Users/dixie/Downloads/diff_taplag_providers.md
+: 1777934910:0;clear
+: 1777934911:0;adb logcat -v time > /tmp/taplag.log &\
+
+: 1777935004:0;clear
+: 1777935005:0;git diff e999fe9a..HEAD -- components/BaseSheet.tsx > /tmp/diff_taplag_base.md\
+\
+cp /tmp/diff_taplag_base.md /mnt/c/Users/dixie/Downloads/diff_taplag_base.md
+: 1777935093:0;git diff e999fe9a..HEAD -- hooks/useSheetGesture.ts > /tmp/diff_taplag_gesture.md\
+\
+cp /tmp/diff_taplag_gesture.md /mnt/c/Users/dixie/Downloads/diff_taplag_gesture.md
+: 1777935305:0;git diff e999fe9a..HEAD -- contexts/SheetHeightCtx.tsx > /tmp/diff_taplag_remaining.md\
+\
+git diff e999fe9a..HEAD -- navigation/DiscoverStack.tsx >> /tmp/diff_taplag_remaining.md\
+\
+git diff e999fe9a..HEAD -- navigation/GigsStack.tsx >> /tmp/diff_taplag_remaining.md\
+\
+cp /tmp/diff_taplag_remaining.md /mnt/c/Users/dixie/Downloads/diff_taplag_remaining.md
+: 1777936946:0;git diff e999fe9a..HEAD -- screens/Discover/DiscoverScreen.tsx\
+
+: 1777937357:0;clear
+: 1777937358:0;cat components/BaseSheet.tsx > /tmp/diff_taplag_basesheet.md\
+\
+cp /tmp/diff_taplag_basesheet.md /mnt/c/Users/dixie/Downloads/diff_taplag_basesheet.md
+: 1777937530:0;cat hooks/useSheetGesture.ts > /tmp/diff_taplag_sheetgesture.md\
+\
+cp /tmp/diff_taplag_sheetgesture.md /mnt/c/Users/dixie/Downloads/diff_taplag_sheetgesture.md
+: 1777937694:0;git diff e999fe9a..HEAD -- hooks/useSheetGesture.ts > /mnt/c/Users/dixie/Downloads/diff_taplag_sheetgesture.md
+: 1777937780:0;git diff e999fe9a..HEAD -- hooks/useTabUnderline.ts > /mnt/c/Users/dixie/Downloads/diff_taplag_tabunderline.md
+: 1777937843:0;git diff e999fe9a..HEAD -- hooks/useTabUnderline.js hooks/useTabUnderline.ts > /mnt/c/Users/dixie/Downloads/diff_taplag_tabunderline.md
+: 1777937975:0;cat hooks/useTabUnderline.ts > /mnt/c/Users/dixie/Downloads/diff_taplag_tabunderline.md
+: 1777938149:0;git diff e999fe9a..HEAD -- screens/Discover/DiscoverScreen.tsx > /mnt/c/Users/dixie/Downloads/diff_taplag_discoverscreen.md
+: 1777938357:0;git diff e999fe9a..HEAD -- screens/Discover/useDiscoverTabSwipe.ts > /mnt/c/Users/dixie/Downloads/diff_taplag_discovertabswipe.md
+: 1777980915:0;nvim
+: 1777980942:0;clear
+: 1777980943:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1777981037:0;clear
+: 1777981070:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1777981715:0;clear
+: 1777981716:0;git diff e999fe9a..HEAD -- components/BaseSheet.js components/BaseSheet.tsx \\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_basesheet.md
+: 1778091057:0;nvim
+: 1778140215:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778141566:0;cd gi
+: 1778141577:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778141662:0;npm run typecheck
+: 1778142467:0;clear
+: 1778142471:0;cd ~
+: 1778142473:0;cd gi
+: 1778142476:0;vi
+: 1778143262:0;clear
+: 1778143264:0;git diff e999fe9a..HEAD -- hooks/useSheetGesture.js hooks/useSheetGesture.ts \\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_sheetgesture.md\
+
+: 1778143559:0;clear
+: 1778143560:0;git diff e999fe9a..HEAD -- constants/gestureConfig.js constants/gestureConfig.ts \\
+\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_gestureconfig.md
+: 1778143587:0;clear
+: 1778143588:0;git diff e999fe9a..HEAD -- constants/gestureConfig.js constants/gestureConfig.ts \\
+\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_gestureconfig.md
+: 1778143771:0;clear
+: 1778143778:0;git diff e999fe9a..HEAD -- screens/Discover/index.js screens/Discover/DiscoverScreen.tsx > /mnt/c/Users/dixie/Downloads/diff_taplag_discoverscreen.md
+: 1778194341:0;nvim
+: 1778194345:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778194377:0;clear
+: 1778194379:0;cd gi
+: 1778194680:0;clear
+: 1778194681:0;git diff e999fe9a..HEAD -- screens/Gigs/index.js screens/Gigs/GigsScreen.tsx \\
+\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_gigsscreen.md
+: 1778196859:0;clear
+: 1778196861:0;git log --oneline e999fe9a..HEAD -- screens/Gigs/index.js screens/Gigs/GigsScreen.tsx \\
+\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_gigsscreen_log.md
+: 1778197324:0;clear
+: 1778197325:0;git log --pretty=format:"%h %ad %s" --date=short e999fe9a..HEAD -- screens/Gigs/index.js screens/Gigs/GigsScreen.tsx
+: 1778197419:0;clear
+: 1778197420:0;git log --pretty=format:"%h %ad %s" --date=short e999fe9a -1
+: 1778197503:0;clear
+: 1778197504:0;git diff e999fe9a d48b5e6 -- screens/Gigs/index.js screens/Gigs/index.tsx \\
+\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_gigsscreen_step1.md
+: 1778197950:0;clear
+: 1778197952:0;git diff e999fe9a d48b5e6 -- screens/Gigs/index.js \\
+\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_gigsscreen_step1.md
+: 1778198159:0;clear
+: 1778198160:0;git diff 9555ee4^..9555ee4 -- screens/Gigs/index.tsx screens/Gigs/GigsScreen.tsx \\
+\
+  > /mnt/c/Users/dixie/Downloads/diff_taplag_gigsscreen_step2.md
+: 1778198860:0;clear
+: 1778198864:0;git diff d0fac35^..d0fac35 -- screens/Gigs/GigsScreen.tsx \\
+\
+  > ~/diff_taplag_gigsscreen_step3.md
+: 1778198950:0;clear
+: 1778198955:0;git --no-pager diff d0fac35^..d0fac35 -- screens/Gigs/GigsScreen.tsx \\
+\
+  > ~/diff_taplag_gigsscreen_step3.md
+: 1778200911:0;clear
+: 1778200912:0;git --no-pager diff 00ebfae^..00ebfae -- screens/Gigs/GigsScreen.tsx > ~/diff_taplag_gigsscreen_step4.md
+: 1778201067:0;clear
+: 1778201068:0;git --no-pager diff 00ebfae^..00ebfae -- screens/Gigs/GigsScreen.tsx > ~/diff_taplag_gigsscreen_step4.md
+: 1778201311:0;clear
+: 1778201324:0;git --no-pager diff 00ebfae^..00ebfae -- screens/Gigs/GigsScreen.tsx > /mnt/c/Users/dixie/Downloads/diff_taplag_gigsscreen_step4.md
+: 1778201448:0;clear
+: 1778201449:0;git --no-pager diff e999fe9a..HEAD -- screens/VenueSheet.js sheets/VenueSheet.tsx > /mnt/c/Users/dixie/Downloads/diff_taplag_venuesheet.md
+: 1778201582:0;clear
+: 1778201582:0;git --no-pager diff e999fe9a..HEAD -- hooks/useStepNav.js hooks/useStepNav.ts > /mnt/c/Users/dixie/Downloads/diff_taplag_stepnav.md
+: 1778201853:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778202311:0;clear
+: 1778202312:0;git --no-pager diff e999fe9a..HEAD -- screens/Gigs/GigCard.js screens/Gigs/GigCard.tsx > /mnt/c/Users/dixie/Downloads/diff_taplag_gigcard.md
+: 1778203276:0;clear
+: 1778203668:0;diff <(git ls-tree -r --name-only e999fe9a | sort) <(git ls-files | sort)\
+2,4c2\
+
+: 1778203908:0;clear
+: 1778203908:0;diff \\
+\
+  <(git show -s --format="=== BEFORE: %ci ===" e999fe9a && git ls-tree -r --name-only e999fe9a | sort) \\
+\
+  <(git show -s --format="=== AFTER:  %ci ===" HEAD      && git ls-files | sort)
+: 1778203930:0;clear
+: 1778203931:0;{ git show -s --format="=== BEFORE: %ci ===" e999fe9a; git ls-tree -r --name-only e999fe9a | sort; } > /tmp/before.txt && { git show -s --format="=== AFTER:  %ci ===" HEAD; git ls-files | sort; } > /tmp/after.txt && diff /tmp/before.txt /tmp/after.txt
+: 1778204122:0;clear
+: 1778204123:0;git ls-files | sort | while read f; do\
+\
+  echo "$(git log -1 --format="%ci" -- "$f")  $f"\
+\
+done > /tmp/after_dated.txt && cat /tmp/after_dated.txt
+: 1778204343:0;clear
+: 1778204344:0;git ls-files | while read f; do\
+\
+  echo "$(git log -1 --format="%ci" -- "$f")  $f"\
+\
+done | sort > /tmp/after_dated_sorted.txt && cat /tmp/after_dated_sorted.txt
+: 1778204545:0;clear
+: 1778204551:0;git ls-tree -r --name-only e999fe9a | grep -E "\.(js|ts|tsx)$" | while read f; do\
+\
+  echo "$(git log -1 --format="%ci" e999fe9a -- "$f")  $f"\
+\
+done | sort > /tmp/before_ts.txt
+: 1778204555:0;git ls-files | grep -E "\.(js|ts|tsx)$" | while read f; do\
+\
+  echo "$(git log -1 --format="%ci" -- "$f")  $f"\
+\
+done | sort > /tmp/after_ts.txt
+: 1778204562:0;diff /tmp/before_ts.txt /tmp/after_ts.txt
+: 1778204599:0;cat /tmp/before_ts.txt | awk '{print $NF}' | sed 's/\.js$//' | sort > /tmp/before_stems.txt\
+\
+cat /tmp/after_ts.txt  | awk '{print $NF}' | sed 's/\.(ts|tsx)$//' | sort > /tmp/after_stems.txt\
+\
+diff /tmp/before_stems.txt /tmp/after_stems.txt
+: 1778205020:0;clear
+: 1778207156:0;npm run typecheck
+: 1778209163:0;clear
+: 1778209169:0;claude
+: 1778209605:0;npm run typecheck
+: 1778210477:0;clear
+: 1778210480:0;npm run typecheck
+: 1778211513:0;clear
+: 1778211514:0;npx skills add vercel-labs/agent-skills --skill freeze unfreeze health -g -a claude-code -y
+: 1778211574:0;npx skills add vercel-labs/agent-skills -g -a claude-code -y
+: 1778211607:0;npx skills add anthropics/skills nextlevelbuilder/ui-ux-pro-max-skill shadcn-ui/ui https://github.com/greensock/gsap-skills vercel-labs/agent-skills -g -a claude-code -y
+: 1778220765:0;clear
+: 1778224410:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778227333:0;clear
+: 1778227339:0;npm run typecheck
+: 1778231183:0;clear
+: 1778231190:0;npx tsc --noemit
+: 1778232031:0;npx tsc --noEmit
+: 1778268232:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778268236:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778268347:0;clear
+: 1778268358:0;npm run typecheck
+: 1778279459:0;clear
+: 1778279462:0;npm run typecheck
+: 1778282448:0;cd .conifg
+: 1778282450:0;cd .config
+: 1778282452:0;ls -la
+: 1778282460:0;cd nvim
+: 1778282463:0;clear
+: 1778282466:0;tree
+: 1778283886:0;clear
+: 1778283889:0;vi
+: 1778284098:0;npm run typecheck
+: 1778284115:0;clear
+: 1778284118:0;npm run typecheck
+: 1778284133:0;cd gi
+: 1778284134:0;clear
+: 1778284138:0;npm run typecheck
+: 1778284220:0;clear
+: 1778284310:0;npm run typecheck
+: 1778284333:0;clear
+: 1778284335:0;npm run typecheck
+: 1778284520:0;clear
+: 1778284522:0;npm run typecheck
+: 1778288505:0;claude
+: 1778294237:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778298791:0;clear
+: 1778298792:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|docs|profile_photos|videos' --dirsfirst
+: 1778360606:0;nvim
+: 1778360620:0;clear
+: 1778360624:0;cd docs
+: 1778360627:0;tree
+: 1778363018:0;clear
+: 1778363022:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778363035:0;clear
+: 1778363037:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778365609:0;clear
+: 1778365612:0;claude
+: 1778372898:0;npm run typechcek
+: 1778372904:0;npm run typecheck
+: 1778372918:0;clear
+: 1778373069:0;npm run typechcek
+: 1778373075:0;clear
+: 1778373081:0;npm run typecheck
+: 1778373122:0;cd gi
+: 1778373127:0;npm run typecheck
+: 1778373138:0;clear
+: 1778373141:0;npm run typecheck
+: 1778373208:0;clear
+: 1778373209:0;npm run typecheck
+: 1778385549:0;clear
+: 1778385550:0;adb shell dumpsys media.player | grep -c "MediaPlayer{"
+: 1778388275:0;adb logcat -s AndroidRuntime
+: 1778388283:0;clear
+: 1778388284:0;adb logcat -s AndroidRuntime
+: 1778388727:0;clear
+: 1778388728:0;adb logcat -b all > crash_full.txt
+: 1778388793:0;ls -la
+: 1778389383:0;clear
+: 1778389391:0;adb logcat | grep -E "(ExoPlayer|MediaCodec|E/)" | head -50
+: 1778390369:0;adb logcat | grep -E "AudioFocus|ExoPlayer.*focus"
+: 1778390528:0;clear
+: 1778399809:0;adb logcat | grep BE2-FG 
+: 1778400374:0;CLEAR
+: 1778400375:0;clear
+: 1778400378:0;adb shell dumpsys meminfo com.gixz.app | grep -E "Native Heap|Graphics"
+: 1778400399:0;clear
+: 1778400413:0;adb shell dumpsys meminfo com.gixz.app | grep -E "Native Heap|Graphics"
+: 1778400938:0;clear
+: 1778400939:0;adb logcat | grep -E "FATAL EXCEPTION|OutOfMemoryError|replaceAsync|MediaCodec"
+: 1778403489:0;clear
+: 1778403593:0;adb logcat | grep -E "DMCodecAdapterFactory|OutOfMemoryError|BE1"
+: 1778404469:0;clear
+: 1778404506:0;adb logcat | grep -E "BE6|DMCodecAdapterFactory|OutOfMemoryError"
+: 1778409045:0;clear
+: 1778409046:0;adb logcat | grep -E "BE7|DMCodecAdapterFactory|OutOfMemoryError"
+: 1778410615:0;clear
+: 1778410617:0;adb logcat | grep -E "BE7|DMCodecAdapterFactory"
+: 1778442219:0;nvim
+: 1778442231:0;cd gi
+: 1778442257:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778442260:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778442378:0;clear
+: 1778442382:0;cd gi
+: 1778442384:0;clear
+: 1778442446:0;adb shell dumpsys meminfo com.gixz.app | grep -E "Native Heap|Graphics"
+: 1778442550:0;clear
+: 1778442551:0;adb shell pm list packages | grep -i gixz
+: 1778442578:0;clear
+: 1778442579:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Native Heap|Graphics"
+: 1778443589:0;clear
+: 1778443687:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Native Heap|Graphics"
+: 1778445016:0;clear
+: 1778445038:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Native Heap|Graphics"
+: 1778449479:0;clear
+: 1778453611:0;adb logcat | grep -E "DMCodecAdapterFactory|BE|FATAL"
+: 1778453630:0;cd gi
+: 1778453634:0;npm run typecheck
+: 1778453796:0;clear
+: 1778453800:0;npm run typecheck
+: 1778453820:0;clear
+: 1778453839:0;adb logcat | grep -E "DMCodecAdapterFactory|BE|FATAL"
+: 1778453945:0;clear
+: 1778453948:0;adb logcat | grep -E "DMCodecAdapterFactory|BE|FATAL"
+: 1778455140:0;clear
+: 1778455142:0;claude
+: 1778455804:0;clear
+: 1778456036:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Native Heap|Graphics"
+: 1778457121:0;clear
+: 1778457134:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Native Heap|Graphics"
+: 1778462150:0;clear
+: 1778462181:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Native Heap|Graphics"
+: 1778463257:0;clear
+: 1778463277:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Java Heap|Dalvik Heap"
+: 1778463324:0;clear
+: 1778463412:0;npm run typecheck
+: 1778463425:0;clear
+: 1778463456:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Java Heap|Dalvik Heap"
+: 1778463464:0;clear
+: 1778463469:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Java Heap|Dalvik Heap"
+: 1778463665:0;clear
+: 1778463666:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep -E "Java Heap|Dalvik Heap"
+: 1778463788:0;clear
+: 1778463796:0;adb logcat -c && adb logcat | grep -E "BE1-FLUSH|BE1-RELOAD|FATAL"
+: 1778463925:0;cd gi
+: 1778463929:0;clear
+: 1778463931:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778464165:0;clear
+: 1778464213:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778464357:0;npm run typecheck
+: 1778464530:0;clear
+: 1778464534:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778464578:0;clear
+: 1778464595:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778464640:0;clear
+: 1778464649:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778464695:0;clear
+: 1778466118:0;adb logcat -c
+: 1778466145:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778466279:0;clear
+: 1778466282:0;adb logcat -c
+: 1778466301:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778466333:0;clear
+: 1778466335:0;adb logcat -c
+: 1778466350:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778466596:0;clear
+: 1778466601:0;adb logcat -c
+: 1778466615:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778467228:0;clear
+: 1778467229:0;npm run typecheck
+: 1778467293:0;clear
+: 1778467296:0;adb logcat -c
+: 1778467321:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778467468:0;clear
+: 1778468015:0;adb logcat -c
+: 1778468031:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778468302:0;clear
+: 1778468350:0;adb logcat -c
+: 1778468365:0;adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"
+: 1778468780:0;clear
+: 1778468785:0;adb logcat -c
+: 1778468793:0;adb logcat | grep -E "FATAL|OutOfMemoryError"
+: 1778468806:0;cd gi
+: 1778468818:0;clear
+: 1778468823:0;while true; do echo -n "$(date +%H:%M:%S) "; adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"; sleep 5; done
+: 1778469300:0;clear
+: 1778469305:0;adb logcat -c
+: 1778469325:0;clear
+: 1778469327:0;adb logcat -c
+: 1778469328:0;adb logcat | grep -E "FATAL|OutOfMemoryError"
+: 1778469348:0;while true; do echo -n "$(date +%H:%M:%S) "; adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"; sleep 5; done
+: 1778471623:0;clear
+: 1778471634:0;adb logcat -c
+: 1778471637:0;adb logcat | grep -E "FATAL|OutOfMemoryError"
+: 1778471656:0;while true; do echo -n "$(date +%H:%M:%S) "; adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"; sleep 5; done
+: 1778471683:0;celar
+: 1778471684:0;clear
+: 1778471687:0;npm run typecheck
+: 1778471798:0;clear
+: 1778471800:0;npm run typecheck
+: 1778473115:0;clear
+: 1778473117:0;npm run typecheck
+: 1778473272:0;clear
+: 1778473273:0;npm run typecheck
+: 1778473375:0;clear
+: 1778473394:0;adb logcat -c
+: 1778473400:0;adb logcat | grep -E "FATAL|OutOfMemoryError"
+: 1778473420:0;while true; do echo -n "$(date +%H:%M:%S) "; adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"; sleep 5; done
+: 1778475789:0;npm run typecheck
+: 1778475999:0;clear
+: 1778476001:0;npm run typecheck
+: 1778485380:0;clear
+: 1778485380:0;claude
+: 1778496057:0;clear
+: 1778496062:0;npm run typecheck
+: 1778496197:0;clear
+: 1778496198:0;npm run typecheck
+: 1778497968:0;clear
+: 1778498777:0;git diff --stat && git status --short
+: 1778498813:0;git add constants/colors.ts contexts/SheetCtx.tsx contexts/SheetProvider.tsx data/dummy_feed.ts data/dummy_support.ts screens/Discover/VideoCard.tsx screens/Discover/VideoCardInfoPanel.tsx screens/Discover/openBookingSheet.ts sheets/EOSheet.tsx types/feed.ts
+: 1778498818:0;git commit -m "feat(EOSheet): add EO booking sheet with eoTag pill, 6-layer flow, profile nav"
+: 1778498959:0;clear
+: 1778499002:0;cd ~/gixz && tree -I 'node_modules|.expo|.git|android|ios|dist|docs|profile_photos|videos' --dirsfirst
+: 1778499826:0;clear
+: 1778499828:0;npm run typecheck
+: 1778524102:0;nvim
+: 1778524121:0;cd gi
+: 1778524128:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778524141:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778524223:0;clear
+: 1778525179:0;cd gi
+: 1778525196:0;while true; do echo -n "$(date +%H:%M:%S) "; adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"; sleep 5; done
+: 1778526529:0;~/gixz/scripts/push-update.sh "new stable version"\
+\
+
+: 1778527534:0;clear
+: 1778527542:0;adb logcat -s ReactNativeJS:* | head -60
+: 1778528246:0;clear
+: 1778528247:0;adb logcat | grep -iE "asset|unable|ENOENT|error|warn" | grep -iv "dalvik\|art\|egl\|vulkan" | head -40
+: 1778528294:0;clear
+: 1778528303:0;adb logcat --pid=$(adb shell pidof -s com.gixz.app 2>/dev/null || adb shell pidof -s host.exp.exponent) | grep -iE "error|warn|video|player|expo" | head -50
+: 1778528358:0;clear
+: 1778528359:0;adb shell pm list packages | grep -i gixz
+: 1778528378:0;adb logcat --pid=$(adb shell pidof -s com.anonymous.gixz) | grep -iE "error|warn|video|player|expo|require|load" | head -60
+: 1778528383:0;clear
+: 1778528384:0;adb logcat --pid=$(adb shell pidof -s com.anonymous.gixz) | grep -iE "error|warn|video|player|expo|require|load" | head -60
+: 1778528637:0;clear
+: 1778528636:0;ls -lh ~/gixz/assets/videos/
+: 1778528721:0;gh --version
+: 1778528738:0;clear
+: 1778528738:0;sudo apt install gh -y && gh auth login
+: 1778529070:0;cd ~/gixz && gh release create v0.1-videos \\
+\
+  --repo Xokra/gixz \\
+\
+  --title "Test videos" \\
+\
+  --notes "Dummy feed videos for OTA compatibility" \\
+\
+  assets/videos/test_bright_sky.mp4 \\
+\
+  assets/videos/test_bright_white.mp4 \\
+\
+  assets/videos/test_colorful_busy.mp4 \\
+\
+  assets/videos/test_dark.mp4 \\
+\
+  assets/videos/test_golden_wedding.mp4 \\
+\
+  assets/videos/test_neon_pink.mp4 \\
+\
+  assets/videos/test_rooftop_sunset.mp4 \\
+\
+  assets/videos/test_studio_clean.mp4 \\
+\
+  assets/videos/test_urban_stage.mp4 \\
+\
+  assets/videos/test_warm_mid.mp4
+: 1778529428:0;clear
+: 1778529429:0;gh release upload v0.1-videos assets/videos/test_bright_sky.mp4 assets/videos/test_bright_white.mp4 assets/videos/test_colorful_busy.mp4 assets/videos/test_dark.mp4 assets/videos/test_golden_wedding.mp4 assets/videos/test_neon_pink.mp4 assets/videos/test_rooftop_sunset.mp4 assets/videos/test_studio_clean.mp4 assets/videos/test_urban_stage.mp4 assets/videos/test_warm_mid.mp4 --repo Xokra/gixz
+: 1778529744:0;git add data/dummy_feed.ts\
+
+: 1778529772:0;git commit -m "fix(dummy_feed): replace local require() videos with GitHub Release URLs for OTA compatibility"\
+
+: 1778529826:0;clear
+: 1778529842:0;./scripts/push-update.sh "fix: remote video URLs, no APK rebuild needed"\
+
+: 1778530244:0;clear
+: 1778530245:0;adb logcat --pid=$(adb shell pidof -s com.anonymous.gixz) | grep -iE "error|warn|video|player|http|url|network" | head -60
+: 1778530616:0;clear
+: 1778530617:0;adb shell am force-stop com.anonymous.gixz && adb shell am start -n com.anonymous.gixz/.MainActivity
+: 1778531459:0;clear
+: 1778531473:0;while true; do echo -n "$(date +%H:%M:%S) "; adb shell dumpsys meminfo com.anonymous.gixz.dev | grep "Java Heap"; sleep 5; done
+: 1778531614:0;git add screens/Discover/VideoCard.tsx hooks/useBufferEviction.ts data/dummy_feed.ts\
+
+: 1778531620:0;git commit -m "fix(video): wrap remote URL string in {uri} for expo-video source compatibility"\
+
+: 1778532374:0;clear
+: 1778532378:0;grep -n "VideoSource\|uri\|string\|number" ~/gixz/node_modules/expo-video/src/VideoPlayer.types.ts | head -30
+: 1778532384:0;grep -n "videoUri\|videoUrl\|VideoSource" ~/gixz/types/feed.ts
+: 1778532389:0;grep -n "videoUri\|useVideoPlayer\|videoSource\|uri" ~/gixz/screens/Discover/VideoCard.tsx | head -30
+: 1778532395:0;grep -n "videoUrl\|videoSource\|replaceAsync\|uri\|string\|number" ~/gixz/hooks/useBufferEviction.ts | head -40
+: 1778532405:0;grep -n "videoUrl\|videoUri\|require\|https\|uri" ~/gixz/data/dummy_community.ts | head -20
+: 1778532411:0;curl -I -H "Range: bytes=0-1023" "https://github.com/Xokra/gixz/releases/download/v0.1-videos/test_colorful_busy.mp4" 2>&1 | head -20
+: 1778532478:0;clear
+: 1778532487:0;curl -I "https://github.com/Xokra/gixz/releases/tag/v0.1-videos" 2>&1 | grep "HTTP\|location"
+: 1778532491:0;curl -I "https://objects.githubusercontent.com/github-production-release-asset-2e65be/$(curl -s https://api.github.com/repos/Xokra/gixz/releases/tags/v0.1-videos 2>/dev/null | grep '"id"' | head -1 | grep -o '[0-9]*')" 2>&1 | head -5
+: 1778532495:0;curl -s "https://api.github.com/repos/Xokra/gixz/releases/tags/v0.1-videos" 2>&1 | grep -E '"message"|"tag_name"|"assets"' | head -10
+: 1778532698:0;clear
+: 1778532699:0;git log --oneline -5
+: 1778532708:0;git diff HEAD~1 HEAD -- data/dummy_feed.ts
+: 1778532811:0;clear
+: 1778532814:0;git diff HEAD~2 HEAD~1 -- data/dummy_feed.ts | head -80
+: 1778532824:0;git show 05233c7 -- data/dummy_feed.ts | head -60
+: 1778532943:0;clear
+: 1778532944:0;git log --oneline -3\
+
+: 1778532949:0;git diff feature/stable-base -- data/dummy_feed.ts screens/Discover/VideoCard.tsx hooks/useBufferEviction.ts\
+
+: 1778533198:0;claer
+: 1778533201:0;clear
+: 1778533201:0;git show HEAD~2 -- data/dummy_feed.ts | grep "videoUri" | head -30
+: 1778533206:0;ls ~/gixz/assets/videos/
+: 1778533773:0;clear
+: 1778533774:0;git log --oneline --all | head -10
+: 1778533783:0;git show da84d75 -- screens/Discover/VideoCard.tsx | grep "^+" | head -30
+: 1778534255:0;clear
+: 1778534256:0;eas update:list --branch preview --limit 5 2>/dev/null || echo "no eas output"
+: 1778534321:0;clear
+: 1778534321:0;eas update:view 2187b46c-4515-4e04-b7ed-6c5db2d0c1a6
+: 1778534328:0;eas update:view cb31b611-a09b-4995-8716-a76978d3ffc0
+: 1778534400:0;git log --oneline --before="2 hours ago" | head -5
+: 1778534530:0;CLEAR
+: 1778534531:0;clear
+: 1778534532:0;git log --oneline d048e18..44db3b0
+: 1778534538:0;git log --oneline --after="1 week ago" --before="2 hours ago" -- screens/Discover/VideoCard.tsx hooks/useBufferEviction.ts types/feed.ts
+: 1778534701:0;eas update: republish --branch preview\
+\
+
+: 1778534724:0;npm install -g eas-cli
+: 1778534781:0;eas update: republish --branch preview\
+\
+
+: 1778534906:0;clear
+: 1778534906:0;eas update:republish --branch preview\
+\
+
+: 1778535086:0;clear
+: 1778535088:0;git log --oneline --after="1 week ago" | tail -10
+: 1778535093:0;eas update:republish --group a33c37f3
+: 1778535122:0;eas update:republish --group a33c37f3-2f5f-475b-a746-ab6b179afbe7
+: 1778535164:0;eas update:republish --group a33c37f3-2f5f-475b-a746-ab6b179afbe7 --branch preview
+: 1778535181:0;eas update:republish --group a33c37f3-2f5f-475b-a746-ab6b179afbe7
+: 1778535281:0;clear
+: 1778535282:0;git log --oneline a33c37f3-2f5f-475b-a746-ab6b179afbe7..HEAD
+: 1778535286:0;git log --oneline 9a3eb5b..44db3b0 -- screens/Discover/VideoCard.tsx hooks/useBufferEviction.ts types/feed.ts data/dummy_feed.ts
+: 1778535303:0;git show 483f6c4 -- screens/Discover/VideoCard.tsx | grep "^+" | head -40
+: 1778535305:0;clear
+: 1778535306:0;git show 483f6c4 -- screens/Discover/VideoCard.tsx | grep "^+" | head -40
+: 1778535326:0;git show 483f6c4 --stat
+: 1778535329:0;clear
+: 1778535331:0;git show 483f6c4 --stat
+: 1778535370:0;clear
+: 1778535371:0;git show 483f6c4 -- navigation/AppNavigator.tsx | grep "^+" | grep -i "lazy\|tab\|video\|asset" | head -20
+: 1778535374:0;grep -n "lazy" ~/gixz/navigation/AppNavigator.tsx
+: 1778535421:0;grep -n "Asset\|loadAsync\|expo-asset" ~/gixz/App.tsx ~/gixz/providers/AppProviders.tsx
+: 1778535665:0;clear
+: 1778535666:0;./scripts/push-update.sh "fix: prime video assets for OTA lazy-tab compatibility"
+: 1778540829:0;clear
+: 1778540831:0;claude
+: 1778548107:0;clear
+: 1778548110:0;npm run typecheck
+: 1778548269:0;clear
+: 1778548271:0;npm run typecheck
+: 1778550558:0;clear
+: 1778550564:0;npm run typecheck
+: 1778553934:0;clear
+: 1778553998:0;~/gixz/scripts/push-update.sh "base visual that i like"\
+\
+
+: 1778557072:0;clear
+: 1778557075:0;adb shell am force-stop com.anonymous.gixz && adb shell am start -n com.anonymous.gixz/.MainActivity
+: 1778557085:0;clear
+: 1778557092:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778557212:0;./scripts/push-update.sh "fix: pass videoUri number directly to useVideoPlayer in LiveStreamScreen"
+: 1778577338:0;clear
+: 1778621991:0;nvim
+: 1778622000:0;clear
+: 1778622005:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778622056:0;clear
+: 1778622156:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1778630712:0;cd gi
+: 1778630714:0;vi
+: 1778655153:0;./scripts/push-update.sh "new visual alignment"
+: 1778821481:0;nvim
+: 1778821492:0;cd gi
+: 1778821495:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778878766:0;nvim
+: 1778878945:0;cd gi
+: 1778878950:0;cd docs
+: 1778878951:0;tree
+: 1778887913:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778968948:0;nvim
+: 1778968957:0;clear
+: 1778968959:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1778969383:0;clear
+: 1778969391:0;cd gi
+: 1778969822:0;clear
+: 1778969824:0;claude
+: 1778969846:0;clear
+: 1778969852:0;claude
+: 1778969921:0;clear
+: 1778969922:0;which claude\
+
+: 1778969928:0;npm list -g @anthropic-ai/claude-code\
+
+: 1778969937:0;echo $PATH\
+
+: 1778970136:0;ls ~/.nvm/versions/node/v20.20.2/bin/claude\
+
+: 1778970137:0;clear
+: 1778970138:0;ls ~/.nvm/versions/node/v20.20.2/bin/claude\
+
+: 1778970172:0;npm install -g @anthropic-ai/claude-code --force\
+
+: 1778970191:0;cd gi
+: 1778970219:0;npm install -g @anthropic-ai/claude-code --force\
+
+: 1778970237:0;clear
+: 1778970248:0;rm -rf ~/.nvm/versions/node/v20.20.2/lib/node_modules/@anthropic-ai/claude-code\
+
+: 1778970253:0;npm install -g @anthropic-ai/claude-code\
+
+: 1778970265:0;ls ~/.nvm/versions/node/v20.20.2/bin/claude\
+
+: 1778970269:0;claude --version
+: 1778970277:0;claude
+: 1778982198:0;clear
+: 1778982209:0;npx skills add vercel-labs/agent-skills --skill vercel-deploy -g -a claude-code -y
+: 1778982234:0;npx skills add coreyhaines31/marketingskills -g -a claude-code -y
+: 1778982248:0;npx skills add duckdb/duckdb-skills -g -a claude-code -y
+: 1778982281:0;npx skills remove office-hours plan-ceo-review plan-eng-review plan-design-review autoplan writing-plans test-driven-development brainstorming qa qa-only review cso ship land-and-deploy canary deploy-to-vercel benchmark retro frontend-design vercel-react-best-practices vercel-composition-patterns vercel-react-view-transitions web-design-guidelines webapp-testing product-marketing-context analytics-tracking programmatic-seo ai-seo schema-markup social-content referral-program launch-strategy onboarding-cro page-cro pricing-strategy churn-prevention paid-ads ad-creative cold-email email-sequence community-marketing competitor-alternatives competitor-profiling free-tool-strategy lead-magnets marketing-ideas marketing-psychology revops sales-enablement copy-editing content-strategy form-cro popup-cro signup-flow-cro paywall-upgrade-cro attach-db query read-file duckdb-docs install-duckdb browse open-gstack-browser setup-browser-cookies -g 2>/dev/null; echo "Done"
+: 1778982315:0;clear
+: 1778982316:0;npx skills add vercel-labs/agent-skills --skill vercel-deploy -g -a claude-code -y
+: 1778982325:0;npx skills add coreyhaines31/marketingskills -g -a claude-code -y
+: 1778982347:0;npx skills add supabase/agent-skills mattpocock/skills -g -a claude-code -y
+: 1778982779:0;npx skills remove office-hours plan-ceo-review plan-eng-review plan-design-review autoplan writing-plans test-driven-development brainstorming qa qa-only review cso ship land-and-deploy canary deploy-to-vercel benchmark retro frontend-design vercel-react-best-practices vercel-composition-patterns vercel-react-view-transitions web-design-guidelines webapp-testing product-marketing-context analytics-tracking programmatic-seo ai-seo schema-markup social-content referral-program launch-strategy onboarding-cro page-cro pricing-strategy churn-prevention paid-ads ad-creative cold-email email-sequence community-marketing competitor-alternatives competitor-profiling free-tool-strategy lead-magnets marketing-ideas marketing-psychology revops sales-enablement copy-editing content-strategy form-cro popup-cro signup-flow-cro paywall-upgrade-cro attach-db query read-file duckdb-docs install-duckdb browse open-gstack-browser setup-browser-cookies -g 2>/dev/null; echo "Done"
+: 1778982787:0;clear
+: 1778986118:0;claude
+: 1779058354:0;nvim
+: 1779058359:0;cd gi
+: 1779058361:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1779058387:0;cd gi
+: 1779058428:0;clear
+: 1779058429:0;claude
+: 1779058515:0;clear
+: 1779058517:0;npx skills remove office-hours plan-ceo-review plan-eng-review plan-design-review autoplan writing-plans test-driven-development brainstorming qa qa-only review cso ship land-and-deploy canary deploy-to-vercel benchmark retro frontend-design vercel-react-best-practices vercel-composition-patterns vercel-react-view-transitions web-design-guidelines webapp-testing product-marketing-context analytics-tracking programmatic-seo ai-seo schema-markup social-content referral-program launch-strategy onboarding-cro page-cro pricing-strategy churn-prevention paid-ads ad-creative cold-email email-sequence community-marketing competitor-alternatives competitor-profiling free-tool-strategy lead-magnets marketing-ideas marketing-psychology revops sales-enablement copy-editing content-strategy form-cro popup-cro signup-flow-cro paywall-upgrade-cro attach-db query read-file duckdb-docs install-duckdb browse open-gstack-browser setup-browser-cookies -g 2>/dev/null; echo "Done"
+: 1779058564:0;clear
+: 1779058565:0;claude
+: 1779058614:0;clear
+: 1779058615:0;npx skills remove office-hours plan-ceo-review plan-eng-review plan-design-review autoplan writing-plans test-driven-development brainstorming qa qa-only review cso ship land-and-deploy canary deploy-to-vercel benchmark retro frontend-design vercel-react-best-practices vercel-composition-patterns vercel-react-view-transitions web-design-guidelines webapp-testing product-marketing-context analytics-tracking programmatic-seo ai-seo schema-markup social-content referral-program launch-strategy onboarding-cro page-cro pricing-strategy churn-prevention paid-ads ad-creative cold-email email-sequence community-marketing competitor-alternatives competitor-profiling free-tool-strategy lead-magnets marketing-ideas marketing-psychology revops sales-enablement copy-editing content-strategy form-cro popup-cro signup-flow-cro paywall-upgrade-cro attach-db query read-file duckdb-docs install-duckdb browse open-gstack-browser setup-browser-cookies -g 2>/dev/null; echo "Done"
+: 1779058846:0;clear
+: 1779058847:0;npx skills list -g
+: 1779059007:0;npx skills remove algorithmic-art canvas-design slack-gif-creator theme-factory web-artifacts-builder doc-coauthoring internal-comms mcp-builder skill-creator template-skill spatial convert-file s3-explore -g
+: 1779059019:0;npx skills remove ab-testing ads analytics aso co-marketing competitors copywriting cro customer-research directory-submissions emails free-tools launch onboarding paywalls popups pricing product-marketing referrals seo-audit signup site-architecture social -g
+: 1779059305:0;clear
+: 1779059308:0;claude
+: 1779059355:0;clear
+: 1779059356:0;npx skills link systematic-debugging -a claude-code\
+
+: 1779059405:0;clear
+: 1779059406:0;npx skills remove office-hours plan-ceo-review plan-eng-review plan-design-review autoplan writing-plans test-driven-development brainstorming qa qa-only review cso ship land-and-deploy canary deploy-to-vercel benchmark retro frontend-design vercel-react-best-practices vercel-composition-patterns vercel-react-view-transitions web-design-guidelines webapp-testing product-marketing-context analytics-tracking programmatic-seo ai-seo schema-markup social-content referral-program launch-strategy onboarding-cro page-cro pricing-strategy churn-prevention paid-ads ad-creative cold-email email-sequence community-marketing competitor-alternatives competitor-profiling free-tool-strategy lead-magnets marketing-ideas marketing-psychology revops sales-enablement copy-editing content-strategy form-cro popup-cro signup-flow-cro paywall-upgrade-cro attach-db query read-file duckdb-docs install-duckdb browse open-gstack-browser setup-browser-cookies -g 2>/dev/null; echo "Done"
+: 1779059415:0;clear
+: 1779059429:0;claude
+: 1779094372:0;nvim
+: 1779103579:0;clear
+: 1779103581:0;claude
+: 1779104219:0;cd gi
+: 1779104297:0;npx skills add expo/skills vercel-labs/agent-skills --skill react-native-best-practices -g -a claude-code -y
+: 1779104310:0;npx skills add remotion-dev/skills cloudflare/skills -g -a claude-code -y
+: 1779104330:0;npx skills add anthropics/skills nextlevelbuilder/ui-ux-pro-max-skill shadcn-ui/ui https://github.com/greensock/gsap-skills vercel-labs/agent-skills -g -a claude-code -y
+: 1779104338:0;npx skills add vercel-labs/agent-skills -g -a claude-code -y
+: 1779104348:0;npx skills add vercel-labs/agent-skills --skill systematic-debugging -g -a claude-code -y
+: 1779120499:0;cd gi
+: 1779120504:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1779121586:0;clear
+: 1779121591:0;npm run typecheck
+: 1779121758:0;clear
+: 1779121764:0;npm run typecheck
+: 1779122499:0;clear
+: 1779122500:0;npm run typecheck
+: 1779151620:0;adb reverse tcp:8081 tcp:8081 && adb reverse tcp:19000 tcp:19000 && REACT_NATIVE_PACKAGER_HOSTNAME=localhost npx expo start --localhost
+: 1779151626:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1779151644:0;clear
+: 1779152535:0;claude doctor
+: 1779152577:0;npm i -g @anthropic-ai/claude-code
+: 1779152955:0;clear
+: 1779153163:0;npm i -g @anthropic-ai/claude-code
+: 1779153167:0;clear
+: 1779153168:0;npm run typecheck
+: 1779153789:0;cd dot
+: 1779153792:0;claude
+: 1779153836:0;clear
+: 1779154827:0;claude
+: 1779157178:0;clear
+: 1779177716:0;nvim
+: 1779177745:0;cd gi
+: 1779521848:0;nvim
+: 1779521859:0;cd gi
+: 1779521861:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1779521914:0;vi
+: 1779653170:0;nvim
+: 1779706762:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1779706784:0;cd gi
+: 1779706929:0;~/gixz/scripts/push-update.sh "added popping locking to dance"
+: 1779901156:0;nvim
+: 1781872205:0;cd gixz
+: 1781964236:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1781964249:0;cd gix
+: 1781964255:0;cd docs
+: 1781964258:0;vi
+: 1782189690:0;nvim
+: 1782189707:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1782189793:0;cd mnt/d/dow
+: 1782189801:0;vi
+: 1782204606:0;nvim
+: 1784456140:0;clear
+: 1784456149:0;cd ~
+: 1784456152:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1784457411:0;clear
+: 1784458714:0;git --version\
+
+: 1784458718:0;curl --version\
+
+: 1784464701:0;sudo apt install -y git curl xz-utils build-essential\
+
+: 1784464728:0;curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+: 1784465724:0;source ~/.zshrc
+: 1784465747:0;hermes setup
+: 1784465998:0;hermes model
+: 1784466039:0;hermes doctor
+: 1784466115:0;hermes
+: 1784468463:0;hermes
+: 1784469271:0;hermes setup
+: 1784469482:0;hermes
+: 1784469622:0;hermes setup
+: 1784469726:0;hermes
+: 1784470679:0;cd dot
+: 1784470695:0;vi
+: 1784474503:0;clear
+: 1784474505:0;hermes
+: 1784508313:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1784508325:0;vi
+: 1784508366:0;clear
+: 1784508367:0;hermes
+: 1784513185:0;cd dot
+: 1784513187:0;cd ~
+: 1784513191:0;cd gix
+: 1784513235:0;lgper
+: 1784513269:0;cd ~
+: 1784513276:0;vi .zshrc
+: 1784513302:0;cd gi
+: 1784513304:0;la
+: 1784554515:0;fg
+: 1784599069:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1784599087:0;vi
+: 1784599132:0;hermes
+: 1784599257:0;cd gi docs
+: 1784599272:0;la
+: 1784599286:0;vi
+: 1784633048:0;ssh root@76.13.17.99
+: 1784777755:0;sudo apt-get update && sudo apt-get upgrade -y
+: 1784777797:0;hermes
+: 1784777897:0;cd dot
+: 1784777900:0;vi
+: 1784779061:0;nvim
+: 1784779079:0;hermes
+: 1784782680:0;cd dot
+: 1784782681:0;vi
+: 1784783053:0;nvim
+: 1784783072:0;hermes
+: 1784784317:0;nvim
+: 1784785223:0;hermes
+: 1784785287:0;nvim
+: 1784785328:0;hermes
+: 1784809310:0;tmux new
+: 1784809394:0;cross-platform-backup.sh
